@@ -15,24 +15,26 @@
 </head>
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" href="#">The Residence -<span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">- About Dublin</a>
-      <a class="nav-link" href="#">- Getting Here</a>
-      <a class="nav-link" href="#">- Getting Around</a>
-      <a class="nav-link" href="#">- Things To Do</a>
-      <a class="nav-link" href="#">- Contact Us</a>
+    <div class="navbar-nav ml-auto">
+      <a class="nav-link active ml-auto" href="#">The Residence -<span class="sr-only">(current)</span></a>
+      <a class="nav-link ml-auto" href="#">- About Dublin</a>
+      <a class="nav-link ml-auto" href="#">- Getting Here</a>
+      <a class="nav-link ml-auto" href="#">- Getting Around</a>
+      <a class="nav-link ml-auto" href="#">- Things To Do</a>
+      <a class="nav-link ml-auto" href="#">- Contact Us</a>
     </div>
   </div>
 </nav>
 <!-- WEATHER WIDGET -->
-<a class="weatherwidget-io" href="https://forecast7.com/en/53d35n6d26/dublin/" data-label_1="Dublin" data-label_2="Current Weather" data-font="Jura" data-theme="gray" data-basecolor="#A58D4E" data-textcolor="#2d2d2d" data-highcolor="#FF0000" data-lowcolor="#0000ff" data-suncolor="#FFA500" >Dublin Current Weather</a>
+<div class="weather-widget">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/53d35n6d26/dublin/" data-label_1="Dublin" data-label_2="Current Weather" data-font="Jura" data-theme="gray" data-basecolor="#A58D4E" data-textcolor="#2d2d2d" data-highcolor="#FF0000" data-lowcolor="#0000ff" data-suncolor="#FFA500" >Dublin Current Weather</a>
+</div>
 <!-- PHOTO CAROUSEL -->
 <section>
   <div class="row">
@@ -79,6 +81,11 @@
     </div>
   </div>
 </section>
+<!-- THE RESIDENCE -->
+<section id="the-residence">
+  <h2 class="the-residence-h2 text-center">The Residence</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim est veritatis illum deserunt tempore cumque tenetur vero porro rem repellendus non eius, suscipit obcaecati consequuntur sapiente quia at ducimus laborum praesentium a minima velit quaerat! Porro delectus dignissimos voluptatum enim esse alias ipsa qui nisi maxime eligendi, nam voluptatibus asperiores accusamus ea eos facilis accusantium ipsam quasi quo quia rem necessitatibus libero earum! Dolore aspernatur eligendi nobis iusto cupiditate eaque excepturi labore inventore temporibus ea blanditiis quisquam distinctio asperiores minima enim velit sint quas laborum voluptates, molestias ratione quibusdam omnis ex reiciendis. Atque, tempora officiis. Ad nostrum veniam illum unde dignissimos similique vitae qui, quia modi rerum aliquid enim inventore quam eveniet atque. Quaerat, accusantium. Alias sapiente, ad, sint quidem blanditiis consequatur omnis provident id nisi magnam eum! Rerum, aperiam animi unde, ipsa assumenda sed consectetur molestias accusantium, ab modi dicta quibusdam vitae quas voluptatibus asperiores quaerat. Vel exercitationem, ipsum, iusto ipsam velit asperiores beatae ea eum tenetur ab quisquam illum debitis. Cum adipisci quam minus aspernatur odit repellendus tempore nisi perferendis reprehenderit tenetur. Vel maxime quo reprehenderit id doloremque quas voluptatibus sit qui explicabo accusantium minus quos architecto, earum, beatae quaerat? Laboriosam nisi quas modi accusantium magni dicta eveniet!</p>
+</section>
 <!-- ABOUT DUBLIN -->
 <section id="about-dublin">
 </section>
@@ -87,7 +94,7 @@
 <section id="things-to-do-section">
   <div class="row">
     <div class="col">
-      <h2 class="things-to-do-h2">Things to do</h2>
+      <h2 class="things-to-do-h2 text-center">Things to do</h2>
       <p class="things-to-do-p">So rather than tell you all about the great things to do in Dublin we thought you could check out the videos below and see for yourself</p>
     </div>
   </div>
@@ -168,7 +175,7 @@
 <!-- CONTACT US -->
 <section id="contact-us">
   <form>
-    <h2 class="contact-us-h2 text-center" >Contact Us</h2>
+    <h2 class="contact-us-h2 text-center">Contact Us</h2>
     <div class="form-group">
       <label for="first-name"></label>
       <input type="text" class="form-control" id="first-name" placeholder="First Name - (Required)" required>
