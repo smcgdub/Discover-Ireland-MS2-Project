@@ -64,6 +64,10 @@
   margin-bottom: 0px;
 }
 
+.contact-us-free-text {
+  margin-top: 10px;
+}
+
 /* FOOTER */
 .footer-bar {
   background-color: #124624;
@@ -80,3 +84,4 @@
 .fa-twitter:before {
   font-size: 40px;
 }
+
