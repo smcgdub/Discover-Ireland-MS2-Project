@@ -7,3 +7,18 @@
   font-family: 'Forum', cursive;
   color: #2d2d2d;
 }
+
+/* NAVBAR */
+.navbar {
+  background-color: #124624;
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+/* FOOTER */
+.footer-bar {
+  background-color: #124624;
+}
