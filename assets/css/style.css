@@ -24,12 +24,23 @@
   margin-top: 10px;
 }
 
+/* THINGS TO DO */
+.bars-button, .cafes-button, .restaurants-button, .theaters-button, .tourist-attractions-button {
+    background-color: #124624;
+    color: #ffffff;
+    border: 2px solid #9D9D9D;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
 /* GETTING HERE */
 .book-flights-button {
     background-color: #124624;
     color: #ffffff;
     border: 2px solid #9D9D9D;
     width: 50%;
+    font-size: 16px;
 }
 
 /* GETTING AROUND */
