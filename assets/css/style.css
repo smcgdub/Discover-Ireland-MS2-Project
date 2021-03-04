@@ -24,6 +24,13 @@
   margin-top: 10px;
 }
 
+/* GETTING HERE */
+.book-flights-button {
+    background-color: #124624;
+    color: #ffffff;
+    border: 2px solid #9D9D9D;
+    width: 50%;
+}
 
 /* GETTING AROUND */
 
