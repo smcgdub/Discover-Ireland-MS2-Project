@@ -35,6 +35,10 @@
     margin-bottom: 4%;
 }
 
+.card {
+  margin: 5px 0px 5px 0px;
+}
+
 .card-body {
   background-color: #A58D4E;
   border: 2px solid #9D9D9D;
