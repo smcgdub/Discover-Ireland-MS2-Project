@@ -22,7 +22,7 @@
 /* THE RESIDENCE */
 .the-residence-h2 {
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .the-residence-div {
@@ -38,7 +38,14 @@
   padding: 0px 20px 0px 20px;
 }
 
+.about-dublin-h2 {
+  margin-top: 15px;
+}
+
 /* THINGS TO DO */
+.things-to-do-h2 {
+  margin-top: 15px;
+}
 
 .videos-div {
   border: 3px solid #9D9D9D;
@@ -77,14 +84,19 @@
 /* OUR RECOMMENDATIONS */
 
 .our-recommendations-h2 {
-  border-top: 3px solid #9D9D9D;
+  /* border-top: 3px solid #9D9D9D; */
   padding: 0px 20px 0px 20px;
+  margin-top: 15px;
 }
 
 .our-recommendations {
   border: 3px solid #9D9D9D;
   border-top: none;
   /* padding: 0px 20px 0px 20px; */
+}
+
+.our-recommendations-div {
+  padding: 2px;
 }
 
 /* GETTING HERE */
@@ -158,6 +170,7 @@
 
 .form-group {
   margin: 0px;
+  height: 55px;
 }
 
 .send-message-button {
@@ -172,6 +185,7 @@
 
 .contact-us-h2 {
   margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 .contact-us-free-text {
