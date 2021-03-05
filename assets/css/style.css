@@ -30,7 +30,22 @@
   padding: 0px 20px 0px 20px;
 }
 
+/* ABOUT DUBLIN */
+
+.about-dublin-div {
+  border: 3px solid #9D9D9D;
+  border-top: none;
+  padding: 0px 20px 0px 20px;
+}
+
 /* THINGS TO DO */
+
+.videos-div {
+  border: 3px solid #9D9D9D;
+  border-top: none;
+  padding: 0px 20px 0px 20px;
+}
+
 .bars-button, .cafes-button, .restaurants-button, .theaters-button, .tourist-attractions-button {
     background-color: #124624;
     color: #ffffff;
@@ -59,6 +74,19 @@
   border: 2px solid #9D9D9D;
 }
 
+/* OUR RECOMMENDATIONS */
+
+.our-recommendations-h2 {
+  border-top: 3px solid #9D9D9D;
+  padding: 0px 20px 0px 20px;
+}
+
+.our-recommendations {
+  border: 3px solid #9D9D9D;
+  border-top: none;
+  /* padding: 0px 20px 0px 20px; */
+}
+
 /* GETTING HERE */
 .book-flights-button {
     background-color: #124624;
@@ -68,9 +96,34 @@
     font-size: 16px;
 }
 
+.getting-here-div {
+  border: 3px solid #9D9D9D;
+  border-top: none;
+  padding: 0px 20px 0px 20px;
+}
+
+.book-flights-button {
+  margin-bottom: 20px;
+}
 /* GETTING AROUND */
 
+.getting-around-div {
+  border: 3px solid #9D9D9D;
+  border-top: none;
+  padding: 0px 20px 0px 20px;
+}
+
 /* CONTACT US */
+
+.contact-us-form {
+  border: 1px solid #9D9D9D;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  padding: 0px 20px 0px 20px;
+}
+
 .form-group {
   margin: 0px;
 }
