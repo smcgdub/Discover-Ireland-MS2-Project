@@ -88,6 +88,10 @@
 }
 
 /* GETTING HERE */
+.getting-here-h2 {
+  margin-top: 15px;
+}
+
 .book-flights-button {
     background-color: #124624;
     color: #ffffff;
@@ -111,6 +115,34 @@
   border: 3px solid #9D9D9D;
   border-top: none;
   padding: 0px 20px 0px 20px;
+}
+
+.getting-around-h2 {
+  margin-top: 15px;
+}
+
+.luas-logo-img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.dart-logo-img {
+  width: 250px;
+}
+
+.dublin-bus-img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.dublin-bike-img {
+  width: 275px;
+  margin-bottom: 15px;
+}
+
+.free-now-img {
+  width: 275px;
+  margin-bottom: 15px;
 }
 
 /* CONTACT US */
