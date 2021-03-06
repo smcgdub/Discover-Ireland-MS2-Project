@@ -75,6 +75,8 @@
 ### **6. Credits** ###
 6.1 Media
 
+dublin flag By Setanta Saki - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1171868
+
 guinness store house By Steven Lek - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=51039263 
 
 6.2 Code
