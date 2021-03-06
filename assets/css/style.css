@@ -201,6 +201,7 @@
 .fa-facebook:before {
   font-size: 40px;
   color: #ffffff;
+  margin: 0px 10px 0px 10px;
 }
 
 .fa-instagram:before {
@@ -212,6 +213,13 @@
 .fa-twitter:before {
   font-size: 40px;
   color: #ffffff;
+  margin: 0px 10px 0px 10px;
+}
+
+.fa-youtube:before {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0px 10px 0px 10px;
 }
 
 .footer-email {
