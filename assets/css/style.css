@@ -188,11 +188,6 @@
   padding: 0px 20px 0px 20px;
 }
 
-.form-group {
-  margin: 0px;
-  height: 55px;
-}
-
 .send-message-button {
     background-color: #124624;
     color: #ffffff;
@@ -210,6 +205,10 @@
 
 .contact-us-free-text {
   margin-top: 10px;
+}
+
+.form-group {
+  margin: 0px;
 }
 
 /* FOOTER */
@@ -267,10 +266,23 @@
   font-size: 20px;
   color: #ffffff;
   margin-bottom: 0px;
-  margin-top: 15px;
 }
 
 .copyright-p {
   color: #ffffff;
   font-size: 20px;
+}
+
+.dublin-footer, .cork-footer, .galway-footer {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.dublin-footer:hover, .cork-footer:hover, .galway-footer:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-city-p {
+  margin-bottom: 0px;
 }
