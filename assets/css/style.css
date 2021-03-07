@@ -292,8 +292,38 @@
   background-image: url('../images/irish-beach.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   height: 600px;
   width: auto;
 }
 
+.city-select {
+  padding-top: 220px;
+}
+
+.city-select-button-dublin, .city-select-button-cork, .city-select-button-galway {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* .city-select {
+  margin-top: 50%;
+  margin-bottom: 50%;
+} */
+
+/* #intro {
+  height: 500px;
+  background-image: url('../images/irish-beach.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
