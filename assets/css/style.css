@@ -307,6 +307,10 @@
   font-weight: bold;
 }
 
+.city-select-button-dublin:hover, .city-select-button-cork:hover, .city-select-button-galway:hover {
+  color: #2d2d2d;
+}
+
 
 
 
