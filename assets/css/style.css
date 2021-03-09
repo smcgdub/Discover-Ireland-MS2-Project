@@ -75,9 +75,6 @@ hr {
 }
 
 /* THINGS TO DO DUBLIN */
-/* .things-to-do-h2 {
-  margin-top: 15px;
-} */
 
 .dropdown-button {
     background-color: #124624;
@@ -232,7 +229,7 @@ hr {
   margin: 0px 10px 0px 10px;
 }
 
-.footer-email {
+/* .footer-email {
   color: #ffffff;
   font-size: 20px;
 }
@@ -241,7 +238,7 @@ hr {
   margin: 10px 0px 0px 0px;
   color: #ffffff;
   font-size: 20px;
-}
+} */
 
 .fa-phone-square-alt:before {
   color: #ffffff;
@@ -276,6 +273,7 @@ hr {
 
 .footer-city-p {
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 /* CORK PAGE */
@@ -289,6 +287,10 @@ hr {
 /* ABOUT CORK */
 .cork-coat-of-arms-l, .cork-coat-of-arms-r {
   width: 200px;
+}
+
+.about-cork-p {
+  margin-bottom: 0px;
 }
 
 /* GETTING HERE CORK*/
