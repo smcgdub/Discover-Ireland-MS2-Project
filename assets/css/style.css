@@ -48,20 +48,13 @@ hr {
   color: #ffffff;
 }
 
-/* THE RESIDENCE */
-/* .the-residence-h2 {
-  margin-bottom: 0px;
-  margin-top: 15px;
-} */
-
-.the-residence-div {
-  border: 3px solid #9D9D9D;
-  padding: 0px 20px 0px 20px;
-}
-
 /* ABOUT DUBLIN */
 .about-dublin-h2 {
   margin-top: 15px;
+}
+
+.about-dublin-p {
+  margin-bottom: 0px;
 }
 
 .dublin-flag-l {
@@ -74,7 +67,34 @@ hr {
   margin-left: 20px;
 }
 
+/* GETTING HERE DUBLIN */
+.getting-here-dublin-p {
+  margin-top: 15px;
+}
+
+.fa-plane-departure:before {
+  margin-right: 20px;
+  color: #2d2d2d;
+}
+
+.fa-plane-arrival:before {
+  margin-left: 20px;
+  color: #2d2d2d;
+}
+
+.book-flights-button {
+  background-color: #124624;
+  color: #ffffff;
+  border: 2px solid #9D9D9D;
+  width: 50%;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
 /* THINGS TO DO DUBLIN */
+.things-to-do-dublin-p {
+  margin-bottom: 0px;
+}
 
 .dropdown-button {
     background-color: #124624;
@@ -83,6 +103,10 @@ hr {
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.our-recommendations-dublin-h2 {
+  margin-top: 0px;
 }
 
 .card {
@@ -112,31 +136,8 @@ hr {
   margin-top: 15px;
 }
 
-/* GETTING HERE DUBLIN */
-
-.fa-plane-departure:before {
-  margin-right: 20px;
-  color: #2d2d2d;
-}
-
-.fa-plane-arrival:before {
-  margin-left: 20px;
-  color: #2d2d2d;
-}
-
-.book-flights-button {
-    background-color: #124624;
-    color: #ffffff;
-    border: 2px solid #9D9D9D;
-    width: 50%;
-    font-size: 16px;
-}
-
-.book-flights-button {
-  margin-bottom: 20px;
-}
 /* GETTING AROUND DUBLIN */
-
+/* 
 .getting-around-h2 {
   margin-top: 15px;
 }
@@ -163,7 +164,7 @@ hr {
 .free-now-img {
   width: 275px;
   margin-bottom: 15px;
-}
+} */
 
 /* CONTACT US DUBLIN */
 
@@ -186,9 +187,9 @@ hr {
   width: 50%;
 }
 
-.contact-us-h2 {
+.contact-us-dublin-h2 {
   margin-bottom: 0px;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .contact-us-free-text {
