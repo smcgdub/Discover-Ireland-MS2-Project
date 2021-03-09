@@ -14,6 +14,10 @@ hr {
   color: #2d2d2d;
 }
 
+.our-recommendations-div {
+  padding: 0px 2px 0px 2px;
+}
+
 /* LANDING PAGE */
 .splash {
   background-image: url('../images/irish-beach.jpg');
@@ -58,12 +62,12 @@ hr {
 }
 
 .dublin-flag-l {
-  width: 120px;
+  width: 180px;
   margin-right: 20px;
 }
 
 .dublin-flag-r {
-  width: 120px;
+  width: 180px;
   margin-left: 20px;
 }
 
@@ -230,17 +234,6 @@ hr {
   margin: 0px 10px 0px 10px;
 }
 
-/* .footer-email {
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.footer-tel-number {
-  margin: 10px 0px 0px 0px;
-  color: #ffffff;
-  font-size: 20px;
-} */
-
 .fa-phone-square-alt:before {
   color: #ffffff;
   height: 100%;
@@ -286,6 +279,10 @@ hr {
 }
 
 /* ABOUT CORK */
+.about-cork-h2 {
+  margin-top: 15px;
+}
+
 .cork-coat-of-arms-l, .cork-coat-of-arms-r {
   width: 200px;
 }
@@ -294,17 +291,27 @@ hr {
   margin-bottom: 0px;
 }
 
-/* GETTING HERE CORK*/
+/* GETTING HERE CORK */
 .arrivals-img {
   width: 100%;
 }
 
+.getting-here-p-cork {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .book-flights-button-cork {
-    background-color: #ff0000;
-    color: #ffffff;
-    border: 2px solid #9D9D9D;
-    width: 50%;
-    font-size: 16px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: 2px solid #9D9D9D;
+  width: 50%;
+  font-size: 16px;
+}
+
+/* THINGS TO DO CORK */
+.things-to-do-cork-p {
+  margin-bottom: 15px;
 }
 
 /* OUR RECOMMENDATIONS CORK */
@@ -314,7 +321,16 @@ hr {
   border: 2px solid #9D9D9D;
 }
 
+.our-recommendations-cork-h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 /* CONTACT US CORK */
+.contact-us-cork-h2 {
+  margin-bottom: 0px;
+}
+
 .send-message-button-cork {
   background-color: #ff0000;
   color: #ffffff;
@@ -340,7 +356,7 @@ hr {
 
 /* ABOUT GALWAY */
 .galway-coat-of-arms-l, .galway-coat-of-arms-r {
-  width: 180px;
+  width: 170px;
 }
 
 .about-galway-h2 {
@@ -356,7 +372,23 @@ hr {
     font-size: 16px;
 }
 
+/* OUR RECOMMENDATIONS */
+.our-recommendations-galway-h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.recommendations-link-galway{
+  background-color: #9c0404;
+  color: #ffffff;
+  border: 2px solid #9D9D9D;
+}
 /* CONTACT US GALWAY*/
+.contact-us-galway-h2 {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
 .send-message-button-galway {
   background-color: #9c0404;
   color: #ffffff;
