@@ -18,6 +18,11 @@ hr {
   padding: 0px 2px 0px 2px;
 }
 
+.carousel-h2 {
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
 /* LANDING PAGE */
 .splash {
   background-image: url('../images/irish-beach.jpg');
