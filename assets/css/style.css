@@ -76,18 +76,25 @@ hr {
 }
 
 /* GETTING HERE DUBLIN */
+
+.getting-here-dublin-h1 {
+  color: #ffffff;
+  background-color: #124624;
+  margin-bottom: 0px;
+}
+
 .getting-here-dublin-p {
   margin-top: 15px;
 }
 
 .fa-plane-departure:before {
   margin-right: 20px;
-  color: #2d2d2d;
+  color: #ffffff;
 }
 
 .fa-plane-arrival:before {
   margin-left: 20px;
-  color: #2d2d2d;
+  color: #ffffff;
 }
 
 .book-flights-button {
@@ -296,6 +303,13 @@ hr {
 }
 
 /* GETTING HERE CORK */
+
+.getting-here-cork-h1 {
+  color: #ffffff;
+  background-color: #ff0000;
+  margin-bottom: 0px;
+}
+
 .arrivals-img {
   width: 100%;
 }
@@ -374,6 +388,12 @@ hr {
     border: 2px solid #9D9D9D;
     width: 50%;
     font-size: 16px;
+}
+
+.getting-here-galway-h2 {
+  color: #ffffff;
+  background-color: #9c0404;
+  margin-bottom: 0px;
 }
 
 /* OUR RECOMMENDATIONS */
