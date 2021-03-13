@@ -10,7 +10,7 @@ var tag = document.createElement('script');
 
 var player;
   function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
+    player = new YT.Player('dublin-player', {
     height: '450',
     width: '100%',
     videoId: 'w9vVo9kV_gI',
