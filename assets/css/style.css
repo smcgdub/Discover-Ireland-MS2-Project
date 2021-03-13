@@ -163,42 +163,6 @@ hr {
   border: 2px solid #9D9D9D;
 }
 
-/* .our-recommendations-h2 {
-  border-top: 3px solid #9D9D9D;
-  padding: 0px 20px 0px 20px;
-  margin-top: 15px;
-} */
-
-/* GETTING AROUND DUBLIN */
-/* 
-.getting-around-h2 {
-  margin-top: 15px;
-}
-
-.luas-logo-img {
-  width: 200px;
-  margin-bottom: 15px;
-}
-
-.dart-logo-img {
-  width: 250px;
-}
-
-.dublin-bus-img {
-  width: 250px;
-  margin-bottom: 10px;
-}
-
-.dublin-bike-img {
-  width: 275px;
-  margin-bottom: 15px;
-}
-
-.free-now-img {
-  width: 275px;
-  margin-bottom: 15px;
-} */
-
 /* CONTACT US DUBLIN */
 .contact-us-dublin-h2 {
   background-color: #124624;
@@ -215,7 +179,7 @@ hr {
   padding: 0px 20px 0px 20px;
 }
 
-.send-message-button {
+.send-message-button-dublin {
   background-color: #124624;
   color: #ffffff;
   border: 2px solid #9D9D9D;
