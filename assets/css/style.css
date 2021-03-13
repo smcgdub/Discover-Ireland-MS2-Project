@@ -28,6 +28,10 @@ hr {
   margin: 0px 20px 0px 20px;
 }
 
+.fa-paper-plane:before {
+  color: #ffffff;
+  margin: 0px 20px 0px 20px;
+}
 
 /* LANDING PAGE */
 .splash {
