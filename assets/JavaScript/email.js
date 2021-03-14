@@ -13,9 +13,9 @@ window.onload = function() {
   emailjs.sendForm('contact_service', 'contact_form', this)
     .then(function() {
       alert('Your message has been sent successfully');
+        document.getElementById('contact-form').reset();
     }, function(error) {
       alert('Message not sent, please try again', error);
     });
   });
-  document.getElementById('contact-form').reset();
-}
+};
