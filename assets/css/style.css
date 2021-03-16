@@ -33,6 +33,11 @@ hr {
   margin: 0px 20px 0px 20px;
 }
 
+.skyscanner {
+  border: 2px solid #9D9D9D;
+  border-radius: 5px;
+}
+
 /* LANDING PAGE */
 .splash {
   background-image: url('../images/irish-beach.jpg');
