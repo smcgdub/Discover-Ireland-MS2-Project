@@ -7,14 +7,14 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 > 
 ## Table of contents ## 
 
-### **1. User Experience (UX)** ###
+## **1. User Experience (UX)** ##
 * 1.1 Target audience
 * 1.2 Visitor goals
 * 1.3 User stories
 * 1.4 Design choices
 * 1.5 Wire frames
 
-### **2. Features** ###
+## **2. Features** ##
 * 2.1 The Navbar
 * 2.2 JavaScript weather widget 
 * 2.3 Photo Carousel 
@@ -24,7 +24,7 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 * 2.7 Contact Us Forum
 * 2.3 The Footer
 
-### **3. Technologies/Languages Used** ###
+## **3. Technologies/Languages Used** ##
 * 3.1 Gitpod
 * 3.2 HTML5
 * 3.3 CSS
@@ -40,25 +40,25 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 * 3.13 Google Maps API
 * 3.14 Email JS 
 
-### **4. Testing** ###
+## **4. Testing** ##
 * 4.1 See testing.md document
 
-### **5. Deployment** ###
+## **5. Deployment** ##
 * 5.1 Deployment
 * 5.2 Cloning
 * 5.3 Cloning Desktop
 
-### **6. Credits** ###
+## **6. Credits** ##
 * 6.1 Media
 * 6.2 Code 
 * 6.3 Acknowledgements
 
-### **7. Contact Me** ###
+## **7. Contact Me** ##
 * 7.1 LinkedIn
 * 7.2 Email
 * 7.3 Skype
 
-### **8. Disclaimer** ###
+## **8. Disclaimer** ##
 * 8.1 Disclaimer on project
 >
 
@@ -100,12 +100,13 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 * The reason for this particular pallet is because these are the county colours for each city. 
 
-FF0000 & FFFFFF are the colours of Cork.
+FF0000 & FFFFFF are the colours of Cork <br>
 9C0404 & FFFFFF are the colours od Galway
 
 * Dublin's official colour is #040484 which is a navy blue, however the initial feedback i got from people who viewed the early site was that as the site is a guide to Irish cities they would have liked, and expected to see a lot more green. Therefore i decided to make the Dublin page a mix of 
 
-#124624 (Green) & #FFFFFF (White)
+124624 (Green) & FFFFFF (White) <br>
+9D9D9D is used as the border on several items on the page. 
 
 * I also went for a secondary colour palette for more minor touches on the site. These colours can be seen below:
 
@@ -137,7 +138,12 @@ FF0000 & FFFFFF are the colours of Cork.
 3.6 - [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
 3.7 - [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less. It was made by Dave Gandy for use with Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome has a 38% market share among those websites that use third-party font scripts on their platform.<br>
 3.8 [W3schools](https://www.w3schools.com/) - W3Schools is a training website for learning web technologies online.<br> 
-3.9 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.
+3.9 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
+3.10 - [Weather Widget](https://weatherwidget.io/) - Is a free customizable weather widget that you incorporate into your website using JavaScript and HTML.<br>
+3.11 - [Skyscanner JavaScript Widget](https://www.partners.skyscanner.net/affiliates/widgets-documentation/simple-flight-search-widget) Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.<br>
+3.12 - [YouTube](https://www.youtube.com/) - YouTube is an American online video-sharing platform and the second largest search engine in the world. Created in February 2005 by three former PayPal employees YouTube was bought by Google 2006<br>
+3.13 Google Maps API<br>
+3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
 
 
 
