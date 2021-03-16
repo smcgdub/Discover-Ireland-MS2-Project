@@ -1,6 +1,8 @@
-# The Emerald Residence - Dublin Penthouse #
+# Discover Ireland #
 
 ## Introduction ##
+
+The Discover Ireland website was created and built by Stephen Mc Govern. The aim of the website is to provide people who are thinking of visiting Dublin, Cork or Galway with information on each city to help them choose which one they would prefer to visit.
 
 > 
 ## Table of contents ## 
@@ -13,16 +15,14 @@
 * 1.5 Wire frames
 
 ### **2. Features** ###
-* 2.1 How to play
-* 2.2 The navbar
-* 2.3 The footer
-* 2.4 New game button 
-* 2.5 Light/Dark mode button
-* 2.6 Difficulty setting 
-* 2.7 How to play button
-* 2.8 Number of flips
-* 2.9 Score/Matches 
-* 2.10 Time 
+* 2.1 The Navbar
+* 2.2 JavaScript weather widget 
+* 2.3 Photo Carousel 
+* 2.4 SkyScanner JavaScript Widget 
+* 2.5 YouTube API videos 
+* 2.6 Google Maps API 
+* 2.7 Contact Us Forum
+* 2.3 The Footer
 
 ### **3. Technologies/Languages Used** ###
 * 3.1 Gitpod
@@ -34,6 +34,11 @@
 * 3.7 Font Awesome
 * 3.8 W3schools
 * 3.9 Balsamiq
+* 3.10 Weather Widget API
+* 3.11 Skyscanner JavaScript Widget
+* 3.12 YouTube API
+* 3.13 Google Maps API
+* 3.14 Email JS 
 
 ### **4. Testing** ###
 * 4.1 See testing.md document
@@ -56,6 +61,71 @@
 ### **8. Disclaimer** ###
 * 8.1 Disclaimer on project
 >
+
+### **1. User Experience (UX)** ###
+
+**1.1 - Target Audience**
+
+* This website is aimed at anyone who is thinking of, or who has already organized a trip to visit the Irish cities of Dublin, Cork or Galway. 
+
+**1.2 - Visitor goals**
+
+* As a potential visitor to the city i want to be able to find out how can i get here from overseas? So flight information is one thing i need. I also want to be able to see options for hotels, restaurants,bars, cafe's and tourist attractions. As ive never been to the city before i would also like some recommendations from the people who run the website. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
+
+**1.3 - User Stories**
+
+* 
+
+**1.4 - Design Choices**
+
+* I wanted the website to be very visual and not just a lot of text. Therefore I have incorporated a lot of imagery on each page, inserted weather and flights widgets, YouTube videos and google maps with places/locations. 
+
+**FONTS**
+
+* For the website i decided to use the google font style of Forum. Forum has antique, classic "Roman" proportions. It can be used to set body texts and works well in titles and headlines too. It is truly multilingual, with glyphs for Central and Eastern Europe, Baltics, Cyrillic and Asian Cyrillic communities. The link to the Forum font on Google Font can be found by clicking: [Here](https://fonts.google.com/specimen/Forum?preview.text_type=custom#glyphs)
+
+**ICONS**
+
+* I also decided to incorporate some icons throughout the website. I did this because icons give a more visually pleasing experience for the user and also relate to the type of information that they are looking at. I also incorporated social media icons (Facebook, Twitter, Instagram, YouTube) that are located in the footer of the page.
+
+* All of the icons on the site were taken from the Font Awesome website. The link to the Font Awesome website can be found by clicking: [Here](https://fontawesome.com/)
+
+**COLOURS**
+
+* I used the website colour mind when deciding on which colours to use. The website uses a generator to help you select the best matching colour palettes for your project. The website can be found by clicking this link: [Here](http://colormind.io/)
+
+* For the base colours i decided to go with the following colour palette 
+
+![Image of the primary colour pallet used for the project](assets/readme-images/primary-colours.png)
+
+* The reason for this particular pallet is because these are the county colours for each city. 
+
+FF0000 & FFFFFF are the colours of Cork.
+9C0404 & FFFFFF are the colours od Galway
+
+* Dublin's official colour is #040484 which is a navy blue, however the initial feedback i got from people who viewed the early site was that as the site is a guide to Irish cities they would have liked, and expected to see a lot more green. Therefore i decided to make the Dublin page a mix of 
+
+#124624 (Green) & #FFFFFF (White)
+
+* I also went for a secondary colour palette for more minor touches on the site. These colours can be seen below:
+
+![Image of the secondary colour pallet used for the project](assets/readme-images/secondary-colours.png)
+
+**1.5 - Wire Frames**
+
+>
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### **3. Technologies/Languages Used** ###
 
