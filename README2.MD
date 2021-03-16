@@ -144,10 +144,28 @@ FF0000 & FFFFFF are the colours of Cork <br>
 3.12 - [YouTube](https://www.youtube.com/) - YouTube is an American online video-sharing platform and the second largest search engine in the world. Created in February 2005 by three former PayPal employees YouTube was bought by Google 2006<br>
 3.13 Google Maps API<br>
 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
+>
+### **5. Deployment** ###
+
+5.1 Deployment
+
+To deploy the site on Github i undertook the following steps:
+
+1. Navigated to my profile page on Github
+2. Selected this project from the repositories
+3. Clicked on settings
+4. Scroll down to the Github pages section
+5. Click where is says source and in the dropdown menu select master
+6. Click on the next dropdown menu to the right select /(root)
+7. Click save
+
+You will then receive a confirmation saying the page has been published and also be provided with the link where people can view your site.
 
 
 
 
+
+>
 ### **6. Credits** ###
 6.1 Media
 
@@ -171,7 +189,7 @@ If you need to reach me i can be contacted via the three methods below:
 7.1 - [LinkedIn](https://www.linkedin.com/in/stephenmcgovern01/)<br>
 7.2 - [Email](mailto:stephen_xyz1@hotmail.com)<br>
 7.3 - [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
-
+>
 ### **8. Disclaimer** ###
 * 8.1 - This website and all of its content was completed for my personal assessment
 and is strictly for educational purposes only.
