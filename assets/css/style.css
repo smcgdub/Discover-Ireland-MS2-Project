@@ -127,7 +127,7 @@ hr {
 }
 
 .things-to-do-dublin-p {
-  margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 .dropdown-button {
@@ -328,7 +328,7 @@ hr {
 }
 
 .things-to-do-cork-p {
-  margin-bottom: 15px;
+  margin: 15px 0px 15px 0px;
 }
 
 /* OUR RECOMMENDATIONS CORK */
@@ -387,6 +387,10 @@ hr {
   margin-bottom: 0px;
 }
 
+.about-galway-p {
+  margin: 0px;
+}
+
 /* GETTING HERE GALWAY*/
 .getting-here-galway-h1 {
   background-color: #9c0404;
@@ -408,6 +412,10 @@ hr {
   background-color: #9c0404;
   color: #ffffff;
   border: 2px solid #9D9D9D;
+}
+
+.things-to-do-galway-p {
+  margin: 15px 0px 15px 0px;
 }
 
 .getting-here-galway-h2 {
