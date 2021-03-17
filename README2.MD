@@ -5,7 +5,7 @@
 The Discover Ireland website was created and built by Stephen Mc Govern. The aim of the website is to provide people who are thinking of visiting Dublin, Cork or Galway with information on each city to help them choose which one they would prefer to visit.
 
 > 
-## Table of contents ## 
+## **Table of contents** ## 
 
 ## **1. User Experience (UX)** ##
 * 1.1 Target audience
@@ -62,21 +62,21 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 * 8.1 Disclaimer on project
 >
 
-### **1. User Experience (UX)** ###
+## **1. User Experience (UX)** ##
 
-**1.1 - Target Audience**
+### **1.1 - Target Audience** ###
 
 * This website is aimed at anyone who is thinking of, or who has already organized a trip to visit the Irish cities of Dublin, Cork or Galway. 
 
-**1.2 - Visitor goals**
+### **1.2 - Visitor goals** ###
 
 * As a potential visitor to the city i want to be able to find out how can i get here from overseas? So flight information is one thing i need. I also want to be able to see options for hotels, restaurants,bars, cafe's and tourist attractions. As ive never been to the city before i would also like some recommendations from the people who run the website. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
 
-**1.3 - User Stories**
+### **1.3 - User Stories** ###
 
 * 
 
-**1.4 - Design Choices**
+### **1.4 - Design Choices** ###
 
 * I wanted the website to be very visual and not just a lot of text. Therefore I have incorporated a lot of imagery on each page, inserted weather and flights widgets, YouTube videos and google maps with places/locations. 
 
@@ -112,21 +112,18 @@ FF0000 & FFFFFF are the colours of Cork <br>
 
 ![Image of the secondary colour pallet used for the project](assets/readme-images/secondary-colours.png)
 
-**1.5 - Wire Frames**
+### **1.5 - Wire Frames** ###
 
+[Homepage Desktop](https://ibb.co/0J7YYNN)<br>
+[Homepage iPad Horizontal](https://ibb.co/74tx7yr)<br>
+[Homepage iPad Vertical](https://ibb.co/9Y8jjMr)<br>
+[Homepage mobile phone](https://ibb.co/pdVcJKW)<br>
+
+[City page Desktop](https://ibb.co/C7J1ydC)<br>
+[City page iPad Horizontal](https://ibb.co/g6zg3RG)<br>
+[City page iPad Vertical](https://ibb.co/vDkK11v)<br>
+[City page mobile phone](https://ibb.co/0ZqnqSf)
 >
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### **3. Technologies/Languages Used** ###
 
