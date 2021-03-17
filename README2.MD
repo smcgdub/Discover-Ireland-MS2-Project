@@ -124,7 +124,66 @@ FF0000 & FFFFFF are the colours of Cork <br>
 [City page iPad Vertical](https://ibb.co/vDkK11v)<br>
 [City page mobile phone](https://ibb.co/0ZqnqSf)
 >
+## **2. Features** ##
 
+I have created the website so all of the city pages have the exact same features. I did this because i wanted the users to have the same features on every page so no matter what city they were thinking of visiting, the layout and features will be the same to help with user experience. The breakdown of the features on each page are listed below: 
+
+### **2.1 - The Navbar** ###
+
+For the Navbar i decided to use a standard Bootstrap 4.4 Navbar. I chose this option because i wanted the Navbar to be responsive on all screen sizes and bootstrap offers this easily. 
+
+![Image of Navbar](assets/readme-images/navbar.png)
+
+The Navbar on each page is standardized, the link to the homepage is located on the top left hand side, on the right hand side we have 
+
+1. About City
+2. Getting Here 
+3. Things To Do
+4. Contact Us
+
+On smaller screen sizes the navbar will collapse into a hamburger menu that when clicked will expand and reveal the nav bar items.
+
+![Image of Navbar as hamburger menu](assets/readme-images/hamburger-navbar.png)
+
+### **2.2 - JavaScript weather widget** ###
+
+Below the Navbar i have installed a weather widget that will display an animated 7 day forecast. This will display the weather for each city when the user is on the page. I have also set this so the background will reflect the current weather conditions and whether it is night or day. The widget is also responsive and will adjust depending on screen size.
+
+![Image of Navbar as hamburger menu](assets/readme-images/weather-widget.png)
+
+### **2.3 - Photo Carousel** ###
+
+I wanted to use some great images on the website. To achieve this i have used a bootstrap carousel to show several different images of each city to users. The photos are also set to auto scroll and at the footer of the images there is some text that describes what each image is. 
+
+![Image of Photo Carousel](assets/readme-images/photo-carousel.png)
+
+### **2.4 - SkyScanner JavaScript Widget** ###
+
+I have also installed a Skyscanner widget on the website. This will allow users of the site to enter the city they are flying from, the dates they are looking to fly, and when the click on search flights Skyscanner will give them flight availability and prices. As the site isnt an integrated partner booking a flight on the site isnt possible, instead the user is diverted to the Skyscanner page.
+
+![Image of Photo Carousel](assets/readme-images/skyscanner-widget.png)
+
+### **2.5 - YouTube API videos** ###
+
+I wanted to use as wide a range of options as possible to display information to users. On every city page i have created a YouTube video that gives a very short introduction about each city. This was done using the YouTube API. 
+
+![Image of YouTube video](assets/readme-images/youtube.png)
+
+### **2.6 - Google Maps API** ###
+
+### **2.7 - Contact Us Forum** ###
+
+At the bottom of every page i have placed a contact us form where users can send emails direct to us. The contact us form has Email JS operating on the backend. Once a user clicks ont he send message button an alert will populate to show the user the message was sent. Email JS will also send an auto reply to the user to let them know their message was successfully received and that we will be back in contact with them.
+
+![Image of contact us form](assets/readme-images/contact-us-form.png)
+
+### **2.8 - The Footer** ###
+
+In the footer i have listed all of the companies social media links. As with the navbar, the footer is identical on each page to maintain consistency no matter what page the user finds themselves on.
+
+![Image of footer](assets/readme-images/footer.png)
+
+>
 ### **3. Technologies/Languages Used** ###
 
 3.1 - [Gitpod](https://www.gitpod.io/) - Is the IDE recommended for Code Institute students and the one i chose to develop this project in.<br>
@@ -139,7 +198,9 @@ FF0000 & FFFFFF are the colours of Cork <br>
 3.10 - [Weather Widget](https://weatherwidget.io/) - Is a free customizable weather widget that you incorporate into your website using JavaScript and HTML.<br>
 3.11 - [Skyscanner JavaScript Widget](https://www.partners.skyscanner.net/affiliates/widgets-documentation/simple-flight-search-widget) Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.<br>
 3.12 - [YouTube](https://www.youtube.com/) - YouTube is an American online video-sharing platform and the second largest search engine in the world. Created in February 2005 by three former PayPal employees YouTube was bought by Google 2006<br>
+
 3.13 Google Maps API<br>
+
 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
 >
 ### **5. Deployment** ###
