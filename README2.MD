@@ -203,9 +203,9 @@ In the footer i have listed all of the companies social media links. As with the
 
 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
 >
-### **5. Deployment** ###
+## **5. Deployment** ##
 
-5.1 Deployment
+### **5.1 Deployment** ###
 
 To deploy the site on Github i undertook the following steps:
 
@@ -224,16 +224,171 @@ You will then receive a confirmation saying the page has been published and also
 
 
 >
-### **6. Credits** ###
-6.1 Media
+## **6. Credits** ##
 
-dublin flag By Setanta Saki - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1171868
+### **6.1 Media** ###
 
-guinness store house By Steven Lek - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=51039263 
+GLOBAL 
 
-6.2 Code
+Airport Arrivals Picture purchased from iStock Photo
+<br>
+[Image here](https://www.istockphoto.com/photo/airport-arrivals-sign-in-dublin-ireland-gm181077388-25334697) 
 
-6.3 Acknowledgements
+DUBLIN PAGE<br>
+
+CAROUSEL IMAGES 
+
+Dublin city at night carousel image<br>
+Photo by <a href="https://unsplash.com/@andrei_carina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrei Carina</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/jLi7xbYnYro)
+  
+Howth cliffs carousel image<br>
+Photo by <a href="https://unsplash.com/@aem?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Markon</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a> Unsplash.
+<br>
+[Image Here](https://unsplash.com/photos/Q-9FsufnVEA)
+
+Trinity college carousel image<br>
+Photo by <a href="https://unsplash.com/@alexblock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Block</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/PdDBTrkGYLo)
+
+THINGS TO DO DUBLIN VIDEO
+
+Dublin: Take A Deep Breath Youtube Video<br>
+All rights belong to Visit Dublin
+
+OUR RECOMMENDATIONS DUBLIN
+
+Whelan's Music Venue<br>
+Photo by <a href="https://unsplash.com/@themephotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Theme Photos</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/kPHYuzqoaz0)
+
+Network Coffee Image<br>
+Image supplied by Network Coffee<br> 
+All rights to Network Coffee 
+
+EatTokyo Sushi Image<br>
+Photo by <a href="https://unsplash.com/@viniciusbenedit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vinicius Benedit</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/-1GEAA8q3wk)
+
+Guinness Storehouse Image<br>
+Photo by <a href="https://unsplash.com/@erikjakeix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Jacobson</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/w578cN0JxIw)
+  
+>
+CORK PAGE<br>
+
+CAROUSEL IMAGES 
+
+Cork at night carousel image
+<br>
+Photo by <a href="https://unsplash.com/@2sometravel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">2sometravel</a> on Unsplash.
+<br>
+[Image Here](https://unsplash.com/photos/jiXbDuh8YIo)
+
+Gougane barra church carousel image 
+<br>
+Photo by <a href="https://unsplash.com/@mrmarkdejong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark de Jong</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/P8TK5WPyFQY)  
+
+Cork river at sunset carousel image
+<br>
+Photo by <a href="https://unsplash.com/@imjamie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie O’Sullivan</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/WAh9lIRcVaU)
+  
+THINGS TO DO CORK VIDEO
+
+PureCork: Cork Awaits Youtube Video<br>
+All rights belong to Pure Cork Visit
+
+OUR RECOMMENDATIONS CORK
+
+Costigan's Pub (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@mehrad_vosoughi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mehrad Vosoughi</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/HpN5rf4QVuU)
+  
+The English Market (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@nickkarvounis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Karvounis</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/xrDL8xOgeJQ)
+
+The Blarney Stone (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@connormisset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Connor Misset</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/Sn-5Wcg4P9o)
+  
+Cycle Tour Cork (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@maxberger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Berger</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/GXvrq21TmAs)
+
+>
+GALWAY PAGE<br>
+
+CAROUSEL IMAGES 
+
+Galway harbour night image
+<br>
+Photo by <a href="https://unsplash.com/@markusvoetter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Voetter</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/s12s4dZSwLk)
+
+Galway harbour houses carousel image 
+<br>
+Photo by <a href="https://unsplash.com/@roryhennessey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rory Hennessey</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/UR-9hOEW-Ww)
+
+Killary Harbour carousel image
+<br>
+Photo by <a href="https://unsplash.com/@olivier_twwli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olivier Guillard</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/T5DAAfCGGQg)
+  
+THINGS TO DO GALWAY VIDEO
+
+Discover Ireland: Top Things To Do In Cork Youtube Video<br>
+All rights belong to Discover Ireland
+
+OUR RECOMMENDATIONS GALWAY 
+
+The Quays Bar (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@themorganlane?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan Lane</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/wlY66otjq28)
+  
+BoTown Burger (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@leecampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lee  Campbell</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash.
+<br>
+[Image Here](https://unsplash.com/photos/ZP1dfOoSEi8)
+
+Cliffs of Moher (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@federize?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Federico Beccari</a> on Unsplash.
+<br>
+[Image Here](https://unsplash.com/photos/AEallbg9q_A)
+   
+Esquires Coffee (Our top recommendations) image
+<br>
+Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>Unsplash
+[Image Here](https://unsplash.com/photos/6VhPY27jdps)
+  
+### **6.2 Code** ###
+
+### **6.3 Acknowledgements** ###
 
 * A huge thank you to all of the tutor team at Code Institute who were always on hand whenever i needed their support.
 * A big thank you to my mentor Dick Vlaanderen who gave me great feedback on my initial ideas for the project.
