@@ -167,7 +167,7 @@ hr {
   background-color: #124624;
   color: #ffffff;
   border: 2px solid #9D9D9D;
-  margin: 3px;
+  margin: 3px 3px 3px 0px;
 }
 
 /* OUR RECOMMENDATIONS DUBLIN */
@@ -346,6 +346,7 @@ hr {
   background-color: #ff0000;
   color: #ffffff;
   border: 2px solid #9D9D9D;
+  margin: 3px 3px 3px 0px;
 }
 
 .our-recommendations-cork-h2 {
@@ -454,6 +455,7 @@ hr {
   background-color: #9c0404;
   color: #ffffff;
   border: 2px solid #9D9D9D;
+  margin: 3px 3px 3px 0px;
 }
 
 /* CONTACT US GALWAY*/
