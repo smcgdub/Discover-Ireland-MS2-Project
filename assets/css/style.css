@@ -81,6 +81,7 @@ hr {
 .about-dublin-p {
   margin-bottom: 0px;
   padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 .dublin-flag-l {
@@ -105,6 +106,7 @@ hr {
 .getting-here-dublin-p {
   margin-top: 15px;
   padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 .fa-plane-departure:before {
@@ -135,6 +137,7 @@ hr {
 
 .things-to-do-dublin-p {
   margin-top: 15px;
+  font-size: 20px;
 }
 
 .dropdown-button {
@@ -301,6 +304,7 @@ hr {
 
 .about-cork-p {
   margin-bottom: 0px;
+  font-size: 20px;
 }
 
 /* GETTING HERE CORK */
@@ -319,6 +323,7 @@ hr {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 .book-flights-button-cork {
@@ -339,6 +344,7 @@ hr {
 .things-to-do-cork-p {
   margin: 15px 0px 15px 0px;
   padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 /* OUR RECOMMENDATIONS CORK */
@@ -401,6 +407,7 @@ hr {
 .about-galway-p {
   margin: 0px;
   padding: 0px 5px 0px 5px;
+  font-size: 20px;
 }
 
 /* GETTING HERE GALWAY*/
@@ -414,6 +421,7 @@ hr {
 .getting-here-p-galway {
   margin-top: 15px;
   padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 .book-flights-button-galway {
@@ -434,6 +442,7 @@ hr {
 .things-to-do-galway-p {
   margin: 15px 0px 15px 0px;
   padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 .getting-here-galway-h2 {
