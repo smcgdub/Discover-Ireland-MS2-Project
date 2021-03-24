@@ -38,6 +38,10 @@ hr {
   border-radius: 5px;
 }
 
+.container-fluid {
+  padding: 0px;
+}
+
 /* LANDING PAGE */
 .splash {
   background-image: url('../images/irish-beach.jpg');
@@ -449,6 +453,7 @@ hr {
   color: #ffffff;
   background-color: #9c0404;
   margin-bottom: 0px;
+  border: 2px solid #9D9D9D;
 }
 
 /* OUR RECOMMENDATIONS */
