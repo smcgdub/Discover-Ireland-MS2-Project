@@ -22,7 +22,7 @@
     };
 
 // CREATE THE MAP 
-    map = new google.maps.Map(document.getElementById("map"), mapProp);
+  map = new google.maps.Map(document.getElementById("map"), mapProp);
 
 // MY MARKERS DUBLIN HOTELS
 var dublinHotels = [
@@ -227,8 +227,8 @@ var InfoObj = [];
     closeOtherInfo();
     infoWindow.open(map, marker);
     InfoObj[0] = infoWindow;
-    });
-  }
+  });
+}
 
 // CLEARS OUT ANY OLD INFORMATION FUNCTION
   function closeOtherInfo(){
