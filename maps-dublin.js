@@ -229,3 +229,13 @@ var InfoObj = [];
     InfoObj[0] = infoWindow;
     });
   }
+
+// CLEARS OUT ANY OLD INFORMATION FUNCTION
+  function closeOtherInfo(){
+    if( InfoObj.length > 0 ){
+      InfoObj[0].set("marker", null);
+      InfoObj[0].close();
+      InfoObj[0].length = 0;
+    }
+  }
+}
