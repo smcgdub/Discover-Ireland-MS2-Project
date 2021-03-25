@@ -215,3 +215,9 @@ var InfoObj = [];
 // DISPLAY TRAFFIC (MAY NOT USE THIS)
   // const trafficLayer = new google.maps.TrafficLayer();
   // trafficLayer.setMap(map);
+
+// CREATE INFO WINDOW 
+  const infoWindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 400
+  });
