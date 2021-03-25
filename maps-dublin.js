@@ -221,3 +221,11 @@ var InfoObj = [];
     content: contentString,
     maxWidth: 400
   });
+
+// EVENT LISTENER FOR CLICK ON ICON
+  marker.addListener("click", function() {
+    closeOtherInfo();
+    infoWindow.open(map, marker);
+    InfoObj[0] = infoWindow;
+    });
+  }
