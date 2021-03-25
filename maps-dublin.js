@@ -195,3 +195,19 @@ var dublinTouristAttractions = [
   <b>Phone</b>: +353 1 807 2355 <br>
   <a href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st" target=”_blank”>Website Here</a>`},
 ];
+
+// INFO OBJECT THAT WILL STORE THE INFO DISPLAYED IN EACH INFO WINDOW
+var InfoObj = [];
+
+// LOOPS OVER MARKS
+  for(let i = 0; i < dublinTouristAttractions.length; i++) {
+    let contentString = '<h2>' + dublinTouristAttractions[i].name + '</h2>' +
+    '<p>' + dublinTouristAttractions[i].information + '</p>';
+    
+    const marker = new google.maps.Marker({
+      position: new google.maps.LatLng(dublinTouristAttractions[i].lat, dublinTouristAttractions[i].lng),
+      map: map,
+      title: dublinTouristAttractions[i].name,
+      animation: google.maps.Animation.DROP,
+      icon: touristAttractions,
+    });
