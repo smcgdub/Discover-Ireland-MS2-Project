@@ -152,3 +152,46 @@ var dublinRestaurants = [
   <b>Phone</b>: +3535 1 475 7511 <br>
   <a href="https://www.darwins.ie/" target=”_blank”>Website Here</a>`},
 ];
+
+// MY MARKERS DUBLIN TOURIST ATTRACTIONS
+var dublinTouristAttractions = [
+  {"lat": 53.34316685, "lng": -6.26843027418557, "name": "Dublin Castle", 
+  "information": `<b>Address</b>:  Castle Street, Dublin, D02 XN27 <br> 
+  <b>Phone</b>: +353 1 645 8800 <br>
+  <a href="https://www.dublincastle.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.358941099999996, "lng": -6.308561146481148, "name": "Dublin Zoo", 
+  "information": `<b>Address</b>: Saint James, Phoenix Park, Dublin, D08 WF88 <br> 
+  <b>Phone</b>: +353 1 474 8900 <br>
+  <a href="https://www.dublinzoo.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3588491, "lng": -6.330646672352769, "name": "Phoenix Park", 
+  "information": `<b>Address</b>: Phoenix Park, Dublin, D8 <br> 
+  <b>Phone</b>: +353 1 820 5800 <br>
+  <a href="http://phoenixpark.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34193275, "lng": -6.286729742986431, "name": "Guinness Store House", 
+  "information": `<b>Address</b>: St. James's Gate, Dublin 8, D08 VF8H <br> 
+  <b>Phone</b>: +353 1 408 4800 <br>
+  <a href="https://www.guinness-storehouse.com/en" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3389828, "lng": -6.2573559, "name": "Viking Splash Tours", 
+  "information": `<b>Address</b>: St Stephens Green North, Dublin 2 <br> 
+  <b>Phone</b>: +353 1 707 6000 <br>
+  <a href="https://www.facebook.com/VikingSplashDublin/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34397, "lng": -6.25674, "name": "The Book of Kells", 
+  "information": `<b>Address</b>: Trinity College, College Green, Dublin, D02 PN40, <br> 
+  <b>Phone</b>: +353 1 896 1000 <br>
+  <a href="https://www.tcd.ie/visitors/book-of-kells/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34304, "lng": -6.27204, "name": "Dublinia Viking Museum", 
+  "information": `<b>Address</b>: St Michaels Hill Christ Church, Dublin 8, <br> 
+  <b>Phone</b>: +353 1 679 4611 <br>
+  <a href="https://www.dublinia.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34838, "lng": -6.27735, "name": "Jameson Distillery", 
+  "information": `<b>Address</b>: Bow St, Smithfield, Dublin 7, D07 N9VH, <br> 
+  <b>Phone</b>: +353 1 807 2355 <br>
+  <a href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st" target=”_blank”>Website Here</a>`},
+];
