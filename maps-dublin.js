@@ -66,3 +66,46 @@ var dublinHotels = [
   <b>Phone</b>: +353 1 887 2400 <br>
   <a href="https://www.morrisonhotel.ie/" target=”_blank”>Website Here</a>`},
 ];
+
+// MY MARKERS DUBLIN BARS
+var dublinBars = [
+  {"lat": 53.33815205, "lng": -6.254183518684092, "name": "O Donoghue's Bar", 
+  "information": `<b>Address</b>:  15 Merrion Row, Dublin, D02 PF50, <br> 
+  <b>Phone</b>: +3535 1 660 7194 <br>
+  <a href="https://www.odonoghues.ie/bar.htm" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3407499, "lng": -6.25907377754813, "name": "Cafe En Sein", 
+  "information": `<b>Address</b>: 40 Dawson St, Dublin, D02 PX20 <br> 
+  <b>Phone</b>: +3535 1 677 4567 <br>
+  <a href="https://www.cafeenseine.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3365559, "lng": -6.265921784893308, "name": "Whelans", 
+  "information": `<b>Address</b>: 25 Wexford St, Portobello, Dublin 2, D02 H527 <br> 
+  <b>Phone</b>: +3535 1 478 0766 <br>
+  <a href="http://www.whelanslive.com/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34865, "lng": -6.26670, "name": "The Church Late Bar", 
+  "information": `<b>Address</b>: Jervis St, Dublin, D01 YX64 <br> 
+  <b>Phone</b>: +3535 1 828 0102 <br>
+  <a href="https://www.thechurch.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34846, "lng": -6.26033, "name": "The Oval Bar", 
+  "information": `<b>Address</b>: 78 Middle Abbey St, North City, D01 RW24 <br> 
+  <b>Phone</b>: +3535 1 872 1264 <br>
+  <a href="http://theovalbar.com/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34508, "lng": -6.26742, "name": "Porterhouse Temple Bar", 
+  "information": `<b>Address</b>: 16-18 Parliament St, Temple Bar, D02 VR94 <br> 
+  <b>Phone</b>: +3535 1 679 8847 <br>
+  <a href="https://porterhousebrewco.ie/temple-bar/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34890, "lng": -6.27860, "name": "Oscars Cafe Bar", 
+  "information": `<b>Address</b>: 6 Smithfield, Dublin, D07 A034 <br> 
+  <b>Phone</b>: +3535 1 699 1999 <br>
+  <a href="https://www.oscarscafebar.com/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34138, "lng": -6.26525, "name": "Capitol Lounge", 
+  "information": `<b>Address</b>: 1 Aungier St, Dublin 2, D02 HF72, <br> 
+  <b>Phone</b>: +3535 1 475 7166 <br>
+  <a href="https://www.capitol.ie/" target=”_blank”>Website Here</a>`},
+];
