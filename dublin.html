@@ -12,6 +12,8 @@
 <!-- EXTERNAL CSS STYLESHEET -->
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <title>Discover Dublin</title>
+<!-- GOOGLE MAPS -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <!-- LOAD EMAILJS SDK -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <!-- INITIALIZE SDK WITH USER ID & JS CODE FOR EMAIL-->
@@ -188,12 +190,13 @@
   </div>
 </div>
 <!-- THINGS TO DO GOOGLE MAP -->
-<div class="row">
-  <div class="col">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.1437518129856!2d-6.271036383846222!3d53.34068287997792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670d1a76a1a32f%3A0x106028d8a61ed0ec!2sCastleway%20Apartments!5e0!3m2!1sen!2sie!4v1614802443076!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="map" class="col" style="width: 100%; height: 600px; border: 2px solid green;">
+
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </section>
 <hr>
 <!-- OUR RECOMMENDATIONS -->
@@ -332,5 +335,10 @@
   <script 
     src="assets/JavaScript/app.js" type="text/javascript">
   </script>
+<!-- GOOGLE MAP JS -->
+  <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCASO7_lqAAp-noTyXTlRvDORz-K8ssAAc&callback=initMap&libraries=&v=weekly" async>
+  </script>
+  <script src="assets/JavaScript/maps-dublin.js"></script>
 </body>
 </html>
