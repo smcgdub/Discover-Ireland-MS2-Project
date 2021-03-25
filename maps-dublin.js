@@ -109,3 +109,46 @@ var dublinBars = [
   <b>Phone</b>: +3535 1 475 7166 <br>
   <a href="https://www.capitol.ie/" target=”_blank”>Website Here</a>`},
 ];
+
+// MY MARKERS DUBLIN RESTAURANTS
+var dublinRestaurants = [
+  {"lat": 53.3475713, "lng": -6.280232546861777, "name": "Token", 
+  "information": `<b>Address</b>:  72-74 Queen Street, Smithfield, Dublin, D07 T4CN, <br> 
+  <b>Phone</b>: +3535 1 532 2699 <br>
+  <a href="https://www.facebook.com/TokenDublin/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3488762, "lng": -6.2788256, "name": "My Meat Wagon", 
+  "information": `<b>Address</b>:  Unit 7A, Block A, Smithfield Market, Dublin, D07 H977<br> 
+  <b>Phone</b>: +3535 1 874 8172 <br>
+  <a href="http://mymeatwagon.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3431027, "lng": -6.2614859, "name": "Cornucopia", 
+  "information": `<b>Address</b>:  19-20 Wicklow St, Dublin, D02 FK27 <br> 
+  <b>Phone</b>: +3535 1 677 7583 <br>
+  <a href="https://cornucopia.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3473991, "lng": -6.2630623, "name": "Fusion Brazilian Grill", 
+  "information": `<b>Address</b>:  1 N Lotts, Northside, Dublin, D01 K8N3 <br> 
+  <b>Phone</b>: +3535 89 493 0571 <br>
+  <a href="https://www.facebook.com/FusionBrazilianRestaurant/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.3459765, "lng": -6.2626275, "name": "EatTokyo Sushi", 
+  "information": `<b>Address</b>:  Wellington Quay Wellington Quay, Temple Bar, Dublin 2, D02 NH04 <br> 
+  <b>Phone</b>: +3535 1 534 8576 <br>
+  <a href="https://eatokyo.ie/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34871, "lng": -6.26874, "name": "Hilan Chinese and Korean Restaurant", 
+  "information": `<b>Address</b>:  45 Capel St, North City, Dublin, D01 E3E5, <br> 
+  <b>Phone</b>: +3535 1 874 8677 <br>
+  <a href="https://www.facebook.com/Hailanrestaurant/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.33482, "lng": -6.25449, "name": "Dax Restaurant", 
+  "information": `<b>Address</b>:  Pembroke Street Upper Pembroke Street Upper, Dublin, D02 AK20, <br> 
+  <b>Phone</b>: +3535 1 676 1494 <br>
+  <a href="https://www.dax.ie/restaurant/" target=”_blank”>Website Here</a>`},
+
+  {"lat": 53.34130, "lng": -6.26558, "name": "Darwins Restaurant", 
+  "information": `<b>Address</b>:  80 Aungier St, Dublin, D02 E286, <br> 
+  <b>Phone</b>: +3535 1 475 7511 <br>
+  <a href="https://www.darwins.ie/" target=”_blank”>Website Here</a>`},
+];
