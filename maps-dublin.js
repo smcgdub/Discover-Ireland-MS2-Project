@@ -211,3 +211,7 @@ var InfoObj = [];
       animation: google.maps.Animation.DROP,
       icon: touristAttractions,
     });
+
+// DISPLAY TRAFFIC (MAY NOT USE THIS)
+  // const trafficLayer = new google.maps.TrafficLayer();
+  // trafficLayer.setMap(map);
