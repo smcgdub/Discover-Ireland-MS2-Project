@@ -74,7 +74,7 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 ### **1.3 - User Stories** ###
 
-* 
+*
 
 ### **1.4 - Design Choices** ###
 
@@ -199,7 +199,8 @@ In the footer i have listed all of the companies social media links. As with the
 * 3.11 - [Skyscanner JavaScript Widget](https://www.partners.skyscanner.net/affiliates/widgets-documentation/simple-flight-search-widget) Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.<br>
 * 3.12 - [YouTube](https://www.youtube.com/) - YouTube is an American online video-sharing platform and the second largest search engine in the world. Created in February 2005 by three former PayPal employees YouTube was bought by Google 2006<br>
 
-* 3.13 Google Maps API<br>
+* 3.13 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - The Google Maps Platform is a set of APIs and SDKs that allows developers to embed Google Maps into mobile apps and web pages, or to retrieve data from Google Maps.
+<br>
 
 * 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
 >
@@ -389,6 +390,7 @@ All Unsplash images are provided under licence that allows free use of them once
 
 * The majority of the code i used was Bootstrap version 4.6. The official documentation is the best place to reference for information [Bootstrap Documentation Here](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 * For the YouTube API i resourced the official Google documentation [YouTube Official Documentation Here](https://developers.google.com/youtube/iframe_api_reference)
+* For the Google map i used the Google maps [Javascript API official documentation](https://developers.google.com/maps/documentation/javascript/overview) and also the Google maps [Places API official documentation](https://developers.google.com/maps/documentation/places/web-service/overview)
 * For the Email JS feature i referenced the official [Email JS documentation here](https://www.emailjs.com/docs/)
 
 
