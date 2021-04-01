@@ -20,6 +20,7 @@ var player;
       'onStateChange': onPlayerStateChange
           }
         });
+        
 // LOAD VIDEO CORK PLAYER
     player = new YT.Player('cork-player', {
     height: '600',
@@ -30,6 +31,7 @@ var player;
       'onStateChange': onPlayerStateChange
           }
         });
+
 // LOAD VIDEO GALWAY PLAYER
     player = new YT.Player('galway-player', {
     height: '600',

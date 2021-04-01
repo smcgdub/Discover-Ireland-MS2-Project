@@ -18,7 +18,6 @@ const bars = 'http://maps.google.com/mapfiles/kml/pal2/icon19.png';
 const restaurant = 'http://maps.google.com/mapfiles/kml/pal2/icon63.png';
 const touristAttractions = 'http://maps.google.com/mapfiles/kml/pal4/icon46.png';
 
-
 // MAP FUNCTION START
 function initMap() {
 
