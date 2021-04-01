@@ -1,9 +1,21 @@
 # **Discover Ireland** #
+![Image of Irish Flag](assets/readme-images/irish-flag.jpg)
 
 ## **Introduction** ##
 
-The Discover Ireland website was created and built by Stephen Mc Govern. The aim of the website is to provide people who are thinking of visiting Dublin, Cork or Galway with information on each city to help them choose which one they would prefer to visit.
+The Discover Ireland website was created and built by Stephen Mc Govern. The aim of the website is to provide people who are thinking of visiting Dublin, Cork or Galway with some information on each city and to help them decide which city they may prefer to visit.
 
+Each city page has the same structure so users will be familiar with the layout if they are browsing all 3 cities. Each page gives a brief overview of the cities history, a short video from the tourist board of each city, a google map with a drop down menu providing some recommendations for categories of Hotels, Bars, Restaurants and Tourist Attractions. I also added an "Our top recommendations" section for places i think a tourist would definitely want to visit while in each city.
+
+**ADDITIONAL FEATURES** 
+
+Some of the additional features i added were:
+
+1. A weather widget at the top of each page that gives a live 7 day forecast of the weather in each city.
+2. A Skyscanner widget that is preset tot he nearest airport of each city. Users just need ot enter their origin city and the dates they wish to travel and Skyscanner will provide them with a list of available flights. At the time of completing this project (April 2021) the Skyscanner widget is also incorporating a Covid-19 travel advice link as this information is also very important to any traveller wishing to book a flight on an airplane. 
+3. At the bottom of each page i have added a contact form that is powered by Email JS. When a user submits a message to the site i as the site owner will receive an email notification. The user will also receive an automated email reply confirming there message has been received and that we will be contacting them shortly to answer their enquiry. 
+
+![Image of the homepage on multiple devices](assets/readme-images/introduction-image.png)
 > 
 ## **Table of contents** ## 
 
@@ -70,7 +82,11 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 ### **1.2 - Visitor goals** ###
 
-* As a potential visitor to the city i want to be able to find out how can i get here from overseas? So flight information is one thing i need. I also want to be able to see options for hotels, restaurants,bars, cafe's and tourist attractions. As ive never been to the city before i would also like some recommendations from the people who run the website. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
+* As a potential visitor to the city i want to be able to find out a few different things. 
+
+1. How can i get here from overseas? So flight information is one thing i need. 
+2. I also want to be able to see options for hotels, restaurants,bars, cafe's and tourist attractions. As ive never been to the city before i would also like some recommendations from the people who run the website. 
+3. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
 
 ### **1.3 - User Stories** ###
 
@@ -78,7 +94,7 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 ### **1.4 - Design Choices** ###
 
-* I wanted the website to be very visual and not just a lot of text. Therefore I have incorporated a lot of imagery on each page, inserted weather and flights widgets, YouTube videos and google maps with places/locations. 
+* I wanted the website to be very visual and not just a lot of text. Therefore I have incorporated a lot of imagery on each page, inserted weather and flights widgets, YouTube videos and google maps with places/location markers for each map. 
 
 **FONTS**
 
@@ -88,7 +104,9 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 * I also decided to incorporate some icons throughout the website. I did this because icons give a more visually pleasing experience for the user and also relate to the type of information that they are looking at. I also incorporated social media icons (Facebook, Twitter, Instagram, YouTube) that are located in the footer of the page.
 
-* All of the icons on the site were taken from the Font Awesome website. The link to the Font Awesome website can be found by clicking: [Here](https://fontawesome.com/)
+* Some of the icons on the site were taken from the Font Awesome website. The link to the Font Awesome website can be found by clicking: [Here](https://fontawesome.com/)
+
+* The icons i used for markers on the Google Map page were icons that come from Google Earth. The link to these icons can be found [Here](http://kml4earth.appspot.com/icons.html) 
 
 **COLOURS**
 
@@ -98,7 +116,7 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 ![Image of the primary colour pallet used for the project](assets/readme-images/primary-colours.png)
 
-* The reason for this particular pallet is because these are the county colours for each city. 
+* The reason for this particular pallet is because these are the colours for each city. 
 
   #FF0000 & #FFFFFF are the colours of Cork<br>
   #9C0404 & #FFFFFF are the colours od Galway
@@ -171,6 +189,10 @@ I wanted to use as wide a range of options as possible to display information to
 
 ### **2.6 - Google Maps API** ###
 
+I have added a Google Map to each city page. Users can click on the dropdown menu and select which category they are looking for recommendations for.
+
+![Google Map image with markers hotels selected](assets/readme-images/google-map-with-markers.png)
+
 ### **2.7 - Contact Us Forum** ###
 
 At the bottom of every page i have placed a contact us form where users can send emails direct to us. The contact us form has Email JS operating on the backend. Once a user clicks ont he send message button an alert will populate to show the user the message was sent. Email JS will also send an auto reply to the user to let them know their message was successfully received and that we will be back in contact with them.
@@ -204,6 +226,12 @@ In the footer i have listed all of the companies social media links. As with the
 
 * 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
 >
+
+## **4. Testing** ##
+
+* Testing information can be found in the [testing.md](testing.md) file
+
+>
 ## **5. Deployment** ##
 
 ### **5.1 Deployment** ###
@@ -219,6 +247,48 @@ To deploy the site on Github i undertook the following steps:
 7. Click save
 
 You will then receive a confirmation saying the page has been published and also be provided with the link where people can view your site.
+
+![Image of page published confirmation](assets/readme-images/github-page-published.png)
+
+The link to view the published site can be found by clicking [Here](https://smcgdub.github.io/Discover-Ireland-MS2-Project/)
+
+### **5.2 Cloning** ###
+
+You can clone the projects repository to your local computer by following the steps below:
+
+Cloning a repository using the command line
+
+1. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Discover-Ireland-MS2-Project
+2. Click on the tab that says < >code
+3. Above the files, click the button that says ↓code
+
+![Image of clone options](assets/readme-images/clone-project.png)
+
+4. From the menu select HTTPS
+5. Click on the clipboard icon on the right hand side (Image below)
+
+![Image of copy clipboard icon](assets/readme-images/github-clipboard.png)
+
+6. Open the terminal in your IDE
+7. Change the current working directory to the location where you want the cloned directory.
+8. In terminal type git clone and then paste the URL you copied earlier: https://github.com/smcgdub/Discover-Ireland-MS2-Project
+9. Press Enter to create your local clone
+
+### **5.3 Cloning Desktop** ###
+
+You can also clone the project using Github Desktop. To do this you can do the following:
+
+1. Download Github Desktop if you do not already have it installed. The link can be found here: [GitHub Desktop](https://desktop.github.com/)
+2. Sign in to GitHub and GitHub Desktop before you start to clone.
+3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Discover-Ireland-MS2-Project
+4. Click on the tab that says < >code
+5. Above the files, click the button that says ↓code
+
+![Image of clone options](assets/readme-images/clone-project.png)
+
+6. Click open with GitHub Desktop to clone and open the repository with GitHub Desktop.
+7. Click Choose... and, using the Finder window, navigate to a local path where you want to clone the repository
+8. Click clone
 
 >
 ## **6. Credits** ##
@@ -396,7 +466,8 @@ All Unsplash images are provided under licence that allows free use of them once
 
 ### **6.3 Acknowledgements** ###
 
-* A huge thank you to all of the tutor team at Code Institute who were always on hand whenever i needed their support.
+* Thank you to all of the tutor team at Code Institute who were always on hand whenever i needed their support.
+* A special thanks to the code institute tutor Tim Nelson who was on hand to help me with my Google Maps JavaScript when it wasnt behaving the way i wanted it to.
 * A big thank you to my mentor Dick Vlaanderen who gave me great feedback on my initial ideas for the project.
 * A final big thank you to all of the other students, CI alumni and CI staff who were always willing to help out and advise on the official CI Slack channels.
 
@@ -405,10 +476,10 @@ All Unsplash images are provided under licence that allows free use of them once
 
 If you need to reach me i can be contacted via the three methods below:
 
-* 7.1 - [LinkedIn](https://www.linkedin.com/in/stephenmcgovern01/)<br>
-* 7.2 - [Email](mailto:stephen_xyz1@hotmail.com)<br>
-* 7.3 - [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
+7.1 - [LinkedIn](https://www.linkedin.com/in/stephenmcgovern01/)<br>
+7.2 - [Email](mailto:stephen_xyz1@hotmail.com)<br>
+7.3 - [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
 >
 ### **8. Disclaimer** ###
-* 8.1 - This website and all of its content was completed for my personal assessment
+8.1 - This website and all of its content was completed for my personal assessment
 and is strictly for educational purposes only.

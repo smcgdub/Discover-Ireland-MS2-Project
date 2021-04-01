@@ -57,14 +57,3 @@ var done = false;
   function stopVideo() {
     player.stopVideo();
 }
-
-// CAPS LOCK CHECK FOR EMAIL ON CONTACT US FORM
-const emailInput = document.getElementById('user_email');
-
-emailInput.addEventListener('keyup', function(event){
-  if (event.getModifierState('CapsLock')) {
-    alert('Caps lock is on!');
-  } else {
-    console.log('Caps lock is off');
-  }
-});

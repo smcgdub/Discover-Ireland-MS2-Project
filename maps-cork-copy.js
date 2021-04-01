@@ -1,35 +1,28 @@
 // VARIABLES
-let map;
-let marker;
-let markers = [];
-let contentString;
-let infoWindow;
-let position;
+  let map;
 
 // CITY VARIABLES 
-const cork = {
-    lat: 51.898627,
-    lng: -8.4705942
-};
+  // const dublin = { lat: 53.34664, lng: -6.271798 }
+  const cork = { lat: 51.898627, lng: -8.4705942 };
+  // const galway = { lat: 53.2744122, lng: -9.0490632 }
 
 // ICON VARIABLES 
-const hotel = 'http://maps.google.com/mapfiles/kml/pal2/icon20.png';
-const bars = 'http://maps.google.com/mapfiles/kml/pal2/icon19.png';
-const restaurant = 'http://maps.google.com/mapfiles/kml/pal2/icon63.png';
-const touristAttractions = 'http://maps.google.com/mapfiles/kml/pal4/icon46.png';
+  const hotel = 'http://maps.google.com/mapfiles/kml/pal2/icon20.png';
+  const bars = 'http://maps.google.com/mapfiles/kml/pal2/icon19.png';
+  const restaurant = 'http://maps.google.com/mapfiles/kml/pal2/icon63.png';
+  const touristAttractions = 'http://maps.google.com/mapfiles/kml/pal4/icon46.png';
 
 // MAP FUNCTION START
-function initMap() {
+  function initMap() {
 
     // MAP OPTIONS 
     const mapOptions = {
-        center: cork,
-        zoom: 14,
+      center: cork,
+      zoom: 15,
     };
-    // CREATE THE MAP 
-    map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    // }
 
+// CREATE THE MAP 
+  map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 // MY MARKERS CORK HOTELS
 var corkHotels = [
@@ -204,134 +197,45 @@ var corkTouristAttractions = [
 ];
 
 // INFO OBJECT THAT WILL STORE THE INFO DISPLAYED IN EACH INFO WINDOW
-    var InfoObj = [];
+var InfoObj = [];
 
-// REMOVE ALL MARKERS
-    function deleteMarkers() {
-        markers.forEach((marker) => {
-            marker.setMap(null);
-            marker = null;
-        });
-        markers = [];
+// LOOPS OVER MARKS
+  for(let i = 0; i < corkHotels.length; i++) {
+    let contentString = '<h2>' + corkHotels[i].name + '</h2>' +
+    '<p>' + corkHotels[i].information + '</p>';
+  
+    const marker = new google.maps.Marker({
+      position: new google.maps.LatLng(corkHotels[i].lat, corkHotels[i].lng),
+      map: map,
+      title: corkHotels[i].name,
+      animation: google.maps.Animation.DROP,
+      icon: hotel,
+    });
+
+// DISPLAY TRAFFIC (MAY NOT USE THIS)
+  // const trafficLayer = new google.maps.TrafficLayer();
+  // trafficLayer.setMap(map);
+
+// CREATE INFO WINDOW 
+  const infoWindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 400
+  });
+
+// EVENT LISTENER FOR CLICK ON ICON
+  marker.addListener("click", function() {
+    closeOtherInfo();
+    infoWindow.open(map, marker);
+    InfoObj[0] = infoWindow;
+  });
+}
+
+// CLEARS OUT ANY OLD INFORMATION FUNCTION
+  function closeOtherInfo(){
+    if( InfoObj.length > 0 ){
+      InfoObj[0].set("marker", null);
+      InfoObj[0].close();
+      InfoObj[0].length = 0;
     }
-
-    // ADD MARKER WITH DATA FROM EACH CATEGORY BEING CLICKED
-    function addMarker(lat, lng, title, icon) {
-        marker = new google.maps.Marker({
-            position: {
-                lat: lat,
-                lng: lng
-            },
-            map: map,
-            title: title,
-            animation: google.maps.Animation.DROP,
-            icon: icon,
-        });
-        markers.push(marker);
-    }
-
-    // CLOSE ALL INFO WINDOWS
-    function closeOtherInfo() {
-        if (InfoObj.length > 0) {
-            InfoObj[0].set("marker", null);
-            InfoObj[0].close();
-            InfoObj[0].length = 0;
-        }
-    }
-
-// CORK HOTELS BUTTON CLICKED 
-    $("#cork-hotels").click(function() {
-        deleteMarkers();
-        corkHotels.forEach((corkHotels) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + corkHotels.name + '</h2>' + '<p>' + corkHotels.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(corkHotels.lat, corkHotels.lng, corkHotels.name, hotel);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
-
-// CORK BARS BUTTON CLICKED 
-    $("#cork-bars").click(function() {
-        deleteMarkers();
-        corkBars.forEach((corkBars) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + corkBars.name + '</h2>' + '<p>' + corkBars.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(corkBars.lat, corkBars.lng, corkBars.name, bars);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
-
-// CORK RESTAURANTS BUTTON CLICKED 
-    $("#cork-restaurants").click(function() {
-        deleteMarkers();
-        corkRestaurants.forEach((corkRestaurants) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + corkRestaurants.name + '</h2>' + '<p>' + corkRestaurants.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(corkRestaurants.lat, corkRestaurants.lng, corkRestaurants.name, restaurant);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
-
-// CORK TOURIST ATTRACTIONS BUTTON CLICKED
-    $("#cork-tourist-attractions").click(function() {
-        deleteMarkers();
-        corkTouristAttractions.forEach((corkTouristAttractions) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + corkTouristAttractions.name + '</h2>' + '<p>' + corkTouristAttractions.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(corkTouristAttractions.lat, corkTouristAttractions.lng, corkTouristAttractions.name, touristAttractions);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
   }
+}

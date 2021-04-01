@@ -1,35 +1,28 @@
 // VARIABLES
-let map;
-let marker;
-let markers = [];
-let contentString;
-let infoWindow;
-let position;
+  let map;
 
 // CITY VARIABLES 
-const galway = {
-    lat: 53.2744122,
-    lng: -9.0490632
-};
+  // const dublin = { lat: 53.34664, lng: -6.271798 }
+  // const cork = { lat: 51.898627, lng: -8.4705942 }
+  const galway = { lat: 53.2744122, lng: -9.0490632 };
 
 // ICON VARIABLES 
-const hotel = 'http://maps.google.com/mapfiles/kml/pal2/icon20.png';
-const bars = 'http://maps.google.com/mapfiles/kml/pal2/icon19.png';
-const restaurant = 'http://maps.google.com/mapfiles/kml/pal2/icon63.png';
-const touristAttractions = 'http://maps.google.com/mapfiles/kml/pal4/icon46.png';
-
+  const hotel = 'http://maps.google.com/mapfiles/kml/pal2/icon20.png';
+  const bars = 'http://maps.google.com/mapfiles/kml/pal2/icon19.png';
+  const restaurant = 'http://maps.google.com/mapfiles/kml/pal2/icon63.png';
+  const touristAttractions = 'http://maps.google.com/mapfiles/kml/pal4/icon46.png';
 
 // MAP FUNCTION START
-function initMap() {
+  function initMap() {
 
     // MAP OPTIONS 
     const mapOptions = {
-        center: galway,
-        zoom: 14,
+      center: galway,
+      zoom: 15,
     };
-    // CREATE THE MAP 
-    map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    // }
+
+// CREATE THE MAP 
+  map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 // MY MARKERS GALWAY HOTELS
 var galwayHotels = [
@@ -202,134 +195,45 @@ var galwayTouristAttractions = [
 ];
 
 // INFO OBJECT THAT WILL STORE THE INFO DISPLAYED IN EACH INFO WINDOW
-    var InfoObj = [];
+var InfoObj = [];
 
-// REMOVE ALL MARKERS
-    function deleteMarkers() {
-        markers.forEach((marker) => {
-            marker.setMap(null);
-            marker = null;
-        });
-        markers = [];
+// LOOPS OVER MARKS
+  for(let i = 0; i < galwayTouristAttractions.length; i++) {
+    let contentString = '<h2>' + galwayTouristAttractions[i].name + '</h2>' +
+    '<p>' + galwayTouristAttractions[i].information + '</p>';
+    
+    const marker = new google.maps.Marker({
+      position: new google.maps.LatLng(galwayTouristAttractions[i].lat, galwayTouristAttractions[i].lng),
+      map: map,
+      title: galwayTouristAttractions[i].name,
+      animation: google.maps.Animation.DROP,
+      icon: touristAttractions,
+    });
+
+// DISPLAY TRAFFIC (MAY NOT USE THIS)
+  // const trafficLayer = new google.maps.TrafficLayer();
+  // trafficLayer.setMap(map);
+
+// CREATE INFO WINDOW 
+  const infoWindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 400
+  });
+
+// EVENT LISTENER FOR CLICK ON ICON
+  marker.addListener("click", function() {
+    closeOtherInfo();
+    infoWindow.open(map, marker);
+    InfoObj[0] = infoWindow;
+  });
+}
+
+// CLEARS OUT ANY OLD INFORMATION FUNCTION
+  function closeOtherInfo(){
+    if( InfoObj.length > 0 ){
+      InfoObj[0].set("marker", null);
+      InfoObj[0].close();
+      InfoObj[0].length = 0;
     }
-
-// ADD MARKER WITH DATA FROM EACH CATEGORY BEING CLICKED
-    function addMarker(lat, lng, title, icon) {
-        marker = new google.maps.Marker({
-            position: {
-                lat: lat,
-                lng: lng
-            },
-            map: map,
-            title: title,
-            animation: google.maps.Animation.DROP,
-            icon: icon,
-        });
-        markers.push(marker);
-    }
-
-// CLOSE ALL INFO WINDOWS
-    function closeOtherInfo() {
-        if (InfoObj.length > 0) {
-            InfoObj[0].set("marker", null);
-            InfoObj[0].close();
-            InfoObj[0].length = 0;
-        }
-    }
-
-// GALWAY HOTELS BUTTON CLICKED 
-    $("#galway-hotels").click(function() {
-        deleteMarkers();
-        galwayHotels.forEach((galwayHotels) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + galwayHotels.name + '</h2>' + '<p>' + galwayHotels.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(galwayHotels.lat, galwayHotels.lng, galwayHotels.name, hotel);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
-
-// GALWAY BARS BUTTON CLICKED 
-    $("#galway-bars").click(function() {
-        deleteMarkers();
-        galwayBars.forEach((galwayBars) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + galwayBars.name + '</h2>' + '<p>' + galwayBars.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(galwayBars.lat, galwayBars.lng, galwayBars.name, bars);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
-
-// GALWAY RESTAURANTS BUTTON CLICKED 
-    $("#galway-restaurants").click(function() {
-        deleteMarkers();
-        galwayRestaurants.forEach((galwayRestaurants) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + galwayRestaurants.name + '</h2>' + '<p>' + galwayRestaurants.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(galwayRestaurants.lat, galwayRestaurants.lng, galwayRestaurants.name, restaurant);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
-
-// GALWAY TOURIST ATTRACTIONS BUTTON CLICKED
-    $("#galway-tourist-attractions").click(function() {
-        deleteMarkers();
-        galwayTouristAttractions.forEach((galwayTouristAttractions) => {
-            infoWindow = new google.maps.InfoWindow;
-            context = '<h2>' + galwayTouristAttractions.name + '</h2>' + '<p>' + galwayTouristAttractions.information + '</p>';
-
-            // CREATE MARKER
-            addMarker(galwayTouristAttractions.lat, galwayTouristAttractions.lng, galwayTouristAttractions.name, touristAttractions);
-
-            // CREATE INFO WINDOW AND BIND TO EACH MARKER
-            addInfoWindow(marker, map, infoWindow, context);
-        });
-
-        function addInfoWindow(marker, map, infoWindow, context) {
-            google.maps.event.addListener(marker, "click", function() {
-                closeOtherInfo();
-                infoWindow.setContent(context);
-                infoWindow.open(map, marker);
-                InfoObj[0] = infoWindow;
-            });
-        }
-    });
   }
+}
