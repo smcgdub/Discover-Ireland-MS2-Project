@@ -24,7 +24,7 @@ function initMap() {
     // MAP OPTIONS 
     const mapOptions = {
         center: dublin,
-        zoom: 14,
+        zoom: 13,
     };
     // CREATE THE MAP 
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -313,6 +313,7 @@ function initMap() {
             "name": "Guinness Store House",
             "information": `<b>Address</b>: St. James's Gate, Dublin 8, D08 VF8H <br> 
                         <b>Phone</b>: +353 1 408 4800 <br>
+                        <b>About</b>: Brewery experience telling the tale of Ireland's famous beer <br>
                         <a href="https://www.guinness-storehouse.com/en" target=”_blank”>Website Here</a>`
         },
 
@@ -322,7 +323,7 @@ function initMap() {
             "name": "Viking Splash Tours",
             "information": `<b>Address</b>: St Stephens Green North, Dublin 2 <br> 
                         <b>Phone</b>: +353 1 707 6000 <br>
-                        <b>About</b>: Brewery experience telling the tale of Ireland's famous beer <br>
+                        <b>About</b>: A great way to see the sights of Dublin via amphibious vehicle on both land and water <br>
                         <a href="https://www.facebook.com/VikingSplashDublin/" target=”_blank”>Website Here</a>`
         },
 
