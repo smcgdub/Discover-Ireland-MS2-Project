@@ -1,5 +1,5 @@
 # **Discover Ireland Testing Information** #
-![Image of Irish Flag](assets/readme-images/irish-flag.jpg)
+![Image of the homepage on multiple devices](assets/readme-images/introduction-image.png)
 >
 ## **Table of contents** ##
 
@@ -15,7 +15,8 @@
 * 2.2 Manual testing mobile
 
 ### **3. JavaScript Specific Testing** ###
-<br>
+
+* This section is more detailed and contains information for each Javascript file. 
 
 >
 
@@ -32,6 +33,8 @@
 * All of the files came back clear with the result of **"Congratulations! No Error Found."**
 
 **1.3 JavaScript Code Validating**
+
+* All of the JavaScript files were tested using 2 validators. The first  
 
 * 
 
@@ -159,3 +162,22 @@ The incoming message the site receives from the user is always received immediat
 >
 
 ### **3. JavaScript Specific Testing** ###
+
+I have created 5 different JavaScript files in this project.
+
+**1. The app.js file**
+
+* This file contains the JavaScript for the creation and loading of the weather widgets, and also the 3 YouTube videos on the site (One on each city page)
+* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/) This site allows you to enter your JavaScript code into it and it will then minify it. I have then inserted this minified code into the app.js file. The original code can still be viewed as it is stored in the ........js file in the JavaScript folder. 
+
+**2. The email.js file**
+
+* This file contains the JavaScript for the Email JS contact us form. 
+* You will see in each cities HTML file that the `<script>` for the Email JS is written in the head of the HTML (from lines 18 > 21) and not at the end of the body. The instructions from the Email JS docs says to list this here and not at the bottom of the body, hence why it is here in the `<head>` section.
+* I did try to put the email.js file in the JavaScript minifier but it seemed to effect the performance so i left the code as it was originally. 
+
+**3. The maps-dublin/cork/galway.js files**
+
+* I have created a separate Google maps.js file for each city. 
+* This file is the file that creates the google map on each page. It also created the markers, the icons, and has the code for clearing the map and dropping the icons when the user selects the category they are searching for from the "Click for local recommendations" drop down menu. 
+* Again with each of these files a ran it through the JavaScript Minifier to compress the code so as to aid with page load times. 
