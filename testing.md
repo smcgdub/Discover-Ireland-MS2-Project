@@ -36,7 +36,6 @@
 * 
 
 >
-
 ### **2. Manual Testing** ###
 
 **2.1 Manual testing desktop**
@@ -93,6 +92,7 @@ The testing below was carried out on all pages Dublin, Cork & Galway. To stop du
 * I have used Email JS for this contact us form. When the user sends an email via the website they will receive a pop up notification confirming their message has been sent. 
 * I will also receive an email with the users message and details. First name and e-mail address are required fields and the message will not send unless these fields have been populated. 
 * The user will also receive an automated email from the site confirming their message has been received and confirms someone will be in contact with them soon.
+* I have also added a spell check to the free text message box on the contact us form. 
 
 **Note:** - Once the user message has been submitted via the site, the auto reply can sometimes vary in the speed of the response being sent to the user. This is down to Email JS and is out of my control. I have set it so Email JS should send the email immediately. 
 
@@ -103,3 +103,59 @@ The incoming message the site receives from the user is always received immediat
 * The footer of each page contains the social media icons and the links to the different cities. 
 * I have tested all of the social media links behind the icons on each page and they all point to the correct social media site relative to the icon. When clicked the social media site will open in a new tab/window 
 * I have also tested the city links and they also point to the correct page. 
+>
+**2.1 Manual testing mobile**
+
+**1. Navbar**
+
+* When viewing on a tablet horizontally the Navbar will display all of the list items the same as a desktop. 
+* When held vertically on a tablet the Navbar will display with the hamburger menu in place. 
+* On mobile phones whether held horizontally or vertically the Navbar will always appear as a hamburger menu. When pressed the hamburger menu expands to show the list items. 
+* Have clicked on the Discover Ireland title on the left of the Navbar. Can confirm it brings the user back to the index.html landing page.
+
+**2. Weather Widget**
+
+* The weather widget is displaying an animated 7 days forecast for each city. The days of the week are displayed correctly.
+* On mobile phones the weather widget height is increased to 2 rows. The top row is the current weather and the 2nd row below is the 7 days forecast. 
+
+**3. Photo Carousel**
+
+* The 3 photos of each city are all being displayed correctly. The carousel will change images automatically however users and also click through the photos manually.
+* On small screen sizes (Mobile phones) the text description for the photo will not be visible, just the image, 
+
+**4. City coat of arms**
+
+* When the tablet is held horizontally the coat of arms is displayed.
+* When the tablet is held vertically and on mobile phones the coat of arms is not visible.  
+
+**5. Skyscanner Widget**
+
+* The Skyscanner widget on mobile devices works the same was as it does on desktop. 
+* The widget is responsive so the layout will automatically adjust depending on screen size. 
+
+**6. YouTube Video**
+
+* All of the YouTube videos from the tourist board are loading correctly. They do not autostart and users must press play themselves to start the video. The user can also adjust the volume of the video in the controller. 
+* On mobile if the user clicks on the title of the video the YouTube app (If installed on the device) will open and the vide will play on there. 
+
+**7. Google Map**
+
+* The Google Map opens and functions the exact same way it does on desktop. 
+* On mobile devices the user must use 2 fingers to move and adjust the map as is normal on most mobile devices. This allows the user to drag the page up and down even if they are doing so by holding 1 finger on the map.
+
+**8. Our Top Recommendations**
+
+* On a tablet when holding horizontal the 4 recommendations will be displayed on 1 single row as they are on a desktop.
+* When the tablet is held vertically the recommendations forms on 2 rows instead of 1. There will be 2 recommendations on each row. 
+* On small screens and mobile phones the recommendations will be stacked one on top of the other. 
+
+**9. Contact Us Form**
+
+* The contact us form works exactly the same on mobiles and tablets as it does on desktops. 
+
+**10. The Footer**
+
+* The footer works exactly the same on mobiles and tablets as it does on desktops.  
+>
+
+### **3. JavaScript Specific Testing** ###
