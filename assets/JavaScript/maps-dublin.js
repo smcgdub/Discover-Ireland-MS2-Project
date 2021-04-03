@@ -79,11 +79,11 @@ function initMap() {
             "lat": 53.345388799999995,
             "lng": -6.241403637369489,
             "name": "The Clayton Hotel",
-            "information": `<b>Address</b>: Sir John Rogerson's Quay, Docklands, Dublin, D02 YT21, <br>
+            "information": `<b>Address</b>: Sir John Rogerson's Quay, Docklands, Dublin, D02 YT21 <br>
                         <b>Phone</b>: +353 1 643 9500 <br>
                         <b>About</b>: Modern hotel in a seven storey, contemporary landmark building 
                         <br><br>
-                        <a href="https://www.claytonhotelcardifflane.com/?nst=0&gclid=CjwKCAjwxuuCBhATEiwAIIIz0Qd7aaemBOTIc0i4t8hP5glZ4AkDtU2WveMHcAHu1NIYnquwocgCSBoCSvcQAvD_BwE&gclsrc=aw.ds” target=”_blank”>Website Here</a>`
+                        <a href="https://www.claytonhotelcardifflane.com/" target=”_blank”>Website Here</a>`
         },
 
         {
