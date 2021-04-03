@@ -16,7 +16,7 @@
 
 ### **3. JavaScript Specific Testing** ###
 
-* This section is more detailed and contains information for each Javascript file. 
+* This section is the most detailed and contains all the information for the testing of each Javascript file.
 
 >
 
@@ -31,12 +31,6 @@
 
 * The main CSS files were tested on the [W3C CSS  Validation website](https://jigsaw.w3.org/css-validator/) 
 * All of the files came back clear with the result of **"Congratulations! No Error Found."**
-
-**1.3 JavaScript Code Validating**
-
-* All of the JavaScript files were tested using 2 validators. The first  
-
-* 
 
 >
 ### **2. Manual Testing** ###
@@ -163,19 +157,66 @@ The incoming message the site receives from the user is always received immediat
 
 ### **3. JavaScript Specific Testing** ###
 
-I have created 5 different JavaScript files in this project.
+I have created 5 different active JavaScript files in this project. They are:
 
-**1. The app.js file**
+1. app.js
+2. email.js
+3. maps-dublin.js
+4. maps-cork.js
+5. maps-galway.js
 
-* This file contains the JavaScript for the creation and loading of the weather widgets, and also the 3 YouTube videos on the site (One on each city page)
-* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/) This site allows you to enter your JavaScript code into it and it will then minify it. I have then inserted this minified code into the app.js file. The original code can still be viewed as it is stored in the ........js file in the JavaScript folder. 
+### **1. The app.js file** ###
 
-**2. The email.js file**
+* This file contains the JavaScript for the creation and loading of the weather widgets, the 3 YouTube videos on the site (One on each city page) and for the smooth scrolling effect you get from clicking on a list item in the Navbar.
+
+**TESTING OF THE APP.JS FILE**
+
+The testing for the app.js file was carried out on [JShint.com](https://jshint.com/) The results from the test were as follows:
+
+![Image of app.js file test results](assets/readme-images/app-js-test-results.png)
+
+NOTES ON TESTING 
+
+1. The one warning on line 4 i have ignored. This is for the weather widget that is displayed at the top of each page. I have followed the instructions from the weather widget provider and the code is correct. The functionality of the widget has been tested thoroughly on each page and it is working exactly as intended.<br>
+
+2. JShint has listed "Two undefined variables" of YT and $. Again this is incorrect and i have ignored it.<br><br>
+2.1 The YT relates to the creation of a new YT.player for the YouTube videos. The code i have used is referenced direct from the Google YT Documentation. The YouTube videos have been tested thoroughly for functionality and they are all working perfectly and as expected.<br><br>
+2.2 The $ is the JQuery for the smooth page scroll function that happens when a user clicks on an item in the Navbar. Again this has been tested thoroughly for functionality and it is working perfectly and as expected.<br>
+
+3. The result of "One unused variable" for onYouTubeIframeAPIReady again is incorrect and i have ignored it. This is the function name given to create a new YouTube player and again is taken under instruction from the official YouTube documentation. Each player has been tested thoroughly for functionality and they are working perfectly and as expected
+
+**IMPROVE PERFORMANCE OF THE APP.JS FILE**
+
+* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it. I have then inserted the minified code into the app.js file. 
+
+* **The original JavaScript code can still be viewed as it is stored in the original-code-app.js file.**
+
+>
+
+### **2. The email.js file** ###
 
 * This file contains the JavaScript for the Email JS contact us form. 
-* You will see in each cities HTML file that the `<script>` for the Email JS is written in the head of the HTML (from lines 18 > 21) and not at the end of the body. The instructions from the Email JS docs says to list this here and not at the bottom of the body, hence why it is here in the `<head>` section.
+
+**TESTING OF THE EMAIL.JS FILE**
+
+The testing for the app.js file was carried out on [JShint.com](https://jshint.com/) The results from the test were as follows:
+
+![Image of app.js file test results](assets/readme-images/email-js-test-results.png)
+
+NOTES ON TESTING 
+
+1. The "One undefined variable" on lines 5 and 15 i have ignored. I used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. 
+
+
+
 * I did try to put the email.js file in the JavaScript minifier but it seemed to effect the performance so i left the code as it was originally. 
 
+
+
+
+
+
+>
 **3. The maps-dublin/cork/galway.js files**
 
 * I have created a separate Google maps.js file for each city. 

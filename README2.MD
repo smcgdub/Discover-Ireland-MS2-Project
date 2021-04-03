@@ -297,7 +297,12 @@ You can also clone the project using Github Desktop. To do this you can do the f
 
 **GLOBAL**
 
-Airport Arrivals Picture purchased from iStock Photo
+* Homepage/Landing page beach image<br>
+Photo by <a href="https://unsplash.com/photos/NWcnShn8vfk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Chris Marquardt</a> on Unsplash
+<br>
+[Image Here](https://unsplash.com/photos/NWcnShn8vfk)
+
+* Airport Arrivals Picture purchased from iStock Photo
 <br>
 [Image here](https://www.istockphoto.com/photo/airport-arrivals-sign-in-dublin-ireland-gm181077388-25334697) 
 
@@ -482,5 +487,5 @@ If you need to reach me i can be contacted via the three methods below:
 7.3 - [Skype](https://join.skype.com/invite/ndruMu7qVuKZ)
 >
 ### **8. Disclaimer** ###
-8.1 - This website and all of its content was completed for my personal assessment
-and is strictly for educational purposes only.
+
+8.1 - This website and all of its content was completed for my personal assessment and is strictly for educational purposes only.
