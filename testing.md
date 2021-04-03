@@ -33,6 +33,7 @@
 * All of the files came back clear with the result of **"Congratulations! No Error Found."**
 
 >
+
 ### **2. Manual Testing** ###
 
 **2.1 Manual testing desktop**
@@ -99,8 +100,10 @@ The incoming message the site receives from the user is always received immediat
 
 * The footer of each page contains the social media icons and the links to the different cities. 
 * I have tested all of the social media links behind the icons on each page and they all point to the correct social media site relative to the icon. When clicked the social media site will open in a new tab/window 
-* I have also tested the city links and they also point to the correct page. 
+* I have also tested the city links and they also point to the correct page.
+
 >
+
 **2.1 Manual testing mobile**
 
 **1. Navbar**
@@ -153,6 +156,7 @@ The incoming message the site receives from the user is always received immediat
 **10. The Footer**
 
 * The footer works exactly the same on mobiles and tablets as it does on desktops.  
+
 >
 
 ### **3. JavaScript Specific Testing** ###
@@ -201,24 +205,49 @@ NOTES ON TESTING
 
 The testing for the app.js file was carried out on [JShint.com](https://jshint.com/) The results from the test were as follows:
 
-![Image of app.js file test results](assets/readme-images/email-js-test-results.png)
+![Image of email.js file test results](assets/readme-images/email-js-test-results.png)
 
 NOTES ON TESTING 
 
 1. The "One undefined variable" on lines 5 and 15 i have ignored. I used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. 
 
+**IMPROVE PERFORMANCE OF THE EMAIL.JS FILE**
 
-
-* I did try to put the email.js file in the JavaScript minifier but it seemed to effect the performance so i left the code as it was originally. 
-
-
-
-
-
+* I did try to put the email.js file in the JavaScript minifier but it seemed to effect the performance so deleted the minified code and left the original code in this file. 
 
 >
-**3. The maps-dublin/cork/galway.js files**
+### **3. The maps-dublin/cork/galway.js files** ###
 
-* I have created a separate Google maps.js file for each city. 
-* This file is the file that creates the google map on each page. It also created the markers, the icons, and has the code for clearing the map and dropping the icons when the user selects the category they are searching for from the "Click for local recommendations" drop down menu. 
-* Again with each of these files a ran it through the JavaScript Minifier to compress the code so as to aid with page load times. 
+* These 3 files contain the Javascript for the Google Map and all of its functionality for the Dublin, Cork and Galway pages. 
+* It also contains the JavaScript for the creation of the markers, the info windows, the code for clearing the map and also dropping new icons when a user selects a specific category from the "Click for local recommendations" drop down menu.
+
+**TESTING OF THE MAPS-DUBLIN/CORK/GALWAY.JS FILE**
+
+The testing for the app.js file was carried out on [JShint.com](https://jshint.com/) The results from the test were as follows:
+
+As the functional code for each of these files is the same the JShint has produced the same report for each city page test. To avoid repetition i will list below the results once, but the results apply to each of the map files.
+
+![Image of maps-dublin.js maps-cork.js and maps-galway.js file test results](assets/readme-images/maps-test-results.png)
+
+NOTES ON TESTING 
+
+1. The 4 warnings for the missing '()' invoking a constructor i have ignored. I did go back to the file and insert these '()' into the code as JShint recommended and my google map stopped working so i have removed them and left the code as it was originally.<br>
+
+2. The 3 undefined variables i have also ignored.<br><br>
+2.1 The google undefined variable relates to the creation of a new google map. The code i have used is referenced direct from the Google maps documentation and the maps have been tested thoroughly for functionality and they are all working perfectly and as expected.<br><br>
+2.2 The $ is the JQuery for the smooth page scroll function that happens when a user clicks on an item in the Navbar. Again this has been tested thoroughly for functionality and it is working perfectly and as expected.<br><br>
+2.3 JShint is saying context is undefined but in my code context is used in the formation of the infoWindow for each marker. Again i have tested the code thoroughly for functionality and all is working perfectly and as expected.<br>
+
+3. The unused variable of position on line 8 is somewhat incorrect. On line 8 there is no value assigned to that variable, however i use the position variable (Line 406 in original code file) later in the code along with the lng lat to add a marker to the map at a specific point. 
+
+4. The initMap that it says is an unused variable is actually the name of the function for creating the google map (line 21 in original code file). I referenced the Google maps documentation when building this function and have tested the map thoroughly for functionality and all is working perfectly and as expected.
+
+**IMPROVE PERFORMANCE OF THE MAPS.JS FILES**
+
+* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it. I have then inserted the minified code into each of the cities maps-(city).js file 
+
+**The original JavaScript code for each map file can still be viewed it is stored in:**
+
+original-code-maps-dublin.js <br>
+original-code-maps-cork.js <br>
+original-code-maps-galway.js
