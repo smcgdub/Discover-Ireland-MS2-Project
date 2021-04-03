@@ -193,7 +193,7 @@ NOTES ON TESTING
 
 * To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it. I have then inserted the minified code into the app.js file. 
 
-* **The original JavaScript code can still be viewed as it is stored in the original-code-app.js file.**
+* **The original JavaScript code can still be viewed as it is stored in the original code folder in the original-code-app.js file.**
 
 >
 
@@ -244,10 +244,12 @@ NOTES ON TESTING
 
 **IMPROVE PERFORMANCE OF THE MAPS.JS FILES**
 
-* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it. I have then inserted the minified code into each of the cities maps-(city).js file 
+* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it.
 
-**The original JavaScript code for each map file can still be viewed it is stored in:**
+* **The original JavaScript code for each map file can still be viewed as it is stored in the original code folder. The files are:**<br>
 
-original-code-maps-dublin.js <br>
-original-code-maps-cork.js <br>
-original-code-maps-galway.js
+1. original-code-maps-dublin.js<br>
+2. original-code-maps-cork.js<br>
+3. original-code-maps-galway.js<br>
+
+>
