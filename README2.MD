@@ -458,10 +458,11 @@ All Unsplash images are provided under licence that allows free use of them once
 
 ### **6.2 Code** ###
 
-* The majority of the code i used was Bootstrap version 4.6. The official documentation is the best place to reference for information [Bootstrap Documentation Here](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+* The majority of the code i used was Bootstrap version 4.6. The official Bootstrap documentation is the best place to reference for everything you need: [Bootstrap Documentation Here](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 * For the YouTube API i resourced the official Google documentation [YouTube Official Documentation Here](https://developers.google.com/youtube/iframe_api_reference)
 * For the Google map i used the Google maps [Javascript API official documentation](https://developers.google.com/maps/documentation/javascript/overview) and also the Google maps [Places API official documentation](https://developers.google.com/maps/documentation/places/web-service/overview)
 * For the Email JS feature i referenced the official [Email JS documentation here](https://www.emailjs.com/docs/)
+* To achieve the smooth scrolling effect on the page when you click on an item in the Navbar i followed the tutorial on YouTube by Kevin Powell. The link to the tutorial can be found here: [Smooth scrolling tutorial](https://www.youtube.com/watch?v=x0YnVwAuNQI)
 
 
 ### **6.3 Acknowledgements** ###

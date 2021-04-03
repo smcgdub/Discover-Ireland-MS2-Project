@@ -44,7 +44,7 @@ var player;
         });
       }
 
-// AUTO PLAY FUNCTION SET TO NONE
+// AUTO PLAY FUNCTION SET TO NONE. CODE ON LINE 48 MUST BE LEFT IN PLACE OR PLAYER WILL NOT LOAD, JUST COMMENT OUT AUTOPLAY FUNCTION
 function onPlayerReady(event) {
   // event.target.playVideo();
 }
@@ -60,12 +60,12 @@ var done = false;
     player.stopVideo();
 }
 
-// SCROLL FROM NAVBAR 
+// SMOOTH SCROLLING FROM CLICKING NAVBAR ITEMS 
 $(document).ready(function(){
-
+  // DECLARE THE VARIABLE AND LINK IT TO THE SCROLL CLASS CREATED
   var scrollLink = $('.scroll');
 
-  // SMOOTH SCROLLING
+  // SMOOTH SCROLLING FUNCTION
   scrollLink.click(function(e){
     event.preventDefault();
     $('body,html').animate({
@@ -73,3 +73,14 @@ $(document).ready(function(){
     }, 1000)
   })
 })
+
+// CAPS LOCK CHECK FOR EMAIL ON CONTACT US FORM
+const emailInput = document.getElementById('user_email');
+
+emailInput.addEventListener('keyup', function(event){
+  if (event.getModifierState('CapsLock')) {
+    alert('Caps lock is on!');
+  } else {
+    console.log('Caps lock is off');
+  }
+});
