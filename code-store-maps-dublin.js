@@ -36,8 +36,9 @@ function initMap() {
             "lng": -6.256107687950135,
             "name": "The Shelbourne Hotel",
             "information": `<b>Address</b>: 27 St Stephen's Green, Dublin, D02 K224, <br> 
-                        <b>Phone</b>: +3535 1 663 4500 <br><br>
-                        <b>About</b>: Dublin's best 5 Star hotel located right on St Stephen Green <br>  
+                        <b>Phone</b>: +3535 1 663 4500 <br>
+                        <b>About</b>: Dublin's best 5 Star hotel located right on St Stephen Green 
+                        <br><br>  
                         <a href="https://www.theshelbourne.com/" target=”_blank”>Website Here</a>`
         },
 
@@ -46,8 +47,8 @@ function initMap() {
             "lng": -6.260316065714047,
             "name": "The Gresham Hotel",
             "information": `<b>Address</b>: 23 O'Connell Street Upper, Dublin, D01 C3W7, <br>
-                        <b>Phone</b>: +353 1 874 6881 <br><br>
-                        <b>About</b>: Stately 4 star hotel in a grand Georgian building overlooking the city center's main street <br>
+                        <b>Phone</b>: +353 1 874 6881 <br>
+                        <b>About</b>: Stately 4 star hotel in a grand Georgian building overlooking the city center's main street <br><br>
                         <a href="https://www.gresham-hotels-dublin.com/" target=”_blank”>Website Here</a>`
         },
 
@@ -56,8 +57,9 @@ function initMap() {
             "lng": -6.264855223428146,
             "name": "The Marlin Hotel",
             "information": `<b>Address</b>: 11 Bow Ln E, St Stephen's Green, Dublin, D02 AY81, <br>
-                        <b>Phone</b>: +353 1 522 2000 <br><br>
-                        <b>About</b>: Swish, intelligently designed, and with a definite added note of style <br>
+                        <b>Phone</b>: +353 1 522 2000 <br>
+                        <b>About</b>: Swish, intelligently designed, and with a definite added note of style 
+                        <br><br>
                         <a href="https://www.marlinhotel.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -66,8 +68,9 @@ function initMap() {
             "lng": -6.277675,
             "name": "Generator Hostel Smithfield",
             "information": `<b>Address</b>: Generator Hostel, Smithfield, Dublin, D07 F2VF, <br>
-                        <b>Phone</b>: +353 1 901 0222 <br><br>
-                        <b>About</b>: Award winning modern hostel located right next to the Jameson Distillery <br>
+                        <b>Phone</b>: +353 1 901 0222 <br>
+                        <b>About</b>: Award winning modern hostel located right next to the Jameson Distillery 
+                        <br><br>
                         <a href="https://staygenerator.com/hostels/dublin?lang=en-GB&gclid=CjwKCAjwxuuCBhATEiwAIIIz0YWGaDpOxXDMo51eGQunYbMZkRj5MIJNbG0m5wi5prManHf_bGNBiBoCSXsQAvD_BwE&gclsrc=aw.ds" target=”_blank”>Website Here</a>`
         },
 
@@ -77,8 +80,9 @@ function initMap() {
             "name": "The Clayton Hotel",
             "information": `<b>Address</b>: Sir John Rogerson's Quay, Docklands, Dublin, D02 YT21, <br>
                         <b>Phone</b>: +353 1 643 9500 <br>
-                        <b>About</b>: Modern hotel in a seven storey, contemporary landmark building <br>
-                        <a href="https://www.claytonhotelcardifflane.com/?nst=0&gclid=CjwKCAjwxuuCBhATEiwAIIIz0Qd7aaemBOTIc0i4t8hP5glZ4AkDtU2WveMHcAHu1NIYnquwocgCSBoCSvcQAvD_BwE&gclsrc=aw.ds”>Website Here</a>`
+                        <b>About</b>: Modern hotel in a seven storey, contemporary landmark building 
+                        <br><br>
+                        <a href="https://www.claytonhotelcardifflane.com/?nst=0&gclid=CjwKCAjwxuuCBhATEiwAIIIz0Qd7aaemBOTIc0i4t8hP5glZ4AkDtU2WveMHcAHu1NIYnquwocgCSBoCSvcQAvD_BwE&gclsrc=aw.ds” target=”_blank”>Website Here</a>`
         },
 
         {
@@ -87,7 +91,8 @@ function initMap() {
             "name": "Wynn's Hotel Dublin",
             "information": `<b>Address</b>: 35-39 Abbey Street Lower, North City, D01 C9F8, <br>
                         <b>Phone</b>: +353 1 874 5131 <br>
-                        <b>About</b>: Historic must-stay hotel in the heart of the city built in 1845 <br>
+                        <b>About</b>: Historic must-stay hotel in the heart of the city built in 1845 
+                        <br><br>
                         <a href="https://www.wynnshotel.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -97,7 +102,8 @@ function initMap() {
             "name": "Jurys Inn Christchurch Hotel",
             "information": `<b>Address</b>: 8 Christchurch Pl, Dublin 8, D08 REK7, <br>
                         <b>Phone</b>: +353 1 454 0000 <br>
-                        <b>About</b>: Perfect city centre location to explore everything Dublin has to offer <br>
+                        <b>About</b>: Perfect city centre location to explore everything Dublin has to offer 
+                        <br><br>
                         <a href="https://www.jurysinns.com/hotels/dublin/christchurch" target=”_blank”>Website Here</a>`
         },
 
@@ -107,7 +113,8 @@ function initMap() {
             "name": "The Morrison Hotel",
             "information": `<b>Address</b>: 15 - 19 Ormond Quay Lower, North City, Dublin, D01 K5X5, <br>
                         <b>Phone</b>: +353 1 887 2400 <br>
-                        <b>About</b>: 4 star boutique hotel located in Dublin city Centre <br>
+                        <b>About</b>: 4 star boutique hotel located in Dublin city Centre 
+                        <br><br>
                         <a href="https://www.morrisonhotel.ie/" target=”_blank”>Website Here</a>`
         },
     ];
@@ -119,7 +126,8 @@ function initMap() {
             "name": "O Donoghue's Bar",
             "information": `<b>Address</b>:  15 Merrion Row, Dublin, D02 PF50, <br> 
                         <b>Phone</b>: +3535 1 660 7194 <br>
-                        <b>About</b>: Rustic lively pub with traditional irish music most nights <br>
+                        <b>About</b>: Rustic lively pub with traditional irish music most nights 
+                        <br><br>
                         <a href="https://www.odonoghues.ie/bar.htm" target=”_blank”>Website Here</a>`
         },
 
@@ -129,7 +137,8 @@ function initMap() {
             "name": "Cafe En Sein",
             "information": `<b>Address</b>: 40 Dawson St, Dublin, D02 PX20 <br> 
                         <b>Phone</b>: +3535 1 677 4567 <br>
-                        <b>About</b>: Elegant art nouveau bar spread over 3 floors <br>
+                        <b>About</b>: Elegant art nouveau bar spread over 3 floors 
+                        <br><br>
                         <a href="https://www.cafeenseine.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -139,7 +148,8 @@ function initMap() {
             "name": "Whelans",
             "information": `<b>Address</b>: 25 Wexford St, Portobello, Dublin 2, D02 H527 <br> 
                         <b>Phone</b>: +3535 1 478 0766 <br>
-                        <b>About</b>: Whelan's is Dublin's original live music venue & best indie nightclub <br>
+                        <b>About</b>: Whelan's is Dublin's original live music venue & best indie nightclub 
+                        <br><br>
                         <a href="http://www.whelanslive.com/" target=”_blank”>Website Here</a>`
         },
 
@@ -149,7 +159,8 @@ function initMap() {
             "name": "The Church Late Bar",
             "information": `<b>Address</b>: Jervis St, Dublin, D01 YX64 <br> 
                         <b>Phone</b>: +3535 1 828 0102 <br>
-                        <b>About</b>: Imposing church with cafe/bar and Irish restaurant surrounded by terraces <br>
+                        <b>About</b>: Imposing church with cafe/bar and Irish restaurant surrounded by terraces 
+                        <br><br>
                         <a href="https://www.thechurch.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -159,7 +170,8 @@ function initMap() {
             "name": "The Oval Bar",
             "information": `<b>Address</b>: 78 Middle Abbey St, North City, D01 RW24 <br> 
                         <b>Phone</b>: +3535 1 872 1264 <br>
-                        <b>About</b>: Authentic Irish Pub situated idyllically in the heart of Dublin City <br>
+                        <b>About</b>: Authentic Irish Pub situated idyllically in the heart of Dublin City 
+                        <br><br>
                         <a href="http://theovalbar.com/" target=”_blank”>Website Here</a>`
         },
 
@@ -169,7 +181,8 @@ function initMap() {
             "name": "Porterhouse Temple Bar",
             "information": `<b>Address</b>: 16-18 Parliament St, Temple Bar, D02 VR94 <br> 
                         <b>Phone</b>: +3535 1 679 8847 <br>
-                        <b>About</b>: Menu of own ales, lagers and stouts with an Irish menu and folksy atmosphere <br>
+                        <b>About</b>: Menu of own ales, lagers and stouts with an Irish menu and folksy atmosphere 
+                        <br><br>
                         <a href="https://porterhousebrewco.ie/temple-bar/" target=”_blank”>Website Here</a>`
         },
 
@@ -179,7 +192,8 @@ function initMap() {
             "name": "Oscars Cafe Bar",
             "information": `<b>Address</b>: 6 Smithfield, Dublin, D07 A034 <br> 
                         <b>Phone</b>: +3535 1 699 1999 <br>
-                        <b>About</b>: Funky bar/restaurant with vintage furnishings, craft beers and world wines <br>
+                        <b>About</b>: Funky bar/restaurant with vintage furnishings, craft beers and world wines 
+                        <br><br>
                         <a href="https://www.oscarscafebar.com/" target=”_blank”>Website Here</a>`
         },
 
@@ -189,7 +203,8 @@ function initMap() {
             "name": "Capitol Lounge",
             "information": `<b>Address</b>: 1 Aungier St, Dublin 2, D02 HF72, <br> 
                         <b>Phone</b>: +3535 1 475 7166 <br>
-                        <b>About</b>: Serving up a mix of excellent cocktails, great music and sophisticated surroundings since 1999 <br>
+                        <b>About</b>: Serving up a mix of excellent cocktails, great music and sophisticated surroundings since 1999 
+                        <br><br>
                         <a href="https://www.capitol.ie/" target=”_blank”>Website Here</a>`
         },
     ];
@@ -201,7 +216,7 @@ function initMap() {
             "name": "Token",
             "information": `<b>Address</b>:  72-74 Queen Street, Smithfield, Dublin, D07 T4CN, <br> 
                         <b>Phone</b>: +353 1 532 2699 <br>
-                        <b>About</b>: Gourmet fast food, 3 bars, an event space and over 30 original arcade and pinball machines <br>
+                        <b>About</b>: Gourmet fast food, 3 bars, an event space and over 30 original arcade and pinball machines <br><br>
                         <a href="https://www.facebook.com/TokenDublin/" target=”_blank”>Website Here</a>`
         },
 
@@ -211,7 +226,8 @@ function initMap() {
             "name": "My Meat Wagon",
             "information": `<b>Address</b>:  Unit 7A, Block A, Smithfield Market, Dublin, D07 H977<br> 
                         <b>Phone</b>: +353 1 874 8172 <br>
-                        <b>About</b>: BBQ Smoke joint, Serving up Smoked Meats done in a Texas style with an Irish twist <br>
+                        <b>About</b>: BBQ Smoke joint, Serving up Smoked Meats done in a Texas style with an Irish twist 
+                        <br><br>
                         <a href="http://mymeatwagon.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -220,9 +236,10 @@ function initMap() {
             "lng": -6.2614859,
             "name": "Cornucopia",
             "information": `<b>Address</b>:  19-20 Wicklow St, Dublin, D02 FK27 <br> 
-                        <b>Phone</b>: +353 1 677 7583 <br>
-                        <b>About</b>: Vegetarian restaurant catering to various restricted diets <br>
-                        <a href="https://cornucopia.ie/" target=”_blank”>Website Here</a>`
+                          <b>Phone</b>: +353 1 677 7583 <br>
+                          <b>About</b>: Vegetarian restaurant catering to various restricted diets 
+                          <br><br>
+                          <a href="https://cornucopia.ie/" target=”_blank”>Website Here</a>`
         },
 
         {
@@ -231,7 +248,8 @@ function initMap() {
             "name": "Fusion Brazilian Grill",
             "information": `<b>Address</b>:  1 N Lotts, Northside, Dublin, D01 K8N3 <br> 
                         <b>Phone</b>: +353 89 493 0571 <br>
-                        <b>About</b>: Brazilian All-You-Can-Eat Buffet <br>
+                        <b>About</b>: Brazilian All-You-Can-Eat Buffet 
+                        <br><br>
                         <a href="https://www.facebook.com/FusionBrazilianRestaurant/" target=”_blank”>Website Here</a>`
         },
 
@@ -241,7 +259,8 @@ function initMap() {
             "name": "EatTokyo Sushi",
             "information": `<b>Address</b>:  Wellington Quay Wellington Quay, Temple Bar, Dublin 2, D02 NH04 <br> 
                         <b>Phone</b>: +353 1 534 8576 <br>
-                        <b>About</b>: Japanese Noodle & Sushi Bar with a cosy ambience <br>
+                        <b>About</b>: Japanese Noodle & Sushi Bar with a cosy ambience 
+                        <br><br>
                         <a href="https://eatokyo.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -249,9 +268,10 @@ function initMap() {
             "lat": 53.34871,
             "lng": -6.26874,
             "name": "Hilan Chinese and Korean Restaurant",
-            "information": `<b>Address</b>:  45 Capel St, North City, Dublin, D01 E3E5, <br> 
+            "information": `<b>Address</b>: 45 Capel St, North City, Dublin, D01 E3E5 <br> 
                         <b>Phone</b>: +353 1 874 8677 <br>
-                        <b>About</b>: Korean restaurant with great selection of options <br>
+                        <b>About</b>: Korean restaurant with great selection of options 
+                        <br><br>
                         <a href="https://www.facebook.com/Hailanrestaurant/" target=”_blank”>Website Here</a>`
         },
 
@@ -259,9 +279,10 @@ function initMap() {
             "lat": 53.33482,
             "lng": -6.25449,
             "name": "Dax Restaurant",
-            "information": `<b>Address</b>:  Pembroke Street Upper Pembroke Street Upper, Dublin, D02 AK20, <br> 
+            "information": `<b>Address</b>: Pembroke Street Upper Pembroke Street Upper, Dublin, D02 AK20 <br> 
                         <b>Phone</b>: +353 1 676 1494 <br>
-                        <b>About</b>: Award winning Dax Restaurant is one of Ireland's premier places to dine <br>
+                        <b>About</b>: Award winning Dax Restaurant is one of Ireland's premier places to dine 
+                        <br><br>
                         <a href="https://www.dax.ie/restaurant/" target=”_blank”>Website Here</a>`
         },
 
@@ -269,9 +290,10 @@ function initMap() {
             "lat": 53.34130,
             "lng": -6.26558,
             "name": "Darwins Restaurant",
-            "information": `<b>Address</b>:  80 Aungier St, Dublin, D02 E286, <br> 
+            "information": `<b>Address</b>: 80 Aungier St, Dublin, D02 E286 <br> 
                         <b>Phone</b>: +353 1 475 7511 <br>
-                        <b>About</b>: Contemporary international cuisine with an extensive menu catering for 'carnivorous, coeliac and vegetarian' diners <br>
+                        <b>About</b>: Contemporary international cuisine with an extensive menu catering for 'carnivorous, coeliac and vegetarian' diners 
+                        <br><br>
                         <a href="https://www.darwins.ie/" target=”_blank”>Website Here</a>`
         },
     ];
@@ -281,9 +303,10 @@ function initMap() {
             "lat": 53.34316685,
             "lng": -6.26843027418557,
             "name": "Dublin Castle",
-            "information": `<b>Address</b>:  Castle Street, Dublin, D02 XN27 <br> 
+            "information": `<b>Address</b>: Castle Street, Dublin, D02 XN27 <br> 
                         <b>Phone</b>: +353 1 645 8800 <br>
-                        <b>About</b>: One of the most important buildings in Irish history built in 1204 <br>
+                        <b>About</b>: One of the most important buildings in Irish history built in 1204 
+                        <br><br>
                         <a href="https://www.dublincastle.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -293,7 +316,8 @@ function initMap() {
             "name": "Dublin Zoo",
             "information": `<b>Address</b>: Saint James, Phoenix Park, Dublin, D08 WF88 <br> 
                         <b>Phone</b>: +353 1 474 8900 <br>
-                        <b>About</b>: A must-see experience and the perfect day out for families, friends, couples and those visiting Dublin <br>
+                        <b>About</b>: A must-see experience and the perfect day out for families, friends, couples and those visiting Dublin 
+                        <br><br>
                         <a href="https://www.dublinzoo.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -303,7 +327,8 @@ function initMap() {
             "name": "Phoenix Park",
             "information": `<b>Address</b>: Phoenix Park, Dublin, D8 <br> 
                         <b>Phone</b>: +353 1 820 5800 <br>
-                        <b>About</b>: The largest enclosed public park in in Europe <br>
+                        <b>About</b>: The largest enclosed public park in in Europe 
+                        <br><br>
                         <a href="http://phoenixpark.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -313,7 +338,8 @@ function initMap() {
             "name": "Guinness Store House",
             "information": `<b>Address</b>: St. James's Gate, Dublin 8, D08 VF8H <br> 
                         <b>Phone</b>: +353 1 408 4800 <br>
-                        <b>About</b>: Brewery experience telling the tale of Ireland's famous beer <br>
+                        <b>About</b>: Brewery experience telling the tale of Ireland's famous beer 
+                        <br><br>
                         <a href="https://www.guinness-storehouse.com/en" target=”_blank”>Website Here</a>`
         },
 
@@ -323,7 +349,8 @@ function initMap() {
             "name": "Viking Splash Tours",
             "information": `<b>Address</b>: St Stephens Green North, Dublin 2 <br> 
                         <b>Phone</b>: +353 1 707 6000 <br>
-                        <b>About</b>: A great way to see the sights of Dublin via amphibious vehicle on both land and water <br>
+                        <b>About</b>: A great way to see the sights of Dublin via amphibious vehicle on both land and water 
+                        <br><br>
                         <a href="https://www.facebook.com/VikingSplashDublin/" target=”_blank”>Website Here</a>`
         },
 
@@ -331,9 +358,10 @@ function initMap() {
             "lat": 53.34397,
             "lng": -6.25674,
             "name": "The Book of Kells",
-            "information": `<b>Address</b>: Trinity College, College Green, Dublin, D02 PN40, <br> 
+            "information": `<b>Address</b>: Trinity College, College Green, Dublin, D02 PN40 <br> 
                         <b>Phone</b>: +353 1 896 1000 <br>
-                        <b>About</b>: The Book of Kells, Ireland's greatest cultural treasure, and marvel at the Long Room, one of the world's most beautiful libraries <br>
+                        <b>About</b>: The Book of Kells, Ireland's greatest cultural treasure, and marvel at the Long Room, one of the world's most beautiful libraries 
+                        <br><br>
                         <a href="https://www.tcd.ie/visitors/book-of-kells/" target=”_blank”>Website Here</a>`
         },
 
@@ -341,9 +369,10 @@ function initMap() {
             "lat": 53.34304,
             "lng": -6.27204,
             "name": "Dublinia Viking Museum",
-            "information": `<b>Address</b>: St Michaels Hill Christ Church, Dublin 8, <br> 
+            "information": `<b>Address</b>: St Michaels Hill Christ Church, Dublin 8 <br> 
                         <b>Phone</b>: +353 1 679 4611 <br>
-                        <b>About</b>: Historical recreation museum focusing on the Viking and Medieval history of the city <br>
+                        <b>About</b>: Historical recreation museum focusing on the Viking and Medieval history of the city 
+                        <br><br>
                         <a href="https://www.dublinia.ie/" target=”_blank”>Website Here</a>`
         },
 
@@ -351,9 +380,10 @@ function initMap() {
             "lat": 53.34838,
             "lng": -6.27735,
             "name": "Jameson Distillery",
-            "information": `<b>Address</b>: Bow St, Smithfield, Dublin 7, D07 N9VH, <br> 
+            "information": `<b>Address</b>: Bow St, Smithfield, Dublin 7, D07 N9VH <br> 
                         <b>Phone</b>: +353 1 807 2355 <br>
-                        <b>About</b>: The original site where Jameson Irish Whiskey was distilled until 1971 <br>
+                        <b>About</b>: The original site where Jameson Irish Whiskey was distilled until 1971 
+                        <br><br>
                         <a href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st" target=”_blank”>Website Here</a>`
         },
     ];
