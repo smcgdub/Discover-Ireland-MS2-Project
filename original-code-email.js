@@ -30,3 +30,10 @@ emailInput.addEventListener('keyup', function(event){
     console.log('Caps lock is off');
   }
 });
+
+
+
+
+
+
+// emailjs.init("user_Sxbabc5EJNTEdzpGRK5bs"),window.onload=function(){document.getElementById("contact-form").addEventListener("submit",function(e){e.preventDefault(),emailjs.sendForm("contact_service","contact_form",this).then(function(){alert("Your message has been sent successfully"),document.getElementById("contact-form").reset()},function(e){alert("Message not sent, please try again",e)})})};const emailInput=document.getElementById("user_email");emailInput.addEventListener("keyup",function(e){e.getModifierState("CapsLock")?alert("Caps lock is on!"):console.log("Caps lock is off")});
