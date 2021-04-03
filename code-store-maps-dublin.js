@@ -48,7 +48,8 @@ function initMap() {
             "name": "The Gresham Hotel",
             "information": `<b>Address</b>: 23 O'Connell Street Upper, Dublin, D01 C3W7, <br>
                         <b>Phone</b>: +353 1 874 6881 <br>
-                        <b>About</b>: Stately 4 star hotel in a grand Georgian building overlooking the city center's main street <br><br>
+                        <b>About</b>: Stately 4 star hotel in a grand Georgian building overlooking the city center's main street 
+                        <br><br>
                         <a href="https://www.gresham-hotels-dublin.com/" target=”_blank”>Website Here</a>`
         },
 
@@ -78,11 +79,11 @@ function initMap() {
             "lat": 53.345388799999995,
             "lng": -6.241403637369489,
             "name": "The Clayton Hotel",
-            "information": `<b>Address</b>: Sir John Rogerson's Quay, Docklands, Dublin, D02 YT21, <br>
+            "information": `<b>Address</b>: Sir John Rogerson's Quay, Docklands, Dublin, D02 YT21 <br>
                         <b>Phone</b>: +353 1 643 9500 <br>
                         <b>About</b>: Modern hotel in a seven storey, contemporary landmark building 
                         <br><br>
-                        <a href="https://www.claytonhotelcardifflane.com/?nst=0&gclid=CjwKCAjwxuuCBhATEiwAIIIz0Qd7aaemBOTIc0i4t8hP5glZ4AkDtU2WveMHcAHu1NIYnquwocgCSBoCSvcQAvD_BwE&gclsrc=aw.ds” target=”_blank”>Website Here</a>`
+                        <a href="https://www.claytonhotelcardifflane.com/" target=”_blank”>Website Here</a>`
         },
 
         {
