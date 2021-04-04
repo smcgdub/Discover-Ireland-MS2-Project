@@ -169,7 +169,7 @@ I have created 5 different active JavaScript files in this project. They are:
 4. maps-cork.js
 5. maps-galway.js
 
-### **1. The app.js file** ###
+### **A) The app.js file** ###
 
 * This file contains the JavaScript for the creation and loading of the weather widgets, the 3 YouTube videos on the site (One on each city page) and for the smooth scrolling effect you get from clicking on a list item in the Navbar.
 
@@ -197,7 +197,7 @@ NOTES ON TESTING
 
 >
 
-### **2. The email.js file** ###
+### **B) The email.js file** ###
 
 * This file contains the JavaScript for the Email JS contact us form. 
 
@@ -216,7 +216,7 @@ NOTES ON TESTING
 * I did try to put the email.js file in the JavaScript minifier but it seemed to effect the performance so deleted the minified code and left the original code in this file. 
 
 >
-### **3. The maps-dublin/cork/galway.js files** ###
+### **C) The maps-dublin/cork/galway.js files** ###
 
 * These 3 files contain the Javascript for the Google Map and all of its functionality for the Dublin, Cork and Galway pages. 
 * It also contains the JavaScript for the creation of the markers, the info windows, the code for clearing the map and also dropping new icons when a user selects a specific category from the "Click for local recommendations" drop down menu.
@@ -252,4 +252,7 @@ NOTES ON TESTING
 2. original-code-maps-cork.js<br>
 3. original-code-maps-galway.js<br>
 
+### **D) Console Testing** ###
+
+* I have tested each page of the site on the console and none of the pages are showing no errors and no warnings. 
 >
