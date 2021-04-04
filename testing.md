@@ -262,11 +262,34 @@ I have spoken with a tutor at Code Institute and they have told me that this is 
 
 ![Image of youtube error message console results](assets/readme-images/youtube-api-error.png)
 
-I have also searched on some forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute said to just list the error in this testing document.  
+I have also searched on some forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute said to just list the error in this testing document and explain this is not an error with my code.  
 
-Even with this error the functionality of the site is normal and the eis no errors in the YouTube videos. 
+Even with this error showing the functionality of the site is normal and there are no errors in the YouTube videos. 
 
 5.2 
 
+When you play one of the YouTube videos you may see these errors come up.
+
+![Image of youtube error message console results](assets/readme-images/youtube-api-error-2.png)
+
+**Error 1 - Fav icon**
+
+I have chosen not to insert a Favicon as it is not a requirement for the project so this can be ignored. 
+
+**Error 2 - Uncaught Type Error stopVideo is not a function**
+
+This is in relation to the stop video function. If i remove this code from the app.js file the YouTube video will not be generated. Again i have referenced all of googles YouTube official documentation for this code and the players have been tested for functionality and all of them are working without issue and as intended. 
+
+**Error 3 - XMLHttpRequest**
+
+the players have been tested for functionality and all of them are working without issue and as intended. 
+
+**Error 4 -**
+
+Agin this seems to be an issue with the Google API code which i cant adjust and is nothing to do with my code. 
+
+![Image of youtube error message console results](assets/readme-images/youtube-api-error-3.png)
+
+Again i spoke with a tutor at Code Institue and was told to log this in the readme. Again the players have been tested for functionality and all of them are working without issue and as intended.
 
 >
