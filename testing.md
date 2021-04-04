@@ -250,10 +250,24 @@ I have tested each page of the site on the console and upon loading none of the 
 
 **4. Galway Page**
 
-![Image of cork.html file console results](assets/readme-images/galway-page-console.png)
+![Image of galway.html file console results](assets/readme-images/galway-page-console.png)
 
+**5. Some points to note:**
 
-**5. Points to note:**
+5.1 Sometimes when you load a page you may get the error message below:   
 
+![Image of youtube error message console results](assets/readme-images/youtube-error-message-1.png)
+
+I have spoken with a tutor at Code Institute and they have told me that this is not an error with any of my code, but it is an error with the YT code which i am unable to change. The error in their code is shown below:
+
+![Image of youtube error message console results](assets/readme-images/youtube-api-error.png)
+
+I have also searched on some forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute said to just list the error in this testing document.  
+
+Even with this error the functionality of the site is normal and the eis no errors in the YouTube videos. 
+
+5.2 
+
+When you load the different categories on the Google map 
 
 >
