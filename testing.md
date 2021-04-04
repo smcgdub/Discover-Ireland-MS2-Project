@@ -7,7 +7,6 @@
 
 * 1.1 HTML Code Validating 
 * 1.2 CSS Code Validating 
-* 1.3 JavaScript Validating 
 
 ### **2. Manual Testing** ###
 
@@ -16,7 +15,7 @@
 
 ### **3. JavaScript Specific Testing** ###
 
-* This section is the most detailed and contains all the information for the testing of each Javascript file.
+* This section is the most detailed and contains all the information from all of the testing of each Javascript file.
 
 >
 
@@ -31,6 +30,7 @@
 
 * The main CSS files were tested on the [W3C CSS  Validation website](https://jigsaw.w3.org/css-validator/) 
 * All of the files came back clear with the result of **"Congratulations! No Error Found."**
+
 
 >
 
@@ -92,9 +92,9 @@ The testing below was carried out on all pages Dublin, Cork & Galway. To stop du
 * The user will also receive an automated email from the site confirming their message has been received and confirms someone will be in contact with them soon.
 * I have also added a spell check to the free text message box on the contact us form. 
 
-**Note:** - Once the user message has been submitted via the site, the auto reply can sometimes vary in the speed of the response being sent to the user. This is down to Email JS and is out of my control. I have set it so Email JS should send the email immediately. 
+**Note:** - Once the user message has been submitted via the site, the auto reply can sometimes vary in the speed of the response being sent to the user. This is down to Email JS and is out of my control. I have set it so Email JS should send the automated email reply immediately. 
 
-The incoming message the site receives from the user is always received immediately. 
+The incoming message the site receives from the user is always received straight away. 
 
 **10. The Footer**
 
@@ -189,12 +189,6 @@ NOTES ON TESTING
 
 3. The result of "One unused variable" for onYouTubeIframeAPIReady again is incorrect and i have ignored it. This is the function name given to create a new YouTube player and again is taken under instruction from the official YouTube documentation. Each player has been tested thoroughly for functionality and they are working perfectly and as expected
 
-**IMPROVE PERFORMANCE OF THE APP.JS FILE**
-
-* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it. I have then inserted the minified code into the app.js file. 
-
-* **The original JavaScript code can still be viewed as it is stored in the original code folder in the original-code-app.js file.**
-
 >
 
 ### **B) The email.js file** ###
@@ -211,10 +205,6 @@ NOTES ON TESTING
 
 1. The "One undefined variable" on lines 5 and 15 i have ignored. I used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. 
 
-**IMPROVE PERFORMANCE OF THE EMAIL.JS FILE**
-
-* I did try to put the email.js file in the JavaScript minifier but it seemed to effect the performance so deleted the minified code and left the original code in this file. 
-
 >
 ### **C) The maps-dublin/cork/galway.js files** ###
 
@@ -225,7 +215,7 @@ NOTES ON TESTING
 
 The testing for the app.js file was carried out on [JShint.com](https://jshint.com/) The results from the test were as follows:
 
-As the functional code for each of these files is the same the JShint has produced the same report for each city page test. To avoid repetition i will list below the results once, but the results apply to each of the map files.
+_**Note:** As the functional code for each of these files is the same the JShint has produced the same report for each city page test. To avoid repetition i will list below the results once, but the results apply to each of the map files._
 
 ![Image of maps-dublin.js maps-cork.js and maps-galway.js file test results](assets/readme-images/maps-test-results.png)
 
@@ -242,17 +232,28 @@ NOTES ON TESTING
 
 4. The initMap that it says is an unused variable is actually the name of the function for creating the google map (line 21 in original code file). I referenced the Google maps documentation when building this function and have tested the map thoroughly for functionality and all is working perfectly and as expected.
 
-**IMPROVE PERFORMANCE OF THE MAPS.JS FILES**
-
-* To help with site load times i have used the website [JavaScript Minifier](https://javascript-minifier.com/). This site allows you to enter your original JavaScript code into it and the site will then minify it.
-
-* **The original JavaScript code for each map file can still be viewed as it is stored in the original code folder. The files are:**<br>
-
-1. original-code-maps-dublin.js<br>
-2. original-code-maps-cork.js<br>
-3. original-code-maps-galway.js<br>
-
 ### **D) Console Testing** ###
 
-* I have tested each page of the site on the console and none of the pages are showing no errors and no warnings. 
+I have tested each page of the site on the console and upon loading none of the pages are showing errors or warnings. 
+
+**1. Homepage/Splash page**
+
+![Image of index.html file console results](assets/readme-images/splash-page-console.png)
+
+**2. Dublin Page**
+
+![Image of dublin.html file console results](assets/readme-images/dublin-page-console.png)
+
+**3. Cork Page**
+
+![Image of cork.html file console results](assets/readme-images/cork-page-console.png)
+
+**4. Galway Page**
+
+![Image of cork.html file console results](assets/readme-images/galway-page-console.png)
+
+
+**5. Points to note:**
+
+
 >
