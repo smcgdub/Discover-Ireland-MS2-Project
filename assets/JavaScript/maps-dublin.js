@@ -13,13 +13,9 @@ const dublin = {
 
 // ICON VARIABLES 
 const hotel = 'assets/images/hotel.png';
-// const hotel = 'http://maps.google.com/mapfiles/kml/pal2/icon20.png';
 const bars = 'assets/images/bars.png';
-// const bars = 'http://maps.google.com/mapfiles/kml/pal2/icon19.png';
 const restaurant = 'assets/images/restaurant.png';
-// const restaurant = 'http://maps.google.com/mapfiles/kml/pal2/icon63.png';
 const touristAttractions = 'assets/images/camera.png';
-// const touristAttractions = 'http://maps.google.com/mapfiles/kml/pal4/icon46.png';
 
 // MAP FUNCTION START
 function initMap() {

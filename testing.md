@@ -268,6 +268,5 @@ Even with this error the functionality of the site is normal and the eis no erro
 
 5.2 
 
-When you load the different categories on the Google map 
 
 >

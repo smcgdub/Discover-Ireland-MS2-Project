@@ -106,7 +106,7 @@ Some of the additional features i added were:
 
 * Some of the icons on the site were taken from the Font Awesome website. The link to the Font Awesome website can be found by clicking: [Here](https://fontawesome.com/)
 
-* The icons i used for markers on the Google Map page were icons that come from Google Earth. The link to these icons can be found [Here](http://kml4earth.appspot.com/icons.html) 
+* The icons i used for markers on the Google Map page were icons that come from map icons collection. They have a wide range of icons that you can customize in terms of design and colour. The link to these icons can be found [Here](https://mapicons.mapsmarker.com/category/markers/) 
 
 **COLOURS**
 
