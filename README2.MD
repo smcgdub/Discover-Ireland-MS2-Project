@@ -273,9 +273,13 @@ I have added a Google Map to each city page. Users can click on the dropdown men
 
 ![Google Map image with markers hotels selected](assets/readme-images/google-map-with-markers.png)
 
+To activate the functionality for these Google map i needed to generate an API key on the Google maps dashboard. To secure this API from being copied and used by other people i have restricted its use in my Google maps dashboard. 
+
 ### **2.7 - Contact Us Forum** ###
 
 At the bottom of every page i have placed a contact us form where users can send emails direct to us. The contact us form has Email JS operating on the backend. Once a user clicks ont he send message button an alert will populate to show the user the message was sent. Email JS will also send an auto reply to the user to let them know their message was successfully received and that we will be back in contact with them.
+
+I have also created a caps lock notification for the email input so the user will get a pop up alert if they have caps lock on when they try and enter their email address. 
 
 ![Image of contact us form](assets/readme-images/contact-us-form.png)
 
@@ -295,7 +299,7 @@ In the footer i have listed all of the companies social media links. As with the
 * 3.5 - [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 4 is the version i used for the development of this project.<br>
 * 3.6 - [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
 * 3.7 - [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less. It was made by Dave Gandy for use with Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome has a 38% market share among those websites that use third-party font scripts on their platform.<br>
-* 3.8 [W3schools](https://www.w3schools.com/) - W3Schools is a training website for learning web technologies online.<br> 
+* 3.8 - [W3schools](https://www.w3schools.com/) - W3Schools is a training website for learning web technologies online.<br> 
 * 3.9 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
 * 3.10 - [Weather Widget](https://weatherwidget.io/) - Is a free customizable weather widget that you incorporate into your website using JavaScript and HTML.<br>
 * 3.11 - [Skyscanner JavaScript Widget](https://www.partners.skyscanner.net/affiliates/widgets-documentation/simple-flight-search-widget) Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.<br>
