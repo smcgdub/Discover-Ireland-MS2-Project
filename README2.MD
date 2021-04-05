@@ -12,7 +12,7 @@ Each city page has the same structure so users will be familiar with the layout 
 Some of the additional features i added were:
 
 1. A weather widget at the top of each page that gives a live 7 day forecast of the weather in each city.
-2. A Skyscanner widget that is preset tot he nearest airport of each city. Users just need ot enter their origin city and the dates they wish to travel and Skyscanner will provide them with a list of available flights. At the time of completing this project (April 2021) the Skyscanner widget is also incorporating a Covid-19 travel advice link as this information is also very important to any traveller wishing to book a flight on an airplane. 
+2. A Skyscanner widget that is preset to the nearest airport of each city. Users only need to enter their airport of origin and the dates they wish to travel and Skyscanner will provide them with a list of available flights. At the time of completing this project (April 2021)the Skyscanner widget is also incorporating a Covid-19 travel advice link as this information is also very important to any traveller wishing to book a flight on an airplane. 
 3. At the bottom of each page i have added a contact form that is powered by Email JS. When a user submits a message to the site i as the site owner will receive an email notification. The user will also receive an automated email reply confirming there message has been received and that we will be contacting them shortly to answer their enquiry. 
 
 ![Image of the homepage on multiple devices](assets/readme-images/introduction-image.png)
@@ -90,7 +90,81 @@ Some of the additional features i added were:
 
 ### **1.3 - User Stories** ###
 
-*
+**As a visitor to Discover Ireland i want/expect/need:**
+
+* A simple user friendly site where i can get a brief overview of the city i am thinking of visiting. I want the layout of the site to be simple and to make sense so I am not confused or put off using it.
+* I want the information I am presented with to be laid out in a way that is easy for me to navigate.
+
+
+**User Experience Walk through** 
+
+This user lands on the Discover Ireland homepage. They are thinking of doing a short weekend city break to Dublin next weekend with a group of their friends. On the landing page they see they have 3 options ot choose from. As the user is thinking of visiting Dublin they click on the Dublin option as this is the visit they want to find out more information about. 
+
+![Image of homepage / splash page](assets/readme-images/splash-page.png)
+
+When the page opens the user can clearly see the Navbar at the top of the page that immediately tells them the sections they can expect to find on this page. They can also see a weather widget with a live 7 days forecast at the top of the page. This is very handy as the user is thinking of visiting next weekend so at a glance they can see the weather next weekend. They can also look through the images of Dublin on the Photo carousel. The use of great imagery produces a positive user response on any website. 
+
+![Image of Dublin page with Navbar and Weather widget](assets/readme-images/dublin-user-stories-1.png)
+
+The user has never been to Dublin before so they scroll to the about Dublin page. Here they can read a small overview of the city.
+
+![Image of the about Dublin section](assets/readme-images/dublin-user-stories-2.png)
+
+As the user will be flying into Dublin from the UK they want to know a bit more about the airport. They can see from the information provide that Dublin Airport is located 20/30 minutes from the city centre. The user can also see that the site has incorporated a Skyscanner widget into it. 
+
+![Image of the getting here Dublin section](assets/readme-images/dublin-user-stories-3.png)
+
+This is a nice feature as the user only needs to enter their airport of origin and the dates they are looking to travel. The user can also see that the skyscanner widget predictively lists all of the airports as they begin to type London, a nice addition that will save me some extra clicks. 
+
+![Image of the getting here Dublin section](assets/readme-images/dublin-user-stories-4.png)
+
+Now the user has entered their flight information into the widget they can press click. Dublin was already pre-populated as the arrival airport so great that i didn't have to input that myself. 
+
+![Image of the getting here Dublin section](assets/readme-images/dublin-user-stories-5.png)
+
+After the user presses search flights as expected i can see i am brought to the skyscanner page as expected and now i can adjust the filter's if i need to price and book flights. But the user will come back to that later.
+
+![Image of Skyscanner page user is diverted too](assets/readme-images/dublin-user-stories-6.png)
+
+The user is wondering what can they and their friends do in Dublin. They can see that rather than have to read through a load of text there is a short video on the city that they can watch. The video is hosted on on a YouTube player which the majority of users will be very familiar with. The user can also see the video is only 1 minute and 24 seconds long, great, its nice and short so the user can watch all of it without getting board or distracted easily. 
+
+![Image of the things to do video section](assets/readme-images/dublin-user-stories-7.png)
+
+After watching the video the user is impressed with what looks to be a wide range of activities to do in the city. They can also see that Dublin seems to have a lot going on and is not just a city for visitors who wish to come and drink in a pub. 
+
+The user can see below the video there is a Google Map of Dublin being displayed. This again is something the user is very familiar with as Google maps are pretty much the standard on most websites. The user clicks on the local recommendations button.
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-8.png)
+
+The user sees that they can select a number of categories. Lets start with finding a place to stay. The user clicks on Hotels and the map has generated a range of hotels that go from 5 star to hostel, a nice feature that will show the user a range of hotels for each price point. 
+
+After clicking on all the accommodation choices listed the user sees that there is an award winning hostel listed thats right in the heart of the city. The user can see the hostels phone number, its address, phone number, and also read that its an award winning hostel, this looks like the one the user will go for.  
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-9.png)
+
+After clicking the "Website here" link in the information box the user is brought to the homepage of the Generator Hostel in a new tab that has opened. Great, now the user can enter the dates they are looking to stay and also enter the number of people traveling so they can get a quote for the accommodation. 
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-10.png)
+
+Couple this with the skyscanner widget the user can now start to put costings in place as they know what flights and accommodation will cost.
+
+Upon scrolling a bit further down the page the user sees that the site operator has listed some of their own top recommendations. This always creates a positive user experience as when visiting a new city you are always on the look out for the best hidden spots. The user can see there is a pub listed, a coffee shop, a sushi restaurant and also a recommendation for the guinness storehouse. 
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-11.png)
+
+At the bottom of the page the user sees that there is a contact form they can use to message the site admin. A handy little tool, for now though the user has a good mix of information that they can go back to show their friends so they can decide what they will be booking in terms of flights and accommodation. 
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-12.png)
+
+Before the user closes the site they go back to the Google map as they remember that there different categories listed. They can see after clicking through the categories that there is a range of different bars, restaurants and tourist attractions listed. 
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-13.png)
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-14.png)
+
+![Image of the google map with local recommendations](assets/readme-images/dublin-user-stories-15.png)
+
+The user will look at these options with their friends before booking their trip so they have a shortlist of places drawn up before they arrive. 
 
 ### **1.4 - Design Choices** ###
 
