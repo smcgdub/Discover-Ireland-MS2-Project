@@ -82,11 +82,12 @@ Some of the additional features i added were:
 
 ### **1.2 - Visitor goals** ###
 
-* As a potential visitor to the city i want to be able to find out a few different things. 
+As a potential visitor to the city i want to be able to find out a few different things. 
 
 1. How can i get here from overseas? So flight information is one thing i need. 
-2. I also want to be able to see options for hotels, restaurants,bars, cafe's and tourist attractions. As ive never been to the city before i would also like some recommendations from the people who run the website. 
-3. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
+2. I want to be able to see options for hotels, restaurants, bars, and tourist attractions. As ive never been to the city before 
+3. I would also like some recommendations from the people who run the website. 
+4. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
 
 ### **1.3 - User Stories** ###
 
@@ -94,9 +95,14 @@ Some of the additional features i added were:
 
 * A simple user friendly site where i can get a brief overview of the city i am thinking of visiting. I want the layout of the site to be simple and to make sense so I am not confused or put off using it.
 * I want the information I am presented with to be laid out in a way that is easy for me to navigate.
+* I want the site to provide me with the contact details such as: phone number, address, email, website, and a google map location for things that they are recommending that i should see/do when im in the city.
+* I hear the weather in Ireland is something that can change from day to day, i would also like to know a bit more about the weather conditions of each city before i visit so i can plan accordingly.
+* I may be viewing the site several time for information, i will more than likely be viewing the site from a mobile phone or tablet. I want the site to have been designed responsively so that it is still easy to navigate and use on my mobile devices.
+* I also expect to be able to connect to the sites social media channels with a simple click so i can keep up to date with anything that the site admins may post there. 
+* Finally as a user I expect feedback from the website I am using when I interact with it. If i send a message to the website i would like a confirmation that my message has been sent successfully. 
 
 
-**User Experience Walk through** 
+### **User Experience Walk through** ### 
 
 This user lands on the Discover Ireland homepage. They are thinking of doing a short weekend city break to Dublin next weekend with a group of their friends. On the landing page they see they have 3 options ot choose from. As the user is thinking of visiting Dublin they click on the Dublin option as this is the visit they want to find out more information about. 
 
