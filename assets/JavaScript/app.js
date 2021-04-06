@@ -4,7 +4,8 @@
 // YOUTUBE VIDEOS
 var tag = document.createElement('script');
 
-  tag.src = "https://cors-anywhere.herokuapp.com/https://www.youtube.com/iframe_api";
+  tag.src = "https://www.youtube.com/iframe_api";
+  // tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
@@ -15,6 +16,7 @@ var player;
     height: '600',
     width: '100%',
     videoId: 'w9vVo9kV_gI',
+    origin: '*',
     events: {
       'onReady': onPlayerReady,
       'onStateChange': onPlayerStateChange
