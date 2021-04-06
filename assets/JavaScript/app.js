@@ -60,6 +60,11 @@ var done = false;
     player.stopVideo();
 }
 
+
+$.getJSON(`https://cors-anywhere.herokuapp.com/api.github.com/users/${smcgdub}`),   
+$.getJSON(`https://cors-anywhere.herokuapp.com/api.github.com/users/${smcgdub}/repos`)
+
+
 // SMOOTH SCROLLING FROM CLICKING NAVBAR ITEMS 
 $(document).ready(function(){
   // DECLARE THE VARIABLE AND LINK IT TO THE SCROLL CLASS CREATED
