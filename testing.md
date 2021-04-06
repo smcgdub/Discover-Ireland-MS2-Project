@@ -274,7 +274,7 @@ When you play one of the YouTube videos you may see these errors come up.
 
 **Error 1 - Uncaught Type Error stopVideo is not a function at stopVideo**
 
-This is in relation to the stop video function. If i remove this code from the app.js file the YouTube video will not be generated. Again i have referenced all of googles YouTube official documentation and my code is correct. The players have been tested for functionality and all of them are working without issue and as intended. 
+This is in relation to the stop video function. I have tested removing this code however when i do remove it from the app.js file the YouTube video will not be generated when the page loads. Again i have referenced all of YouTube official documentation and my code is correct. The players have been tested for functionality and all of them are working without issue and as intended. 
 
 **Error 2 - XMLHttpRequest**
 
