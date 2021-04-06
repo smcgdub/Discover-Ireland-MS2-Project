@@ -51,6 +51,7 @@ Some of the additional features i added were:
 * 3.12 YouTube API
 * 3.13 Google Maps API
 * 3.14 Email JS 
+* 3.15 Favicon Generator 
 
 ## **4. Testing** ##
 * 4.1 See testing.md document
@@ -309,6 +310,8 @@ In the footer i have listed all of the companies social media links. As with the
 <br>
 
 * 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
+
+* 3.15 - [Favicon](https://favicon.io/favicon-generator/) - A free and simple website that allows you to create, build and customize your Favicons for your own site. 
 >
 
 ## **4. Testing** ##

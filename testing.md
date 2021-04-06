@@ -272,24 +272,20 @@ When you play one of the YouTube videos you may see these errors come up.
 
 ![Image of youtube error message console results](assets/readme-images/youtube-api-error-2.png)
 
-**Error 1 - Fav icon**
-
-I have chosen not to insert a Favicon as it is not a requirement for the project so this can be ignored. 
-
-**Error 2 - Uncaught Type Error stopVideo is not a function at stopVideo**
+**Error 1 - Uncaught Type Error stopVideo is not a function at stopVideo**
 
 This is in relation to the stop video function. If i remove this code from the app.js file the YouTube video will not be generated. Again i have referenced all of googles YouTube official documentation and my code is correct. The players have been tested for functionality and all of them are working without issue and as intended. 
 
-**Error 3 - XMLHttpRequest**
+**Error 2 - XMLHttpRequest**
 
 From what i have been able to determine from my searching online this error is showing because the browser is expecting JS and receives HTML instead, however this is a script sent by Google, so again it is out of my control. A tutor at Code Institute and was told to log this in the readme. Again the players have been tested for functionality and all of them are working without issue and as intended.
 
-**Error 4 -**
+**Error 3 -**
 
 Agin this seems to be an issue with the Google API code which i cant adjust and is nothing to do with my code. 
 
 ![Image of youtube error message console results](assets/readme-images/youtube-api-error-3.png)
 
-Again i spoke with a tutor at Code Institue and was told to log this in the readme. Again the players have been tested for functionality and all of them are working without issue and as intended.
+Again i spoke with a tutor at Code Institute and was told to log this in the readme. Again the players have been tested for functionality and all of them are working without issue and as intended.
 
 >

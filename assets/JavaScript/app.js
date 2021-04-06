@@ -43,7 +43,7 @@ var player;
           }
         });
       }
-
+      
 // AUTO PLAY FUNCTION SET TO NONE. CODE ON LINE 48 MUST BE LEFT IN PLACE OR PLAYER WILL NOT LOAD, JUST COMMENT OUT AUTOPLAY FUNCTION
 function onPlayerReady(event) {
   // event.target.playVideo();
@@ -73,3 +73,4 @@ $(document).ready(function(){
     }, 1000);
   });
 });
+
