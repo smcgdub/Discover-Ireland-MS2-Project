@@ -61,8 +61,8 @@ var done = false;
 }
 
 
-$.getJSON(`https://cors-anywhere.herokuapp.com/api.github.com/users/${smcgdub}`),   
-$.getJSON(`https://cors-anywhere.herokuapp.com/api.github.com/users/${smcgdub}/repos`)
+// $.getJSON(`https://cors-anywhere.herokuapp.com/api.github.com/users/${smcgdub}`),   
+// $.getJSON(`https://cors-anywhere.herokuapp.com/api.github.com/users/${smcgdub}/repos`)
 
 
 // SMOOTH SCROLLING FROM CLICKING NAVBAR ITEMS 
