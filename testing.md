@@ -260,11 +260,15 @@ Sometimes when you load a page you may get the error message below:
 
 ![Image of youtube error message console results](assets/readme-images/youtube-error-message-1.png)
 
+**CAUSE:**
+
 I have spoken with a tutor at Code Institute and they have told me that this is not an error with any of my code, but it is an error with the YT code which i am unable to change. The error in their code is shown below:
 
 ![Image of youtube error message console results](assets/readme-images/youtube-api-error.png)
 
-I have also searched on some forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute said to just list the error in this testing document and explain this is not an error with my code.  
+**SOLUTION: ONGOING**
+
+I have searched on forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute have also looked at this and said it is not an error caused by any of my own code so i am to document this error in the readme and explain this is not an error with my code.  
 
 Even with this error showing the functionality of the site is normal and there are no errors in the YouTube videos. 
 
