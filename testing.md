@@ -252,9 +252,11 @@ I have tested each page of the site on the console and upon loading none of the 
 
 ![Image of galway.html file console results](assets/readme-images/galway-page-console.png)
 
-**5. Some points to note:**
+**5. Some points to note on errors:**
 
-5.1 Sometimes when you load a page you may get the error message below:   
+**Error 1 - YouTube to Github** 
+
+Sometimes when you load a page you may get the error message below:   
 
 ![Image of youtube error message console results](assets/readme-images/youtube-error-message-1.png)
 
@@ -266,26 +268,52 @@ I have also searched on some forums, Github and also on Stackoverflow. It seems 
 
 Even with this error showing the functionality of the site is normal and there are no errors in the YouTube videos. 
 
-5.2 
+**Error 2 - Player stopVideo is not a function** 
 
-When you play one of the YouTube videos you may see these errors come up.
+This error below was originally appearing upon testing. 
 
-![Image of youtube error message console results](assets/readme-images/youtube-api-error-2.png)
+![Image of youtube error message console results](assets/readme-images/player-stopVideo-error-msg.png)
 
-**Error 1 - Uncaught Type Error stopVideo is not a function at stopVideo**
+**CAUSE:**
 
-This is in relation to the stop video function. I have tested removing this code however when i do remove it from the app.js file the YouTube video will not be generated when the page loads. Again i have referenced all of YouTube official documentation and my code is correct. The players have been tested for functionality and all of them are working without issue and as intended. 
+This was being generated because of line 55 in my app.js file. The YouTube code has a time out feature (In the original documents its set to 6000 - 6 seconds) which meant the video would play for 6 seconds and then stop.
 
-**Error 2 - XMLHttpRequest**
+**SOLUTION:**
 
-From what i have been able to determine from my searching online this error is showing because the browser is expecting JS and receives HTML instead, however this is a script sent by Google, so again it is out of my control. A tutor at Code Institute and was told to log this in the readme. Again the players have been tested for functionality and all of them are working without issue and as intended.
+As I didn’t want the video to automatically stop after 6 seconds, which would create a negative user experience, i originally left that part of the code blank, however that is what caused this error to be generated as soon as the user pressed play on the video. 
 
-**Error 3 -**
+I have now inserted into the code 125000 which will cover 1 minute and 25 seconds, which is the length of the longest video which is the Dublin one. This error no longer appears. However if the user does watch all of the video in full the odd time this error may pop up in the console. This error has no effect on the functionality of the site or the user experience, it only appears once the time limit set goes past 125000 (1 minutes and 25 seconds) 
 
-Agin this seems to be an issue with the Google API code which i cant adjust and is nothing to do with my code. 
+**Error 3 - CORS Error**
 
-![Image of youtube error message console results](assets/readme-images/youtube-api-error-3.png)
+**CAUSE:**
 
-Again i spoke with a tutor at Code Institute and was told to log this in the readme. Again the players have been tested for functionality and all of them are working without issue and as intended.
+This error appears in the console when the user presses play on one of the YouTube videos.
+
+![Image of youtube error message console results](assets/readme-images/cors-error.png)
+
+The CORS (Cross-Origin Resource Sharing) error stems from a security mechanism that browsers implement called the same-origin policy. The same-origin policy fights one of the most common cyber attacks out there: cross-site request forgery.
+
+**SOLUTION: ON GOING**
+
+I spoke with tutor support at Code Institute on several occasions and we have looked at several solutions for this, however all of the solutions both myself and tutor support tried were unable to remove this. 
+
+I have tested all of the YouTube video players on every page and this does not affect any of the functionality, user experience or site performance. I was advised by the tutors at Code Institute to clearly document this issue in the readme and note that it is marked down for working on at a later date. 
+
+**Error 4 - CORS Error 2**
+
+This error also appears in the console when a user presses play on the YouTube video.
+
+![Image of youtube error message console results](assets/readme-images/youtube-error-3.png)
+
+**CAUSE:**
+
+This also appears to be related to the CORS issue noted above in Error 3. It seems to be an issue with the Google API code (Image listed below). 
+
+![Image of youtube error message console results](assets/readme-images/cors-error-2.png)
+
+**SOLUTION: ON GOING**
+
+Again I have spoken with the tutors at Code Institute and was told this is not an error with any of the code I have written so i needed to log and highlight it in my readme document. As mentioned I have tested all of the functionality of the YouTube players on each page and the performance and functionality of each of them is completely unaffected by this. 
 
 >
