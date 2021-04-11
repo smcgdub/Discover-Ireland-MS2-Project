@@ -428,7 +428,7 @@ function initMap() {
     $("#dublin-hotels").click(function() {
         deleteMarkers();
         dublinHotels.forEach((dubHotel) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + dubHotel.name + '</h2>' + '<p>' + dubHotel.information + '</p>';
 
             // CREATE MARKER
@@ -452,7 +452,7 @@ function initMap() {
     $("#dublin-bars").click(function() {
         deleteMarkers();
         dublinBars.forEach((dublinBars) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + dublinBars.name + '</h2>' + '<p>' + dublinBars.information + '</p>';
 
             // CREATE MARKER
@@ -476,7 +476,7 @@ function initMap() {
     $("#dublin-restaurants").click(function() {
         deleteMarkers();
         dublinRestaurants.forEach((dublinRestaurants) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + dublinRestaurants.name + '</h2>' + '<p>' + dublinRestaurants.information + '</p>';
 
             // CREATE MARKER
@@ -500,7 +500,7 @@ function initMap() {
     $("#dublin-tourist-attractions").click(function() {
         deleteMarkers();
         dublinTouristAttractions.forEach((dublinTouristAttractions) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + dublinTouristAttractions.name + '</h2>' + '<p>' + dublinTouristAttractions.information + '</p>';
 
             // CREATE MARKER

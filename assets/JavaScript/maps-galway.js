@@ -428,7 +428,7 @@ var galwayTouristAttractions = [
     $("#galway-hotels").click(function() {
         deleteMarkers();
         galwayHotels.forEach((galwayHotels) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + galwayHotels.name + '</h2>' + '<p>' + galwayHotels.information + '</p>';
 
             // CREATE MARKER
@@ -452,7 +452,7 @@ var galwayTouristAttractions = [
     $("#galway-bars").click(function() {
         deleteMarkers();
         galwayBars.forEach((galwayBars) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + galwayBars.name + '</h2>' + '<p>' + galwayBars.information + '</p>';
 
             // CREATE MARKER
@@ -476,7 +476,7 @@ var galwayTouristAttractions = [
     $("#galway-restaurants").click(function() {
         deleteMarkers();
         galwayRestaurants.forEach((galwayRestaurants) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + galwayRestaurants.name + '</h2>' + '<p>' + galwayRestaurants.information + '</p>';
 
             // CREATE MARKER
@@ -500,7 +500,7 @@ var galwayTouristAttractions = [
     $("#galway-tourist-attractions").click(function() {
         deleteMarkers();
         galwayTouristAttractions.forEach((galwayTouristAttractions) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + galwayTouristAttractions.name + '</h2>' + '<p>' + galwayTouristAttractions.information + '</p>';
 
             // CREATE MARKER

@@ -427,7 +427,7 @@ var corkTouristAttractions = [{
     $("#cork-hotels").click(function() {
         deleteMarkers();
         corkHotels.forEach((corkHotels) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + corkHotels.name + '</h2>' + '<p>' + corkHotels.information + '</p>';
 
             // CREATE MARKER
@@ -451,7 +451,7 @@ var corkTouristAttractions = [{
     $("#cork-bars").click(function() {
         deleteMarkers();
         corkBars.forEach((corkBars) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + corkBars.name + '</h2>' + '<p>' + corkBars.information + '</p>';
 
             // CREATE MARKER
@@ -475,7 +475,7 @@ var corkTouristAttractions = [{
     $("#cork-restaurants").click(function() {
         deleteMarkers();
         corkRestaurants.forEach((corkRestaurants) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + corkRestaurants.name + '</h2>' + '<p>' + corkRestaurants.information + '</p>';
 
             // CREATE MARKER
@@ -499,7 +499,7 @@ var corkTouristAttractions = [{
     $("#cork-tourist-attractions").click(function() {
         deleteMarkers();
         corkTouristAttractions.forEach((corkTouristAttractions) => {
-            infoWindow = new google.maps.InfoWindow;
+            infoWindow = new google.maps.InfoWindow();
             context = '<h2>' + corkTouristAttractions.name + '</h2>' + '<p>' + corkTouristAttractions.information + '</p>';
 
             // CREATE MARKER
