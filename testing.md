@@ -221,16 +221,14 @@ _**Note:** As the functional code for each of these files is the same the JShint
 
 NOTES ON TESTING 
 
-1. The 4 warnings for the missing '()' invoking a constructor i have ignored. I did go back to the file and insert these '()' into the code as JShint recommended and my google map stopped working so i have removed them and left the code as it was originally.<br>
+1. The 3 undefined variables i have also ignored.<br><br>
+1.1 The google undefined variable relates to the creation of a new google map. The code i have used is referenced direct from the Google maps documentation and the maps have been tested thoroughly for functionality and they are all working perfectly and as expected.<br><br>
+1.2 The $ is the JQuery for the smooth page scroll function that happens when a user clicks on an item in the Navbar. Again this has been tested thoroughly for functionality and it is working perfectly and as expected.<br><br>
+1.3 JShint is saying context is undefined but in my code context is used in the formation of the infoWindow for each marker. Again i have tested the code thoroughly for functionality and all is working perfectly and as expected.<br>
 
-2. The 3 undefined variables i have also ignored.<br><br>
-2.1 The google undefined variable relates to the creation of a new google map. The code i have used is referenced direct from the Google maps documentation and the maps have been tested thoroughly for functionality and they are all working perfectly and as expected.<br><br>
-2.2 The $ is the JQuery for the smooth page scroll function that happens when a user clicks on an item in the Navbar. Again this has been tested thoroughly for functionality and it is working perfectly and as expected.<br><br>
-2.3 JShint is saying context is undefined but in my code context is used in the formation of the infoWindow for each marker. Again i have tested the code thoroughly for functionality and all is working perfectly and as expected.<br>
+2. The unused variable of position on line 8 is somewhat incorrect. On line 8 there is no value assigned to that variable, however i use the position variable (Line 406 in original code file) later in the code along with the lng lat to add a marker to the map at a specific point. 
 
-3. The unused variable of position on line 8 is somewhat incorrect. On line 8 there is no value assigned to that variable, however i use the position variable (Line 406 in original code file) later in the code along with the lng lat to add a marker to the map at a specific point. 
-
-4. The initMap that it says is an unused variable is actually the name of the function for creating the google map (line 21 in original code file). I referenced the Google maps documentation when building this function and have tested the map thoroughly for functionality and all is working perfectly and as expected.
+3. The initMap that it says is an unused variable is actually the name of the function for creating the google map (line 21 in original code file). I referenced the Google maps documentation when building this function and have tested the map thoroughly for functionality and all is working perfectly and as expected.
 
 ### **D) Console Testing** ###
 
@@ -284,9 +282,11 @@ This was being generated because of line 55 in my app.js file. The YouTube code 
 
 **SOLUTION:**
 
-As I didn’t want the video to automatically stop after 6 seconds, which would create a negative user experience, i originally left that part of the code blank, however that is what caused this error to be generated as soon as the user pressed play on the video. 
+As I didn’t want the video to automatically stop after 6 seconds, which would create a negative user experience and would not allow the video to play in full once the user has pressed play, i originally left that part of the code blank, however that is what caused this error to be generated as soon as the user pressed play on the video. 
 
-I have now inserted into the code 125000 which will cover 1 minute and 25 seconds, which is the length of the longest video which is the Dublin one. This error no longer appears. However if the user does watch all of the video in full the odd time this error may pop up in the console. This error has no effect on the functionality of the site or the user experience, it only appears once the time limit set goes past 125000 (1 minutes and 25 seconds) 
+I have now inserted into the code 125000 which will cover 1 minute and 25 seconds, which is the length of the longest video out of all of them which is on the Dublin page. This error no longer appears. 
+
+However if the user does watch all of the video in full sometimes this error may pop up in the console after the 1 minute and 25 seconds has expired. This error has no effect on the functionality of the site or the user experience, it only appears once the time limit set goes past 125000 (1 minutes and 25 seconds) 
 
 **Error 3 - CORS Error**
 
@@ -301,6 +301,12 @@ The CORS (Cross-Origin Resource Sharing) error stems from a security mechanism t
 **SOLUTION: ON GOING**
 
 I spoke with tutor support at Code Institute on several occasions and we have looked at several solutions for this, however all of the solutions both myself and tutor support tried were unable to remove this. 
+
+The solution that came up the most and that was given to me by tutor support was to insert the code https://cors-anywhere.herokuapp.com/ in front of the api link that i am trying to call (Screenshot below).
+
+![Image of youtube error message console results](assets/readme-images/cors-anywhere-attempt.png)
+
+I have tried this solution  but this did not resolve the issue and instead caused the YouTube video to stop rendering completely on the page: 
 
 I have tested all of the YouTube video players on every page and this does not affect any of the functionality, user experience or site performance. I was advised by the tutors at Code Institute to clearly document this issue in the readme and note that it is marked down for working on at a later date. 
 
