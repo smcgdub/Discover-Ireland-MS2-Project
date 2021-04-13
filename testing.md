@@ -31,7 +31,6 @@
 * The main CSS files were tested on the [W3C CSS  Validation website](https://jigsaw.w3.org/css-validator/) 
 * All of the files came back clear with the result of **"Congratulations! No Error Found."**
 
-
 >
 
 ### **2. Manual Testing** ###
@@ -249,10 +248,10 @@ I have tested each page of the site on the console and upon loading none of the 
 **4. Galway Page**
 
 ![Image of galway.html file console results](assets/readme-images/galway-page-console.png)
+>
+### **5. Some points to note on errors:** ###
 
-**5. Some points to note on errors:**
-
-**Error 1 - YouTube to Github** 
+### **Error 1 - YouTube to Github** ###
 
 Sometimes when you load a page you may get the error message below:   
 
@@ -260,7 +259,7 @@ Sometimes when you load a page you may get the error message below:
 
 **CAUSE:**
 
-I have spoken with a tutor at Code Institute and they have told me that this is not an error with any of my code, but it is an error with the YT code which i am unable to change. The error in their code is shown below:
+I have spoken with the tutors at Code Institute and they have told me that this is not an error with any of my code, but with the YT code which i am unable to change. The error in their code is shown below:
 
 ![Image of youtube error message console results](assets/readme-images/youtube-api-error.png)
 
@@ -269,8 +268,8 @@ I have spoken with a tutor at Code Institute and they have told me that this is 
 I have searched on forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute have also looked at this and said it is not an error caused by any of my own code so i am to document this error in the readme and explain this is not an error with my code.  
 
 Even with this error showing the functionality of the site is normal and there are no errors in the YouTube videos. 
-
-**Error 2 - Player stopVideo is not a function** 
+>
+### **Error 2 - Player stopVideo is not a function** ###
 
 This error below was originally appearing upon testing. 
 
@@ -284,11 +283,11 @@ This was being generated because of line 55 in my app.js file. The YouTube code 
 
 As I didn’t want the video to automatically stop after 6 seconds, which would create a negative user experience and would not allow the video to play in full once the user has pressed play, i originally left that part of the code blank, however that is what caused this error to be generated as soon as the user pressed play on the video. 
 
-I have now inserted into the code 125000 which will cover 1 minute and 25 seconds, which is the length of the longest video out of all of them which is on the Dublin page. This error no longer appears. 
+I have now inserted into the code 125000 which will cover 1 minute and 25 seconds, which is the length of the longest video out of all of them which is on the Dublin page. This error no longer appears when the user presses play. 
 
-However if the user does watch all of the video in full sometimes this error may pop up in the console after the 1 minute and 25 seconds has expired. This error has no effect on the functionality of the site or the user experience, it only appears once the time limit set goes past 125000 (1 minutes and 25 seconds) 
-
-**Error 3 - CORS Error**
+However if the user does watch all of the video in full then sometimes this error may pop up in the console after the 1 minute and 25 seconds has expired. This error has no effect on the functionality of the player, the site or the user experience, it only appears once the time limit set goes past 125000 (1 minutes and 25 seconds) You could get around this by setting the timeout to something like 1 millions seconds, but i have left it at the length of the longest video and have documented it in this testing.md file.  
+>
+### **Error 3 - CORS Error** ###
 
 **CAUSE:**
 
@@ -300,7 +299,7 @@ The CORS (Cross-Origin Resource Sharing) error stems from a security mechanism t
 
 **SOLUTION: ON GOING**
 
-I spoke with tutor support at Code Institute on several occasions and we have looked at several solutions for this, however all of the solutions both myself and tutor support tried were unable to remove this. 
+I spoke with tutor support at Code Institute on several occasions and we have looked at many possible solutions for this, however all of the solutions both myself and tutor support have tried were unable to remove this. 
 
 The solution that came up the most and that was given to me by tutor support was to insert the code https://cors-anywhere.herokuapp.com/ in front of the api link that i am trying to call (Screenshot below).
 
@@ -308,9 +307,15 @@ The solution that came up the most and that was given to me by tutor support was
 
 I have tried this solution  but this did not resolve the issue and instead caused the YouTube video to stop rendering completely on the page: 
 
-I have tested all of the YouTube video players on every page and this does not affect any of the functionality, user experience or site performance. I was advised by the tutors at Code Institute to clearly document this issue in the readme and note that it is marked down for working on at a later date. 
+Another solution that was commonly found recommended inserting the following code into the header: 
 
-**Error 4 - CORS Error 2**
+__header ("Access-Control-Allow-Origin: *");__
+
+Unfortunately this only seems to work if it is inserted in the header in the client server. As my site is deployed via Github and not via my own server (And i have no access to the Github servers) this means that this solution is one i couldn't use either.
+
+I have tested all of the YouTube video players on every page and this does not affect any of the functionality, user experience or site performance. I was advised by the tutors at Code Institute to clearly document this issue in the readme and note that it is marked down for working on at a later date. 
+>
+### **Error 4 - CORS Error 2** ###
 
 This error also appears in the console when a user presses play on the YouTube video.
 
@@ -327,3 +332,19 @@ This also appears to be related to the CORS issue noted above in Error 3. It see
 Again I have spoken with the tutors at Code Institute and was told this is not an error with any of the code I have written so i needed to log and highlight it in my readme document. As mentioned I have tested all of the functionality of the YouTube players on each page and the performance and functionality of each of them is completely unaffected by this. 
 
 >
+
+### **Error 5 - Contact Us Form** ###
+
+If the user uses the auto complete on their device the following error seems to pop up in the console. 
+
+![Image of capslock function error message console results](assets/readme-images/contact-us-error-1.png)
+
+**CAUSE:**
+
+From what ive been able to find its an error that is generated when a user tried to complete the form using auto complete. This also seems to be specific to browsers. It appears on Google Chrome and Opera. It didn't appear on Firefox.
+
+**SOLUTION: ON GOING**
+
+I have searched myself for a solution to this error however i have been unable to find one that worked for me. It only seems to appear on certain browsers and also only appears when the user uses auto complete to complete the form. If the user doesn't use auto complete then the error doesn't appear. 
+
+I have tested the form for functionality and this error doesn't impact the functionality of the page in anyway. 

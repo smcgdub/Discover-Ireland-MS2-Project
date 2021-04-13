@@ -6,3 +6,10 @@ vscode:
   extensions:
     - ms-python.python@2019.8.30787:TnGEOx35GXMhyKLjDGz9Aw==
     - kevinglasson.cornflakes-linter@0.5.1:KAaMshgHOKan8eojXQ53OQ==
+    - coenraads.bracket-pair-colorizer@1.0.61:fa3401caa00b5b4897921a5ddb2cd8cd
+    - hookyqr.beautify@1.4.11:9fd0c911415b603fd81da057c66fa963
+    - streetsidesoftware.code-spell-checker@1.10.4:92856cb92ade23ff2764841b46d2fac2
+    - xabikos.javascriptsnippets@1.8.0:8ab32d4cba909ed9df050926b5a86d34
+    - formulahendry.auto-close-tag@0.5.10:192223009a396fc39e5b915d5920c0f0
+    - pranaygp.vscode-css-peek@4.1.3:de9a67768849e1794347586b98af3360
+    - sirtori.indenticator@0.7.0:5d73f5d6680dd75efc7992914b58e259
