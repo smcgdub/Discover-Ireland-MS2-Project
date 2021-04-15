@@ -335,9 +335,9 @@ Again I have spoken with the tutors at Code Institute and was told this is not a
 
 ### **Error 5 - Contact Us Form** ###
 
-If the user uses the auto complete on their device the following error seems to pop up in the console. 
+If the user uses the auto complete function on their device the following error seems to pop up in the console. 
 
-![Image of capslock function error message console results](assets/readme-images/contact-us-error-1.png)
+![Image of autofill function error message console results](assets/readme-images/contact-us-error-1.png)
 
 **CAUSE:**
 
@@ -345,6 +345,16 @@ From what ive been able to find its an error that is generated when a user tried
 
 **SOLUTION: ON GOING**
 
-I have searched myself for a solution to this error however i have been unable to find one that worked for me. It only seems to appear on certain browsers and also only appears when the user uses auto complete to complete the form. If the user doesn't use auto complete then the error doesn't appear. 
+I have tried a number of solutions however none of them seem to have been successful. I came across this post from W3 docs [click here](https://www.w3docs.com/snippets/html/how-to-disable-browser-autocomplete-and-autofill-on-html-form-and-input-fields.html) that gave 4 or 5 different solutions you can use to disable autocomplete. I have tried every one of them without success. 
 
-I have tested the form for functionality and this error doesn't impact the functionality of the page in anyway. 
+However i do know these options do work because as part of the testing i created an input filed at the base of the contact us form (Screenshot below)
+
+![Image of autofill function error message console results](assets/readme-images/contact-us-test-field.png)
+
+When i click on this form and start typing the auto complete function doesn't pre populate the form. However, when i click on the first name field in the form the information does auto populate (Screenshot below)
+
+![Image of autofill function error message console results](assets/readme-images/contact-us-error-2.png)
+
+I have spoken with the tutors at Code Institute and after looking at solutions and we have narrowed it down to the Email JS contact form. All of my code was checked and reviewed and came back with no errors. I have tested the form for thoroughly for functionality and this error doesn't impact the functionality of the page or the email function in anyway. I have marked this down to be looked at in future to try and resolve. 
+>
+
