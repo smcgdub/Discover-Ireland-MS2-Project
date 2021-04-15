@@ -9,11 +9,11 @@ Each city page has the same structure so users will be familiar with the layout 
 
 **ADDITIONAL FEATURES** 
 
-Some of the additional features i added were:
+I also wanted users to the site to be able to price flights, view and book accommodation, restaurants, and tourist attractions. Some additional features i added were:
 
-1. A weather widget at the top of each page that gives a live 7 day forecast of the weather in each city.
-2. A Skyscanner widget that is preset to the nearest airport of each city. Users only need to enter their airport of origin and the dates they wish to travel and Skyscanner will provide them with a list of available flights. At the time of completing this project (April 2021)the Skyscanner widget is also incorporating a Covid-19 travel advice link as this information is also very important to any traveller wishing to book a flight on an airplane. 
-3. At the bottom of each page i have added a contact form that is powered by Email JS. When a user submits a message to the site i as the site owner will receive an email notification. The user will also receive an automated email reply confirming there message has been received and that we will be contacting them shortly to answer their enquiry. 
+1. A weather widget at the top of each page that gives a live 7 day forecast of the weather in each city. The weather in Ireland changes regularly and we often have 4 season in a day. This little feature will allow any user to check the next 7 days weather at a glance. 
+2. A Skyscanner widget that is already preset to the nearest airport of each city. Users only need to enter their airport of origin and the dates they wish to travel and Skyscanner will provide them with a list of available flights. At the time of completing this project (April 2021)the Skyscanner widget is also incorporating a Covid-19 travel advice link as this information is also very important to any traveller wishing to book a flight on an airplane. 
+3. Finally at the bottom of each page i have added a contact form that is powered by Email JS. When a user submits a message to the site i as the site owner will receive an email notification. The user will also receive an automated email reply confirming there message has been received and that we will be contacting them shortly to answer their enquiry. 
 
 ![Image of the homepage on multiple devices](assets/readme-images/introduction-image.png)
 > 
@@ -31,7 +31,7 @@ Some of the additional features i added were:
 * 2.2 JavaScript weather widget 
 * 2.3 Photo Carousel 
 * 2.4 SkyScanner JavaScript Widget 
-* 2.5 YouTube API videos 
+* 2.5 Video JS Player 
 * 2.6 Google Maps API 
 * 2.7 Contact Us Forum
 * 2.3 The Footer
@@ -48,7 +48,7 @@ Some of the additional features i added were:
 * 3.9 Balsamiq
 * 3.10 Weather Widget API
 * 3.11 Skyscanner JavaScript Widget
-* 3.12 YouTube API
+* 3.12 Video JS
 * 3.13 Google Maps API
 * 3.14 Email JS 
 * 3.15 Favicon Generator 
@@ -133,7 +133,7 @@ After the user presses search flights as expected i can see i am brought to the 
 
 ![Image of Skyscanner page user is diverted too](assets/readme-images/dublin-user-stories-6.png)
 
-The user is wondering what can they and their friends do in Dublin. They can see that rather than have to read through a load of text there is a short video on the city that they can watch. The video is hosted on on a YouTube player which the majority of users will be very familiar with. The user can also see the video is only 1 minute and 24 seconds long, great, its nice and short so the user can watch all of it without getting board or distracted easily. 
+The user is wondering what can they and their friends do in Dublin. They can see that rather than have to read through endless lines of text there is a short video on the city that they can watch. The video is hosted on a simple Video JS player with basic controls which the majority of users will be very familiar with (No need ot over complicate things with lots of controls). The videos are all around 1 and a half minutes long, great, its nice and short so the user can watch all of it without getting board or distracted. 
 
 ![Image of the things to do video section](assets/readme-images/dublin-user-stories-7.png)
 
@@ -175,7 +175,7 @@ The user will look at these options with their friends before booking their trip
 
 ### **1.4 - Design Choices** ###
 
-* I wanted the website to be very visual and not just a lot of text. Therefore I have incorporated a lot of imagery on each page, inserted weather and flights widgets, YouTube videos and google maps with places/location markers for each map. 
+* I wanted the website to be very visual and not just a lot of text. Therefore I have incorporated a lot of imagery on each page, inserted weather and flights widgets, videos and google maps with places/location markers for each map. 
 
 **FONTS**
 
@@ -258,15 +258,15 @@ I wanted to use some great images on the website. To achieve this i have used a 
 
 ### **2.4 - SkyScanner JavaScript Widget** ###
 
-I have also installed a Skyscanner widget on the website. This will allow users of the site to enter the city they are flying from, the dates they are looking to fly, and when the click on search flights Skyscanner will give them flight availability and prices. As the site isnt an integrated partner booking a flight on the site isnt possible, instead the user is diverted to the Skyscanner page.
+I have also installed a Skyscanner widget on the website. This will allow users of the site to enter the city they are flying from, the dates they are looking to fly, and when the click on search flights Skyscanner will give them flight availability and prices. As the site isn't an integrated partner booking a flight on the site isn't possible, instead the user is diverted to the Skyscanner page.
 
 ![Image of Photo Carousel](assets/readme-images/skyscanner-widget.png)
 
-### **2.5 - YouTube API videos** ###
+### **2.5 - Video JS** ###
 
-I wanted to use as wide a range of options as possible to display information to users. On every city page i have created a YouTube video that gives a very short introduction about each city. This was done using the YouTube API. 
+I wanted to use as wide a range of options as possible to display information to users. People engage with video a lot more than they do with just pages and pages of text. Because of this on every city page i have created a video player that will play a short video from the local tourist board that will show users some of the tings they can expect to see/do in each city.
 
-![Image of YouTube video](assets/readme-images/youtube.png)
+![Image of video player](assets/readme-images/city-video.png)
 
 ### **2.6 - Google Maps API** ###
 
@@ -304,11 +304,9 @@ In the footer i have listed all of the companies social media links. As with the
 * 3.9 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
 * 3.10 - [Weather Widget](https://weatherwidget.io/) - Is a free customizable weather widget that you incorporate into your website using JavaScript and HTML.<br>
 * 3.11 - [Skyscanner JavaScript Widget](https://www.partners.skyscanner.net/affiliates/widgets-documentation/simple-flight-search-widget) Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.<br>
-* 3.12 - [YouTube](https://www.youtube.com/) - YouTube is an American online video-sharing platform and the second largest search engine in the world. Created in February 2005 by three former PayPal employees YouTube was bought by Google 2006<br>
-
+* 3.12 - [VideoJs](https://videojs.com/) - Video. js is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later). It supports video playback on desktop and mobile devices.<br>
 * 3.13 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - The Google Maps Platform is a set of APIs and SDKs that allows developers to embed Google Maps into mobile apps and web pages, or to retrieve data from Google Maps.
 <br>
-
 * 3.14 - [Email JS](https://www.emailjs.com/) - EmailJS helps to send emails using client-side technologies only. No server is required, just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.
 
 * 3.15 - [Favicon](https://favicon.io/favicon-generator/) - A free and simple website that allows you to create, build and customize your Favicons for your own site. 
@@ -414,7 +412,7 @@ Photo by <a href="https://unsplash.com/@alexblock?utm_source=unsplash&utm_medium
 
 THINGS TO DO DUBLIN VIDEO
 
-* Dublin: Take A Deep Breath Youtube Video<br>
+* Dublin: Dawn to Dusk Video<br>
 All rights belong to Visit Dublin
 
 OUR RECOMMENDATIONS DUBLIN
@@ -463,8 +461,8 @@ Photo by <a href="https://unsplash.com/@imjamie?utm_source=unsplash&utm_medium=r
   
 THINGS TO DO CORK VIDEO
 
-* PureCork: Cork Awaits Youtube Video<br>
-All rights belong to Pure Cork Visit
+* PureCork: Cork Welcomes Video<br>
+All rights belong to Pure Cork
 
 OUR RECOMMENDATIONS CORK
 
@@ -517,7 +515,7 @@ Photo by <a href="https://unsplash.com/@olivier_twwli?utm_source=unsplash&utm_me
   
 THINGS TO DO GALWAY VIDEO
 
-* Discover Ireland: Top Things To Do In Cork Youtube Video<br>
+* Discover Ireland: Top Things To Do In Galway Video<br>
 All rights belong to Discover Ireland
 
 OUR RECOMMENDATIONS GALWAY 
@@ -551,11 +549,10 @@ All Unsplash images are provided under licence that allows free use of them once
 ### **6.2 Code** ###
 
 * The majority of the code i used was Bootstrap version 4.6. The official Bootstrap documentation is the best place to reference for everything you need: [Bootstrap Documentation Here](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-* For the YouTube API i resourced the official Google documentation [YouTube Official Documentation Here](https://developers.google.com/youtube/iframe_api_reference)
+* For the Video JS player i resourced the official documentation [Video JS Official Documentation Here](https://docs.videojs.com/)
 * For the Google map i used the Google maps [Javascript API official documentation](https://developers.google.com/maps/documentation/javascript/overview) and also the Google maps [Places API official documentation](https://developers.google.com/maps/documentation/places/web-service/overview)
 * For the Email JS feature i referenced the official [Email JS documentation here](https://www.emailjs.com/docs/)
 * To achieve the smooth scrolling effect on the page when you click on an item in the Navbar i followed the tutorial on YouTube by Kevin Powell. The link to the tutorial can be found here: [Smooth scrolling tutorial](https://www.youtube.com/watch?v=x0YnVwAuNQI)
-
 
 ### **6.3 Acknowledgements** ###
 
