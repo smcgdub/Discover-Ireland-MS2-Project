@@ -67,10 +67,13 @@ The testing below was carried out on all pages Dublin, Cork & Galway. To stop du
 * When the user enters their details and clicks search flights a new page will open on the main skyscanner website. This redirect is also mentioned in the text above so the user knows what to expect. 
 * There is an ability for Skyscanner approved partners to incorporate the Skyscanner booking engine onto their page however as this is only a small project it was not possible to implement this feature as we are not an approved travel partner. 
 
-**6. YouTube Video**
+**6. Video JS Player**
 
-* All of the YouTube videos from the tourist board are loading correctly. They do not autostart and users must press play themselves to start the video. The user can also adjust the volume of the video in the controller. 
-* While viewing the site on Firefox (Version 86.0 on Mac) users are given the option to continue to watch the video in a pop out window while the continue to browse the website.  
+* All of the videos are loading correctly. They do not autostart and users must press play themselves to start the video. The user can also adjust:
+1. The volume of the video in the controller.
+2. Make the video full screen 
+3. Watch the video as picture in picture
+4. Download the video 
 
 **7. Google Map**
 
@@ -132,10 +135,14 @@ The incoming message the site receives from the user is always received straight
 * The Skyscanner widget on mobile devices works the same was as it does on desktop. 
 * The widget is responsive so the layout will automatically adjust depending on screen size. 
 
-**6. YouTube Video**
+**6. Video JS Player**
 
-* All of the YouTube videos from the tourist board are loading correctly. They do not autostart and users must press play themselves to start the video. The user can also adjust the volume of the video in the controller. 
-* On mobile if the user clicks on the title of the video the YouTube app (If installed on the device) will open and the vide will play on there. 
+* All of the videos are loading correctly. They do not autostart and users must press play themselves to start the video. The user can also adjust:
+1. The volume of the video in the controller.
+2. Make the video full screen 
+3. Download the video 
+
+The ability to watch the video picture in picture is not available on smaller mobile devices. 
 
 **7. Google Map**
 
@@ -170,7 +177,7 @@ I have created 5 different active JavaScript files in this project. They are:
 
 ### **A) The app.js file** ###
 
-* This file contains the JavaScript for the creation and loading of the weather widgets, the 3 YouTube videos on the site (One on each city page) and for the smooth scrolling effect you get from clicking on a list item in the Navbar.
+* This file contains the JavaScript for the creation and loading of the weather widget, and for the smooth scrolling effect you get from clicking on a list item in the Navbar.
 
 **TESTING OF THE APP.JS FILE**
 
@@ -180,13 +187,7 @@ The testing for the app.js file was carried out on [JShint.com](https://jshint.c
 
 NOTES ON TESTING 
 
-1. The one warning on line 4 i have ignored. This is for the weather widget that is displayed at the top of each page. I have followed the instructions from the weather widget provider and the code is correct. The functionality of the widget has been tested thoroughly on each page and it is working exactly as intended.<br>
-
-2. JShint has listed "Two undefined variables" of YT and $. Again this is incorrect and i have ignored it.<br><br>
-2.1 The YT relates to the creation of a new YT.player for the YouTube videos. The code i have used is referenced direct from the Google YT Documentation. The YouTube videos have been tested thoroughly for functionality and they are all working perfectly and as expected.<br><br>
-2.2 The $ is the JQuery for the smooth page scroll function that happens when a user clicks on an item in the Navbar. Again this has been tested thoroughly for functionality and it is working perfectly and as expected.<br>
-
-3. The result of "One unused variable" for onYouTubeIframeAPIReady again is incorrect and i have ignored it. This is the function name given to create a new YouTube player and again is taken under instruction from the official YouTube documentation. Each player has been tested thoroughly for functionality and they are working perfectly and as expected
+1. The one warning on line 2 i am aware of. This is for the weather widget that is displayed at the top of each page. I have followed the instructions from the weather widget provider and can confirm my code is correct. The functionality of the widget has been tested thoroughly on each page and it is working exactly as intended.<br>
 
 >
 
@@ -202,7 +203,7 @@ The testing for the app.js file was carried out on [JShint.com](https://jshint.c
 
 NOTES ON TESTING 
 
-1. The "One undefined variable" on lines 5 and 15 i have ignored. I used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. 
+1. The "One undefined variable" on lines 3 and 10 i am aware of. For the building of this file i have used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. 
 
 >
 ### **C) The maps-dublin/cork/galway.js files** ###
@@ -251,89 +252,7 @@ I have tested each page of the site on the console and upon loading none of the 
 >
 ### **5. Some points to note on errors:** ###
 
-### **Error 1 - YouTube to Github** ###
-
-Sometimes when you load a page you may get the error message below:   
-
-![Image of youtube error message console results](assets/readme-images/youtube-error-message-1.png)
-
-**CAUSE:**
-
-I have spoken with the tutors at Code Institute and they have told me that this is not an error with any of my code, but with the YT code which i am unable to change. The error in their code is shown below:
-
-![Image of youtube error message console results](assets/readme-images/youtube-api-error.png)
-
-**SOLUTION: ONGOING**
-
-I have searched on forums, Github and also on Stackoverflow. It seems to be a common problem but from what i could find no one on these forums had a working resolution. Tutor support at Code Institute have also looked at this and said it is not an error caused by any of my own code so i am to document this error in the readme and explain this is not an error with my code.  
-
-Even with this error showing the functionality of the site is normal and there are no errors in the YouTube videos. 
->
-### **Error 2 - Player stopVideo is not a function** ###
-
-This error below was originally appearing upon testing. 
-
-![Image of youtube error message console results](assets/readme-images/player-stopVideo-error-msg.png)
-
-**CAUSE:**
-
-This was being generated because of line 55 in my app.js file. The YouTube code has a time out feature (In the original documents its set to 6000 - 6 seconds) which meant the video would play for 6 seconds and then stop.
-
-**SOLUTION:**
-
-As I didn’t want the video to automatically stop after 6 seconds, which would create a negative user experience and would not allow the video to play in full once the user has pressed play, i originally left that part of the code blank, however that is what caused this error to be generated as soon as the user pressed play on the video. 
-
-I have now inserted into the code 125000 which will cover 1 minute and 25 seconds, which is the length of the longest video out of all of them which is on the Dublin page. This error no longer appears when the user presses play. 
-
-However if the user does watch all of the video in full then sometimes this error may pop up in the console after the 1 minute and 25 seconds has expired. This error has no effect on the functionality of the player, the site or the user experience, it only appears once the time limit set goes past 125000 (1 minutes and 25 seconds) You could get around this by setting the timeout to something like 1 millions seconds, but i have left it at the length of the longest video and have documented it in this testing.md file.  
->
-### **Error 3 - CORS Error** ###
-
-**CAUSE:**
-
-This error appears in the console when the user presses play on one of the YouTube videos.
-
-![Image of youtube error message console results](assets/readme-images/cors-error.png)
-
-The CORS (Cross-Origin Resource Sharing) error stems from a security mechanism that browsers implement called the same-origin policy. The same-origin policy fights one of the most common cyber attacks out there: cross-site request forgery.
-
-**SOLUTION: ON GOING**
-
-I spoke with tutor support at Code Institute on several occasions and we have looked at many possible solutions for this, however all of the solutions both myself and tutor support have tried were unable to remove this. 
-
-The solution that came up the most and that was given to me by tutor support was to insert the code https://cors-anywhere.herokuapp.com/ in front of the api link that i am trying to call (Screenshot below).
-
-![Image of youtube error message console results](assets/readme-images/cors-anywhere-attempt.png)
-
-I have tried this solution  but this did not resolve the issue and instead caused the YouTube video to stop rendering completely on the page: 
-
-Another solution that was commonly found recommended inserting the following code into the header: 
-
-__header ("Access-Control-Allow-Origin: *");__
-
-Unfortunately this only seems to work if it is inserted in the header in the client server. As my site is deployed via Github and not via my own server (And i have no access to the Github servers) this means that this solution is one i couldn't use either.
-
-I have tested all of the YouTube video players on every page and this does not affect any of the functionality, user experience or site performance. I was advised by the tutors at Code Institute to clearly document this issue in the readme and note that it is marked down for working on at a later date. 
->
-### **Error 4 - CORS Error 2** ###
-
-This error also appears in the console when a user presses play on the YouTube video.
-
-![Image of youtube error message console results](assets/readme-images/youtube-error-3.png)
-
-**CAUSE:**
-
-This also appears to be related to the CORS issue noted above in Error 3. It seems to be an issue with the Google API code (Image listed below). 
-
-![Image of youtube error message console results](assets/readme-images/cors-error-2.png)
-
-**SOLUTION: ON GOING**
-
-Again I have spoken with the tutors at Code Institute and was told this is not an error with any of the code I have written so i needed to log and highlight it in my readme document. As mentioned I have tested all of the functionality of the YouTube players on each page and the performance and functionality of each of them is completely unaffected by this. 
-
->
-
-### **Error 5 - Contact Us Form** ###
+**5.1 - Contact Us Form**
 
 If the user uses the auto complete function on their device the following error seems to pop up in the console. 
 

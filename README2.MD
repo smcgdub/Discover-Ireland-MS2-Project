@@ -9,9 +9,9 @@ Each city page has the same structure so users will be familiar with the layout 
 
 **ADDITIONAL FEATURES** 
 
-I also wanted users to the site to be able to price flights, view and book accommodation, restaurants, and tourist attractions. Some additional features i added were:
+I also wanted users to the site to be able to price and book flights. View and book accommodation, restaurants, and tourist attractions. Some additional features i also added were:
 
-1. A weather widget at the top of each page that gives a live 7 day forecast of the weather in each city. The weather in Ireland changes regularly and we often have 4 season in a day. This little feature will allow any user to check the next 7 days weather at a glance. 
+1. A weather widget at the top of each page that gives an animated live 7 day forecast of the weather in each city. The weather in Ireland changes regularly and we often have 4 season in one day. This little feature will allow any user to check the next 7 days weather at a glance. 
 2. A Skyscanner widget that is already preset to the nearest airport of each city. Users only need to enter their airport of origin and the dates they wish to travel and Skyscanner will provide them with a list of available flights. At the time of completing this project (April 2021)the Skyscanner widget is also incorporating a Covid-19 travel advice link as this information is also very important to any traveller wishing to book a flight on an airplane. 
 3. Finally at the bottom of each page i have added a contact form that is powered by Email JS. When a user submits a message to the site i as the site owner will receive an email notification. The user will also receive an automated email reply confirming there message has been received and that we will be contacting them shortly to answer their enquiry. 
 
@@ -54,7 +54,7 @@ I also wanted users to the site to be able to price flights, view and book accom
 * 3.15 Favicon Generator 
 
 ## **4. Testing** ##
-* 4.1 See testing.md document
+* 4.1 See [testing.md](testing.md) document 
 
 ## **5. Deployment** ##
 * 5.1 Deployment
