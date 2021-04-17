@@ -7,7 +7,7 @@ The Discover Ireland website was created and built by Stephen Mc Govern. The aim
 
 Each city page has the same structure so users will be familiar with the layout if they are browsing all 3 cities. Each page gives a brief overview of the cities history, a short video from the tourist board of each city, a google map with a drop down menu providing some recommendations for categories of Hotels, Bars, Restaurants and Tourist Attractions. I also added an "Our top recommendations" section for places i think a tourist would definitely want to visit while in each city.
 
-**ADDITIONAL FEATURES** 
+**ADDITIONAL FEATURES**
 
 I also wanted users to the site to be able to price and book flights. View and book accommodation, restaurants, and tourist attractions. Some additional features i also added were:
 
