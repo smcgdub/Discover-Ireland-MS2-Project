@@ -94,9 +94,11 @@ The testing below was carried out on all pages Dublin, Cork & Galway. To stop du
 * The user will also receive an automated email from the site confirming their message has been received and confirms someone will be in contact with them soon.
 * I have also added a spell check to the free text message box on the contact us form. 
 
-**Note:** - Once the user message has been submitted via the site, the auto reply can sometimes vary in the speed of the response being sent to the user. This is down to Email JS and is out of my control. I have set it so Email JS should send the automated email reply immediately. 
+**Note:** - Once the user message has been submitted via the site, the auto reply can sometimes vary in the speed of the response being sent to the user. Sometimes i have tested it and the response is immediate, other times it may take several minutes to be sent. I have set it so Email JS should send the automated email reply immediately. Any delay is entirely down to Email JS and is out of my control. All of the pages contact us forms use the exact same JS code from the email.js file so there is no error there. Also all of the incoming and outgoing emails in the Email JS dashboard have been set up correctly. 
 
-The incoming message the site receives from the user is always received straight away. 
+I am using the free Email JS service and not the paid subscription one so one factor i thought that may be causing this could be the day/time that the email is sent/replied to. At peak times there may be a lot of sites using the service and this could be leading to the delay. 
+
+The incoming message that the site receives from the user is always received straight away.
 
 **10. The Footer**
 
