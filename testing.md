@@ -225,12 +225,11 @@ _**Note:** As the functional code for each of these files is the same the JShint
 
 NOTES ON TESTING 
 
-1. The 3 undefined variables i have also ignored.<br><br>
+1. The 2 undefined variables i have also ignored.<br><br>
 1.1 The google undefined variable relates to the creation of a new google map. The code i have used is referenced direct from the Google maps documentation and the maps have been tested thoroughly for functionality and they are all working perfectly and as expected.<br><br>
-1.2 The $ is the JQuery for the smooth page scroll function that happens when a user clicks on an item in the Navbar. Again this has been tested thoroughly for functionality and it is working perfectly and as expected.<br><br>
-1.3 JShint is saying context is undefined but in my code context is used in the formation of the infoWindow for each marker. Again i have tested the code thoroughly for functionality and all is working perfectly and as expected.<br>
+1.2 JShint is saying context is undefined but in my code context is used in the formation of the infoWindow for each marker. Again i have tested the code thoroughly for functionality and all is working perfectly and as expected with no errors.<br>
 
-2. The unused variable of position on line 8 is somewhat incorrect. On line 8 there is no value assigned to that variable, however i use the position variable (Line 406 in original code file) later in the code along with the lng lat to add a marker to the map at a specific point. 
+2. The unused variable of position on line 6 is somewhat incorrect. On line 6 there is no value assigned to that variable, however i use the position variable (Line 406 in original code file) later in the code along with the lng lat to add a marker to the map at a specific point. 
 
 3. The initMap that it says is an unused variable is actually the name of the function for creating the google map (line 21 in original code file). I referenced the Google maps documentation when building this function and have tested the map thoroughly for functionality and all is working perfectly and as expected.
 
@@ -254,7 +253,7 @@ I have tested each page of the site on the console and upon loading none of the 
 
 ![Image of galway.html file console results](assets/readme-images/galway-page-console.png)
 >
-### **5. Some points to note on errors:** ###
+### **5. Some points to note on 1 error:** ###
 
 **5.1 - Contact Us Form**
 
@@ -278,6 +277,6 @@ When i click on this form and start typing the auto complete function doesn't pr
 
 ![Image of autofill function error message console results](assets/readme-images/contact-us-error-2.png)
 
-I have spoken with the tutors at Code Institute and after looking at solutions and we have narrowed it down to the Email JS contact form. All of my code was checked and reviewed and came back with no errors. I have tested the form for thoroughly for functionality and this error doesn't impact the functionality of the page or the email function in anyway. I have marked this down to be looked at in future to try and resolve. 
+I have also tried to do a hard reset of the browsers, deleted the cache and the issue still persists. I have spoken with the tutors at Code Institute and after looking at solutions and we have narrowed it down to the Email JS contact form that is causing this. All of my code was checked and reviewed and came back with no errors. I have tested the form for thoroughly for functionality and this error doesn't impact the functionality of the page or the email function in anyway for the user. I have marked this down to be looked at in future to try and resolve. 
 >
 
