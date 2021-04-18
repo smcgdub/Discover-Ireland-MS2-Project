@@ -14,4 +14,4 @@ $(document).ready(function(){
     }, 1000);
   });
 });
-
+// SMOOTH SCROLLING TUTORIAL HERE: https://www.youtube.com/watch?v=x0YnVwAuNQI

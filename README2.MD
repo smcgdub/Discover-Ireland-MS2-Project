@@ -85,10 +85,10 @@ I also wanted users to the site to be able to price and book flights. View and b
 
 As a potential visitor to the city i want to be able to find out a few different things. 
 
-1. How can i get here from overseas? So flight information is one thing i need. 
-2. I want to be able to see options for hotels, restaurants, bars, and tourist attractions. As ive never been to the city before 
-3. I would also like some recommendations from the people who run the website. 
-4. Finally i want to be able to contact the people who run the website so i can ask them further questions if needed. 
+1. How can i get to the cities from overseas? So flight information is one thing i need. 
+2. I want to be able to see options for hotels, restaurants, bars, and tourist attractions. 
+3. As ive never been to the city before I would also like some recommendations from the people who run the website as they would have an idea of the things a visitor should see. 
+4. Finally i want to be able to contact the people who run the website just incase i have any questions if needed. 
 
 ### **1.3 - User Stories** ###
 
@@ -109,7 +109,7 @@ This user lands on the Discover Ireland homepage. They are thinking of doing a s
 
 ![Image of homepage / splash page](assets/readme-images/splash-page.png)
 
-When the page opens the user can clearly see the Navbar at the top of the page that immediately tells them the sections they can expect to find on this page. They can also see a weather widget with a live 7 days forecast at the top of the page. This is very handy as the user is thinking of visiting next weekend so at a glance they can see the weather next weekend. They can also look through the images of Dublin on the Photo carousel. The use of great imagery produces a positive user response on any website. 
+When the page opens the user can clearly see the Navbar at the top of the page that immediately tells them the sections they can expect to find on this page. They can also see a weather widget with a live 7 day animated forecast at the top of the page. This is very handy as the user is thinking of visiting next weekend so at a glance they can see the weather next weekend. They can also look through the images of Dublin on the Photo carousel. The use of great imagery produces a positive user response on any website. 
 
 ![Image of Dublin page with Navbar and Weather widget](assets/readme-images/dublin-user-stories-1.png)
 
@@ -121,23 +121,23 @@ As the user will be flying into Dublin from the UK they want to know a bit more 
 
 ![Image of the getting here Dublin section](assets/readme-images/dublin-user-stories-3.png)
 
-This is a nice feature as the user only needs to enter their airport of origin and the dates they are looking to travel. The user can also see that the skyscanner widget predictively lists all of the airports as they begin to type London, a nice addition that will save me some extra clicks. 
+The user can also see that the closest airport to the city has already been pre-populated for them, so they only need to enter their airport of origin and the dates they are looking to travel. The user can also see that the skyscanner widget predictively lists all of the airports as they begin to type London, a nice addition that will save them some extra clicks. 
 
 ![Image of the getting here Dublin section](assets/readme-images/dublin-user-stories-4.png)
 
-Now the user has entered their flight information into the widget they can press click. Dublin was already pre-populated as the arrival airport so great that i didn't have to input that myself. 
+Now the user has entered their flight information into the widget they can press "Search Flights". Dublin was already pre-populated as the arrival airport so great that i didn't have to input that myself. 
 
 ![Image of the getting here Dublin section](assets/readme-images/dublin-user-stories-5.png)
 
-After the user presses search flights as expected i can see i am brought to the skyscanner page as expected and now i can adjust the filter's if i need to price and book flights. But the user will come back to that later.
+After the user presses search flights, as expected they can see they are brought to the skyscanner page where they can adjust the filter's they i need to price and book flights. But the user will come back to that later.
 
 ![Image of Skyscanner page user is diverted too](assets/readme-images/dublin-user-stories-6.png)
 
-The user is wondering what can they and their friends do in Dublin. They can see that rather than have to read through endless lines of text there is a short video on the city that they can watch. The video is hosted on a simple Video JS player with basic controls which the majority of users will be very familiar with (No need ot over complicate things with lots of controls). The videos are all around 1 and a half minutes long, great, its nice and short so the user can watch all of it without getting board or distracted. 
+The user is wondering what can they and their friends do in Dublin. They can see that rather than have to read through endless lines of text there is a short video on the city that they can watch. The video is hosted on a simple Video JS player with basic controls which the majority of users will be very familiar with (No need to over complicate things with lots of controls). The videos are all around 1 and a half minutes long, great, its nice and short so the user can watch all of it without getting board or distracted. 
 
 ![Image of the things to do video section](assets/readme-images/dublin-user-stories-7.png)
 
-After watching the video the user is impressed with what looks to be a wide range of activities to do in the city. They can also see that Dublin seems to have a lot going on and is not just a city for visitors who wish to come and drink in a pub. 
+After watching the video the user is impressed with what looks to be a wide range of activities to do in the city. They can also see that Dublin seems to have a lot going on and it is not just a city for visitors who wish to come and drink in a pub. 
 
 The user can see below the video there is a Google Map of Dublin being displayed. This again is something the user is very familiar with as Google maps are pretty much the standard on most websites. The user clicks on the local recommendations button.
 
@@ -205,7 +205,7 @@ The user will look at these options with their friends before booking their trip
 * Dublin's official colour is #040484 which is a navy blue, however the initial feedback i got from people who viewed the early site was that as the site is a guide to Irish cities they would have liked, and expected to see a lot more green. Therefore i decided to make the Dublin page a mix of 
 
   #124624 (Green) & FFFFFF (White) <br>
-  #9D9D9D is used as the border on several items on the page. 
+  #9D9D9D (Silver/Grey) is used as the border on several items on the page. 
 
 * I also went for a secondary colour palette for more minor touches on the site. These colours can be seen below:
 
@@ -302,7 +302,7 @@ In the footer i have listed all of the companies social media links. As with the
 * 3.7 - [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less. It was made by Dave Gandy for use with Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome has a 38% market share among those websites that use third-party font scripts on their platform.<br>
 * 3.8 - [W3schools](https://www.w3schools.com/) - W3Schools is a training website for learning web technologies online.<br> 
 * 3.9 - [Balsamiq](https://balsamiq.com/) - Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
-* 3.10 - [Weather Widget](https://weatherwidget.io/) - Is a free customizable weather widget that you incorporate into your website using JavaScript and HTML.<br>
+* 3.10 - [Weather Widget IO](https://weatherwidget.io/) - Is a free customizable weather widget that you incorporate into your website using JavaScript and HTML.<br>
 * 3.11 - [Skyscanner JavaScript Widget](https://www.partners.skyscanner.net/affiliates/widgets-documentation/simple-flight-search-widget) Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.<br>
 * 3.12 - [VideoJs](https://videojs.com/) - Video. js is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later). It supports video playback on desktop and mobile devices.<br>
 * 3.13 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - The Google Maps Platform is a set of APIs and SDKs that allows developers to embed Google Maps into mobile apps and web pages, or to retrieve data from Google Maps.
@@ -548,8 +548,8 @@ All Unsplash images are provided under licence that allows free use of them once
 
 ### **6.2 Code** ###
 
-* The majority of the code i used was Bootstrap version 4.6. The official Bootstrap documentation is the best place to reference for everything you need: [Bootstrap Documentation Here](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-* The live animated weather widget is generated by WeatherWidgetIO: [Documentation Here](https://weatherwidget.io/)
+* The HTML code i used was Bootstrap version 4.6. The official Bootstrap documentation is the best place to reference for everything you need: [Bootstrap Documentation Here](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+* The weather widget i used was from WeatherWidgetIO. This widget is free, its dynamic so it works on all screen sizes, and it has an animated feature and is updated regularly throughout the day/night: [Documentation Here](https://weatherwidget.io/)
 * For the Video JS player i resourced the official documentation [Video JS Official Documentation Here](https://docs.videojs.com/)
 * For the Google map i used the Google maps [Javascript API official documentation](https://developers.google.com/maps/documentation/javascript/overview) and also the Google maps [Places API official documentation](https://developers.google.com/maps/documentation/places/web-service/overview)
 * For the Email JS feature i referenced the official [Email JS documentation here](https://www.emailjs.com/docs/)

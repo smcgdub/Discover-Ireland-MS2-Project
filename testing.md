@@ -161,6 +161,8 @@ The ability to watch the video picture in picture is not available on smaller mo
 
 * The contact us form works exactly the same on mobiles and tablets as it does on desktops. 
 
+**Note:** Please refer to the in the desktop testing section for the functionality notes highlighted. Its not written here to avoid repetition. 
+
 **10. The Footer**
 
 * The footer works exactly the same on mobiles and tablets as it does on desktops.  
@@ -205,7 +207,7 @@ The testing for the app.js file was carried out on [JShint.com](https://jshint.c
 
 NOTES ON TESTING 
 
-1. The "One undefined variable" on lines 3 and 10 i am aware of. For the building of this file i have used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. 
+1. The "One undefined variable" on lines 3 and 10 i am aware of. For the building of this file i have used the official Email JS Documentation as my guide and the contact us form on each page has been tested thoroughly and it is working exactly as intended. This has no effect on the functionality of the site for th user.  
 
 >
 ### **C) The maps-dublin/cork/galway.js files** ###
