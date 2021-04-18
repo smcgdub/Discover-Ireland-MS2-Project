@@ -270,11 +270,13 @@ I wanted to use as wide a range of options as possible to display information to
 
 ### **2.6 - Google Maps API** ###
 
-I have added a Google Map to each city page. Users can click on the dropdown menu and select which category they are looking for recommendations for.
+I have added a Google Map to each city page. Users can click on the dropdown menu and select which category they are looking for recommendations for and the map will generate a list of markers to provide this information to the user.
 
 ![Google Map image with markers hotels selected](assets/readme-images/google-map-with-markers.png)
 
-To activate the functionality for these Google map i needed to generate an API key on the Google maps dashboard. To secure this API from being copied and used by other people i have restricted its use in my Google maps dashboard. 
+To activate the functionality for the Google map i needed to generate an API key on the Google maps dashboard. Google maps allows for. acertain number of API calls per month and once you go beyond this limit you will be billed. 
+
+To secure my API key from being copied and used by other people i have restricted its use in my Google maps dashboard. The Google maps API will now only publish the map on the url's that i have authorized. The deployed Github url in my repository is the authorized link a user must use for the site to function correctly.  
 
 ### **2.7 - Contact Us Forum** ###
 
