@@ -274,10 +274,9 @@ I have added a Google Map to each city page. Users can click on the dropdown men
 
 ![Google Map image with markers hotels selected](assets/readme-images/google-map-with-markers.png)
 
-To activate the functionality for the Google map i needed to generate an API key on the Google maps dashboard. Google maps allows for. acertain number of API calls per month and once you go beyond this limit you will be billed. 
+To activate the functionality for the Google map i needed to generate an API key on the Google maps dashboard. Google maps allows for a certain number of free API calls per month and once you go beyond this limit you will be billed. 
 
-To secure my API key from being copied and used by other people i have restricted its use in my Google maps dashboard. The Google maps API will now only publish the map on the url's that i have authorized. The deployed Github url in my repository is the authorized link a user must use for the site to function correctly.  
-
+To secure my API key from being copied and used by other people i have restricted its use in my Google maps dashboard. The Google maps API will now only publish the map on the urls that i have authorized. The deployed Github url in my repository is the authorized link a user must use for the site to function correctly.  
 ### **2.7 - Contact Us Forum** ###
 
 At the bottom of every page i have placed a contact us form where users can send emails direct to us. The contact us form has Email JS operating on the backend. Once a user clicks ont he send message button an alert will populate to show the user the message was sent. Email JS will also send an auto reply to the user to let them know their message was successfully received and that we will be back in contact with them.

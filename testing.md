@@ -263,17 +263,17 @@ If the user uses the auto complete function on their device the following error 
 
 **CAUSE:**
 
-From what ive been able to find its an error that is generated when a user tried to complete the form using auto complete. This also seems to be specific to browsers. It appears on Google Chrome and Opera. It didn't appear on Firefox.
+From what ive been able to establish this is being caused when a user uses the auto complete function in their browser to complete the form.
 
 **SOLUTION: ON GOING**
 
-I have tried a number of solutions however none of them seem to have been successful. I came across this post from W3 docs [click here](https://www.w3docs.com/snippets/html/how-to-disable-browser-autocomplete-and-autofill-on-html-form-and-input-fields.html) that gave 4 or 5 different solutions you can use to disable autocomplete. I have tried every one of them without success. 
+I came across this post from W3 docs [click here](https://www.w3docs.com/snippets/html/how-to-disable-browser-autocomplete-and-autofill-on-html-form-and-input-fields.html) that gave 4 or 5 different solutions you can use to disable autocomplete. I have tried every one of the solutions listed without success.
 
-However i do know these options do work because as part of the testing i created an input filed at the base of the contact us form (Screenshot below)
+However i do know that these options do work because as part of the testing i created an input filed at the base of the contact us form to test (Screenshot below)
 
 ![Image of autofill function error message console results](assets/readme-images/contact-us-test-field.png)
 
-When i click on this form and start typing the auto complete function doesn't pre populate the form. However, when i click on the first name field in the form the information does auto populate (Screenshot below)
+When i click on this input and start typing the auto complete function doesn't pre populate the form. However, when i click on the first name field in the contact us form the information does auto populate (Screenshot below)
 
 ![Image of autofill function error message console results](assets/readme-images/contact-us-error-2.png)
 
