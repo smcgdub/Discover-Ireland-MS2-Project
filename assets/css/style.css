@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 hr {
   /* width: 50%; */
   color: #2d2d2d;
