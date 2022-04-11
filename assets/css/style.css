@@ -60,8 +60,9 @@ hr {
   background-image: url('../images/irish-beach.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: auto;
+  align-items: center;
+  height: 100vh !important;
+  /* width: auto; */
 }
 
 .city-select {
