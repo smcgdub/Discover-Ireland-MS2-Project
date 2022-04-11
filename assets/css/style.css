@@ -13,6 +13,11 @@ body {
   overflow-x: hidden;
 }
 
+.arrivals-img {
+  max-height: calc(100vh - 56px);
+  width: 100%;
+}
+
 /* White hamburger menu on mobile with white border */
 .navbar-toggler {
   border-color: #ffffff !important;
@@ -340,10 +345,6 @@ hr {
   background-color: #ff0000;
   margin-bottom: 0px;
   border: 2px solid #9D9D9D;
-}
-
-.arrivals-img {
-  width: 100%;
 }
 
 .getting-here-p-cork {
