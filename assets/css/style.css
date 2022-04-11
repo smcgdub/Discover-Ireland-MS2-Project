@@ -80,7 +80,6 @@ hr {
 }
 
 /* DUBLIN */
-
 /* NAVBAR DUBLIN */
 .navbar {
   background-color: #124624;
@@ -89,6 +88,10 @@ hr {
 
 .nav-link {
   color: #ffffff;
+}
+
+.carousel-item {
+  max-height: calc(100vh - 56px - 91.46px);
 }
 
 /* ABOUT DUBLIN */
