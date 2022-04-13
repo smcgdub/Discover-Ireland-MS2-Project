@@ -13,6 +13,22 @@ body {
   overflow-x: hidden;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 2rem;
+  z-index: 1;
+  font-size: 18px;
+  border: 1px solid #2d2d2d;
+  outline: none;
+  background-color: #A58D4E;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 4px;
+}
+
 .arrivals-img {
   max-height: calc(100vh - 56px);
   width: 100%;

@@ -15,3 +15,21 @@ $(document).ready(function(){
   });
 });
 // SMOOTH SCROLLING TUTORIAL HERE: https://www.youtube.com/watch?v=x0YnVwAuNQI
+
+// SCROLL TO TOP BUTTON
+$("#myBtn").click(function () {
+  $("html").animate({
+    scrollTop: 0
+  }, "slow");
+});
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 70){
+      $("#myBtn").css({"opacity" : "1", "display" : "block"});
+    }
+    else {
+      $("#myBtn").css({"opacity" : "0", "display" : "none"});
+    }
+  })
+})
