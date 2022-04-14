@@ -333,19 +333,8 @@ hr {
 }
 
 /* ABOUT CORK */
-.about-cork-h2 {
-  margin-top: 15px;
-}
-
 .cork-coat-of-arms-l, .cork-coat-of-arms-r {
   width: 200px;
-}
-
-.about-cork-p {
-  margin-bottom: 0px;
-  margin-top: 16px;
-  font-size: 20px;
-  padding: 0px 20px 0px 20px;
 }
 
 /* GETTING HERE CORK */
@@ -447,17 +436,17 @@ hr {
   width: 170px;
 }
 
-.about-galway-h2 {
+/* .about-galway-h2 {
   margin-bottom: 0px;
   margin-top: 15px;
-}
+} */
 
-.about-galway-p {
+/* .about-galway-p {
   margin: 0px;
   margin-top: 16px;
   padding: 0px 20px 0px 20px;
   font-size: 20px;
-}
+} */
 
 /* GETTING HERE GALWAY*/
 .getting-here-galway-h1 {
