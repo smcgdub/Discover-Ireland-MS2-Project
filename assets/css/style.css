@@ -34,6 +34,11 @@ body {
   width: 100%;
 }
 
+#my-video {
+  max-height: calc(100vh - 56px);
+  width: 100%;
+}
+
 /* White hamburger menu on mobile with white border */
 .navbar-toggler {
   border-color: #ffffff !important;
