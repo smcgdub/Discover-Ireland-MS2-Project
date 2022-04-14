@@ -116,16 +116,6 @@ hr {
 }
 
 /* ABOUT DUBLIN */
-.about-dublin-h2 {
-  margin-top: 15px;
-}
-
-.about-dublin-p {
-  margin-bottom: 0px;
-  margin-top: 16px;
-  padding: 0px 20px 0px 20px;
-  font-size: 20px;
-}
 
 .dublin-flag-l {
   width: 180px;
@@ -138,7 +128,6 @@ hr {
 }
 
 /* GETTING HERE DUBLIN */
-
 .getting-here-dublin-h2 {
   color: #ffffff;
   background-color: #124624;
